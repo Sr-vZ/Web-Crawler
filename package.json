@@ -1,0 +1,22 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A crawling project for upwork client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sr-vZ/Web-Crawler.git"
+  },
+  "author": "SrvZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sr-vZ/Web-Crawler/issues"
+  },
+  "homepage": "https://github.com/Sr-vZ/Web-Crawler#readme",
+  "dependencies": {
+    "nightmare": "^3.0.1"
+  }
+}
