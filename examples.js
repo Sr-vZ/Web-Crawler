@@ -2,6 +2,8 @@ const Nightmare = require("nightmare");
 const nightmare = Nightmare({ show: false });
 const fs = require("fs");
 
+//
+
 nightmare
   .goto("https://erosnow.com/movies/mostpopular")
   //.type("#search_form_input_homepage", "github nightmare")
@@ -27,7 +29,7 @@ nightmare
   .end()
   .then(function (data) {
     console.log(data);
-    fs.writeFileSync("movie_data.json", JSON.stringify(data));
+    fs.writeFileSync("hungama_movie_data.json", JSON.stringify(data));
   }
 
   )

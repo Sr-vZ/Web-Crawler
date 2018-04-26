@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sr-vZ/Web-Crawler#readme",
   "dependencies": {
-    "nightmare": "^3.0.1"
+    "nightmare": "^3.0.1",
+    "vo": "^4.0.2"
   }
 }
