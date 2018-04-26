@@ -10,13 +10,17 @@ const nightmare = Nightmare({ show: false });
       "http://www.hungama.com/movie/blue-valentine/17262486/",
       "http://www.hungama.com/movie/american-sniper/7454061/"
     ];
-    var results = [];
-    urls.forEach(function(url) {
-      nightmare.goto(url)
-        .wait('body')
-        .title()
-        .then(function(result) {
-          results.push(result);
+    var results = [], jsonData=[];
+    urls.reduce(function(accumulator, url) {
+        return accumulator.then(function(results) {
+          return nightmare.goto(url)
+            .wait('body')
+            .title()
+            .then(function(result){
+              results.push(result);
+              return results;
+            });
         });
-    });
-    console.dir(results)
+      }, Promise.resolve([])).then(function(results){
+          console.dir(results);
+      });
