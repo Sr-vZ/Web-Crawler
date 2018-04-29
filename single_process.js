@@ -14,99 +14,55 @@ var urls = [
   "http://www.hungama.com/movie/american-sniper/7454061/"
 ];
 
-
+url = "http://www.hungama.com/movie/main-tera-hero/15061830/";
 // for (i=0;i<urls.length;i++){
 //     fetchDetails(urls[i]);
 // }
 
-function fetchDetails(url) {
-
-
-  nightmare
-    .goto(url)
-    //.type("#search_form_input_homepage", "github nightmare")
-    //.click("#search_button_homepage")
-    .wait('.ttl')
-    .evaluate(
-      () => {
-        var jsonData = [];
-        jsonData.push({
-          "title": document.querySelector('.ttl').innerHTML,
-          "image_link": document.querySelector('.mainImg').src,
-          "category": document.querySelector('.category').innerHTML,
-          "synopsis": document.querySelector('.shortfilm-cont').querySelector('p').innerHTML
-        });
-        //console.log(data.toString());
-        //return [document.querySelectorAll(".qtip-tooltip").mtitle];
-        return jsonData;
-      })
-    .end()
-    .then(function (data) {
-        console.log(data);
-        fs.writeFileSync("hungama_data.json", JSON.stringify(data));
+nightmare
+  .goto(url)
+  //.type("#search_form_input_homepage", "github nightmare")
+  //.click("#search_button_homepage")
+  .wait('.ttl')
+  .evaluate(
+    () => {
+      var jsonData = [];
+      stars = document.querySelector('.art-carousal').querySelectorAll('.owl-item');
+      starDetails = new Array();
+      for (i = 0; i < stars.length; i++) {
+        starDetails.push({
+          "name": stars[i].querySelector('a').title,
+          "image_link": stars[i].querySelector('img').src
+        })
       }
+      gist = document.querySelector('.subttl').innerHTML;
+      release_year = gist.substring(0,gist.indexOf('&')).trim();
+      genre = gist.substring(gist.indexOf('<br>')+4).trim();
+      temp = gist.replace(/&nbsp;/g,' ');
+      lang = temp.substring(temp.indexOf(' '),temp.indexOf('\n')).trim();
+      jsonData.push({
+        "url": document.URL,
+        "title": document.querySelector('.ttl').innerHTML,
+        "image_link": document.querySelector('.mainImg').src,
+        "category": document.querySelector('.category').innerHTML,
+        "synopsis": document.querySelector('.shortfilm-cont').querySelector('p').innerHTML,
+        "stars": starDetails,
+        "release_date_formatted" : release_year,
+        "genre" : genre,
+        "language": lang
 
-    )
-    .catch(error => {
-      console.error("Search failed:", error);
-    });
-}
-
-//Creates the authenticated nightmare instance
-
-var scraper = new Nightmare({show: false});
-// .goto('https://www.example.com/signin')
-// .type('#login', 'username')
-// .type('#password', 'password')
-// .click('#btn')
-// .run(function(err, nightmare) {
-//   if (err) {
-//     console.log(err);
-//   }
-//   console.log('Done.');
-// });
-
-//Trying to use async module to iterate through urls
-
-function load(url, callback) {
-  scraper
-    .goto(url)
-    .wait('.ttl')
-    .evaluate(
-      () => {
-        var jsonData = [];
-        jsonData.push({
-          "title": document.querySelector('.ttl').innerHTML,
-          "image_link": document.querySelector('.mainImg').src,
-          "category": document.querySelector('.category').innerHTML,
-          "synopsis": document.querySelector('.shortfilm-cont').querySelector('p').innerHTML
-        });
-        //console.log(data.toString());
-        //return [document.querySelectorAll(".qtip-tooltip").mtitle];
-        return jsonData;
-      })
-    //.end()
-    .run(function(err, nightmare) {
-      if (err) {
-        console.log(err);
-      }
-      
-      console.log('Done with ', url);
-      
-      callback()
+      });
+      //console.log(data.toString());
+      //return [document.querySelectorAll(".qtip-tooltip").mtitle];
+      return jsonData;
     })
-    .then(function (data) {
-        console.log(data);
-        fs.writeFileSync("hungama_data.json", JSON.stringify(data));
-      }
-    )
-    
-    .catch(error => {
-      console.error("Search failed:", error);
-    })
-    
-}
+  .end()
+  .then(function (data) {
+      console.dir(data);
+      fs.writeFileSync("hungama_data_test.json", JSON.stringify(data));
+    }
 
-async.eachSeries(urls, load, function (err) {
-  console.log('done!');
-});
+  )
+  .catch(error => {
+    console.error("Search failed:", error);
+  });

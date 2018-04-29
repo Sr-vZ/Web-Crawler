@@ -1,36 +1,245 @@
 [{
-    "category": "A",
-    "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021891572.jpg",
-    "synopsis": "Navy SEAL sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home to his wife and kids after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
-    "title": "American Sniper"
-}][{
     "category": "UA",
+    "genre": "DRAMA",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/2851099166.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2012",
+    "stars": [{
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Dustin Hoffman"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Alan Rickman"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ben Whishaw"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bernd Eichinger"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Emma Watson"
+    }],
     "synopsis": "An introvert freshman named Charlie learns everything from drug use to suicide after being taken on the wings by his friends Sam and Patrick.",
-    "title": "The Perks Of Being A Wallflower"
+    "title": "The Perks Of Being A Wallflower",
+    "url": "http://www.hungama.com/movie/the-perks-of-being-a-wallflower/28800664/"
 }][{
     "category": "",
+    "genre": "COMEDY",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/2861580754.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2012",
+    "stars": [{
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Jennifer Lawrence"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bradley Cooper"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Robert De Niro"
+    }],
     "synopsis": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own",
-    "title": "Silver Lining Playbook"
+    "title": "Silver Lining Playbook",
+    "url": "http://www.hungama.com/movie/silver-lining-playbook/29283854/"
 }][{
     "category": "UA",
+    "genre": "CRIME",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021892667.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2013",
+    "stars": [{
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Liam Hemsworth"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Dwayne Johnson"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Emma Roberts"
+    }],
     "synopsis": "After failing to get into the police academy, Chris Potamitis settles for a security guard job with an armored car depository. He plans a robbery, only to realize a veteran NYPD detective is out searching for him.",
-    "title": "Empire State"
+    "title": "Empire State",
+    "url": "http://www.hungama.com/movie/empire-state/17985506/"
 }][{
     "category": "A",
+    "genre": "COMEDY",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3040418854.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2015",
+    "stars": [{
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bradley Cooper"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ed Helms"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Zach Galifianakis"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ken Jeong"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Heather Graham"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Jeffrey Tambor"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Justin Bartha"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Jamie Chung"
+    }],
     "synopsis": "The Hangover Part III is a 2013 American comedy film produced by Legendary Pictures and distributed by Warner Bros.Pictures.It is the sequel to 2011's The Hangover Part II, and the third and final film in The Hangover trilogy.The film stars Bradley Cooper",
-    "title": "The Hangover Part 3"
+    "title": "The Hangover Part 3",
+    "url": "http://www.hungama.com/movie/the-hangover-part-3/2170359/"
 }][{
     "category": "UA",
+    "genre": "ROMANCE",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021891783.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2010",
+    "stars": [{
+        "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ryan Gosling"
+    }, {
+        "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Michelle Williams"
+    }],
     "synopsis": "The relationship of a contemporary married couple,charting their evolution over a span of years by cross-cutting between time periods.",
-    "title": "Blue Valentine"
+    "title": "Blue Valentine",
+    "url": "http://www.hungama.com/movie/blue-valentine/17262486/"
 }][{
     "category": "A",
+    "genre": "WAR",
     "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021891572.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2015",
+    "stars": [{
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bradley Cooper"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Kyle Gallner"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Cole Konis"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ben Reed"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Elise Robertson"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Troy Vincent"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Keir ODonnell"
+    }],
     "synopsis": "Navy SEAL sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home to his wife and kids after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
-    "title": "American Sniper"
+    "title": "American Sniper",
+    "url": "http://www.hungama.com/movie/american-sniper/7454061/"
+}][{
+    "category": "UA",
+    "genre": "CRIME",
+    "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021892667.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2013",
+    "stars": [{
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Liam Hemsworth"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Dwayne Johnson"
+    }, {
+        "image_link": "http://stat2.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Emma Roberts"
+    }],
+    "synopsis": "After failing to get into the police academy, Chris Potamitis settles for a security guard job with an armored car depository. He plans a robbery, only to realize a veteran NYPD detective is out searching for him.",
+    "title": "Empire State",
+    "url": "http://www.hungama.com/movie/empire-state/17985506/"
+}][{
+    "category": "A",
+    "genre": "COMEDY",
+    "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3040418854.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2015",
+    "stars": [{
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bradley Cooper"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ed Helms"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Zach Galifianakis"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ken Jeong"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Heather Graham"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Jeffrey Tambor"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Justin Bartha"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Jamie Chung"
+    }],
+    "synopsis": "The Hangover Part III is a 2013 American comedy film produced by Legendary Pictures and distributed by Warner Bros.Pictures.It is the sequel to 2011's The Hangover Part II, and the third and final film in The Hangover trilogy.The film stars Bradley Cooper",
+    "title": "The Hangover Part 3",
+    "url": "http://www.hungama.com/movie/the-hangover-part-3/2170359/"
+}][{
+    "category": "UA",
+    "genre": "ROMANCE",
+    "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021891783.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2010",
+    "stars": [{
+        "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ryan Gosling"
+    }, {
+        "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Michelle Williams"
+    }],
+    "synopsis": "The relationship of a contemporary married couple,charting their evolution over a span of years by cross-cutting between time periods.",
+    "title": "Blue Valentine",
+    "url": "http://www.hungama.com/movie/blue-valentine/17262486/"
+}][{
+    "category": "A",
+    "genre": "WAR",
+    "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/3021891572.jpg",
+    "language": "ENGLISH",
+    "release_date_formatted": "2015",
+    "stars": [{
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Bradley Cooper"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Kyle Gallner"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Cole Konis"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Ben Reed"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Elise Robertson"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Troy Vincent"
+    }, {
+        "image_link": "http://stat3.hungama.ind.in/assets/images/default_images/da-200x200.png",
+        "name": "Keir ODonnell"
+    }],
+    "synopsis": "Navy SEAL sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home to his wife and kids after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
+    "title": "American Sniper",
+    "url": "http://www.hungama.com/movie/american-sniper/7454061/"
 }]
