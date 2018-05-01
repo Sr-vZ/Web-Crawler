@@ -1,1 +1,42 @@
-[{"category":"UA","genre":"ROMANCE","image_link":"http://content.hungama.com/movie/display%20image/1280x800%20jpeg/429887339.jpg","language":"HINDI","release_date_formatted":"2014","stars":[{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Varun Dhawan"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Ileana DCruz"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Nargis Fakhri"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Arunoday Singh"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Anupam Kher"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Rajpal Yadav"},{"image_link":"http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png","name":"Manoj Pahwa"}],"synopsis":"Seenu a notorious lad falls in love with Sunaina who is led to marriage by force to a corrupt cop, Angad. His plan to woo her fails when Ayesha a sort after gangster's daughter falls in love with him. Will Seenu get out of this chaos and unite with his ladylove?","title":"Main Tera Hero","url":"http://www.hungama.com/movie/main-tera-hero/15061830/"}]
+[
+    {
+        "category": "UA",
+        "genre": "ROMANCE",
+        "image_link": "http://content.hungama.com/movie/display%20image/1280x800%20jpeg/429887339.jpg",
+        "language": "HINDI",
+        "release_date_formatted": "2014",
+        "stars": [
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Varun Dhawan"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Ileana DCruz"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Nargis Fakhri"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Arunoday Singh"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Anupam Kher"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Rajpal Yadav"
+            },
+            {
+                "image_link": "http://stat1.hungama.ind.in/assets/images/default_images/da-200x200.png",
+                "name": "Manoj Pahwa"
+            }
+        ],
+        "synopsis": "Seenu a notorious lad falls in love with Sunaina who is led to marriage by force to a corrupt cop, Angad. His plan to woo her fails when Ayesha a sort after gangster's daughter falls in love with him. Will Seenu get out of this chaos and unite with his ladylove?",
+        "title": "Main Tera Hero",
+        "url": "http://www.hungama.com/movie/main-tera-hero/15061830/"
+    }
+]
