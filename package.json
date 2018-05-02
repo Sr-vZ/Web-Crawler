@@ -18,7 +18,10 @@
   "homepage": "https://github.com/Sr-vZ/Web-Crawler#readme",
   "dependencies": {
     "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10",
     "nightmare": "^3.0.1",
+    "request": "^2.85.0",
     "vo": "^4.0.2"
   }
 }
