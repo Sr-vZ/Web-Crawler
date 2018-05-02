@@ -40,7 +40,7 @@ urls.reduce(function(accumulator, url) {
         "category": document.querySelector('.category').innerHTML,
         "synopsis": document.querySelector('.shortfilm-cont').querySelector('p').innerHTML,
         "stars": starDetails,
-        "release_date_formatted" : release_year,
+        "release_year" : release_year,
         "genre" : genre,
         "language": lang
 
