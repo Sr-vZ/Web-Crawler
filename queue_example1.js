@@ -3,28 +3,37 @@ const Nightmare = require("nightmare");
 const nightmare = Nightmare({show: false});
 const fs = require("fs");
 
-var urls = [
-    'http://www.hungama.com/movie/the-perks-of-being-a-wallflower/28800664/',
-    'http://www.hungama.com/movie/silver-lining-playbook/29283854/',
-    'http://www.hungama.com/movie/empire-state/17985506/',
-    "http://www.hungama.com/movie/the-hangover-part-3/2170359/",
-    "http://www.hungama.com/movie/blue-valentine/17262486/",
-    "http://www.hungama.com/movie/american-sniper/7454061/"
-  ];
+// var urls = [
+//     'http://www.hungama.com/movie/the-perks-of-being-a-wallflower/28800664/',
+//     'http://www.hungama.com/movie/silver-lining-playbook/29283854/',
+//     'http://www.hungama.com/movie/empire-state/17985506/',
+//     "http://www.hungama.com/movie/the-hangover-part-3/2170359/",
+//     "http://www.hungama.com/movie/blue-valentine/17262486/",
+//     "http://www.hungama.com/movie/american-sniper/7454061/"
+//   ];
 
   var _ = require('lodash');
   //fs.readFile('hungama_links_temp.json');
   
   var obj, temp=[],urls=[];
-  var obj = JSON.parse(fs.readFileSync('hungama_links_temp.json', 'utf8'));    
-    for (i=0;i<obj.length;i++){
-      //onsole.log(obj[i].linkUrl);
-      temp.push(obj[i].linkUrl)
-      }
-      urls = _.uniq(temp);
-  
+  // var obj = JSON.parse(fs.readFileSync('hungama_links_temp.json', 'utf8'));    
+  //   for (i=0;i<obj.length;i++){
+  //     //onsole.log(obj[i].linkUrl);
+  //     temp.push(obj[i].linkUrl)
+  //     }
+  //     urls = _.uniq(temp);
 
-var alldata=[],i=0;
+var objData = fs.readFileSync("links_to process.txt", "utf8");
+//console.log(objData.toString());
+links = objData.split("\n");
+//console.log(links[0]);
+for(i=0;i<links.length;i++){
+  temp[i] = links[i].replace(/\r/g,'').trim();
+}
+
+urls = _.uniq(temp);
+
+var alldata=[],i=0,totalUrl = urls.length;
 urls.reduce(function(accumulator, url) {
   return accumulator.then(function(results) {
     return nightmare.goto(url)
@@ -63,21 +72,24 @@ urls.reduce(function(accumulator, url) {
       return jsonData;
       })
       .then(function (data) {
-        console.log(data[0]);
+        //console.log(data[0]);
         //console.log(new Date());
-        console.log('Fetched '+url+ ' at '+ (new Date()));
-        fs.appendFileSync("hungama_data.json", JSON.stringify(data));
+        i++;
+        console.log(i +'/' + totalUrl+' Fetched '+url+ ' at '+ (new Date()));
+        fs.appendFileSync("hungama_data_test3_dump.json", JSON.stringify(data[0]));
         alldata.push(data[0]);
         return data;
       })
       .catch(error => {
         console.error("Search failed:", error);
+        errorData.push({'url':url})
+        fs.appendFileSync('hungama_test3_errors',JSON.stringify(errorData))
       });
   });
 }, Promise.resolve([])).then(function(results){
     //console.dir(results);
     //nightmare.end();
-    fs.appendFileSync("hungama_data_test2.json", JSON.stringify(alldata));
+    fs.appendFileSync("hungama_data_test3.json", JSON.stringify(alldata));
     console.log(alldata);
     nightmare.end();
 });
