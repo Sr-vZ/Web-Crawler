@@ -8,8 +8,8 @@ var async = require('async');
 var cheerio = require('cheerio');
 var request = require('request');
 
-var base = 'www.hungama.com/movie';
-var firstLink = "http://" + base + "/";
+var base = 'www.hungama.com';
+var firstLink = 'http://' + base + '/';
 
 var crawled = [];
 var inboundLinks = [];
@@ -35,7 +35,7 @@ var makeRequest = function(crawlUrl, callback){
        * relative or absolute
        * check out the url module of node: https://nodejs.org/dist/latest-v5.x/docs/api/url.html
       */
-      if(elem.attribs.href != 'javascript:void(0);' && typeof elem.attribs.href === 'string'){
+      if(typeof elem.attribs.href === 'string' && _.includes(elem.attribs.href,'movie') ){
         pageObject.links.push({linkText: $(elem).text(), linkUrl: elem.attribs.href})
       }        
     });
@@ -46,6 +46,7 @@ var makeRequest = function(crawlUrl, callback){
 var myLoop = function(link){
   makeRequest(link, function(error, pageObject){
     console.log(pageObject);
+    fs.appendFileSync("hungama_links_temp.json", JSON.stringify(pageObject.links));
     crawled.push(pageObject.url);
     async.eachSeries(pageObject.links, function(item, cb){
       parsedUrl = url.parse(item.linkUrl);
@@ -54,7 +55,9 @@ var myLoop = function(link){
         /*
          insert some further link error checking here
         */
-        inboundLinks.push(item.linkUrl);
+        if(_.includes(item.linkUrl,'movie')){
+          inboundLinks.push(item.linkUrl);
+        }          
       }
       cb();
     }
@@ -65,7 +68,7 @@ var myLoop = function(link){
       }
       else {
         console.log('done!');
-        fs.appendFileSync("hungama_links.json", JSON.stringify(inboundLinks));
+        fs.appendFileSync("hungama_links.json", JSON.stringify(crawled));
       }
     });
   });
