@@ -8,8 +8,8 @@ var async = require('async');
 var cheerio = require('cheerio');
 var request = require('request');
 
-var base = 'www.hungama.com/movies';
-var firstLink = 'http://' + base + '/';
+var base = 'www.hungama.com/movie';
+var firstLink = "http://" + base + "/";
 
 var crawled = [];
 var inboundLinks = [];
@@ -19,7 +19,7 @@ var makeRequest = function(crawlUrl, callback){
   request(crawlUrl, function (error, response, body) {
 
     var pageObject = {};
-    pageObject.links = [];
+    pageObject.links = []; 
 
     var endTime = new Date().getTime();
     var requestTime = endTime - startTime;
