@@ -11,6 +11,19 @@ var urls = [
     "http://www.hungama.com/movie/blue-valentine/17262486/",
     "http://www.hungama.com/movie/american-sniper/7454061/"
   ];
+
+  var _ = require('lodash');
+  //fs.readFile('hungama_links_temp.json');
+  
+  var obj, temp=[],urls=[];
+  var obj = JSON.parse(fs.readFileSync('hungama_links_temp.json', 'utf8'));    
+    for (i=0;i<obj.length;i++){
+      //onsole.log(obj[i].linkUrl);
+      temp.push(obj[i].linkUrl)
+      }
+      urls = _.uniq(temp);
+  
+
 var alldata=[],i=0;
 urls.reduce(function(accumulator, url) {
   return accumulator.then(function(results) {
@@ -64,7 +77,7 @@ urls.reduce(function(accumulator, url) {
 }, Promise.resolve([])).then(function(results){
     //console.dir(results);
     //nightmare.end();
-    fs.appendFileSync("hungama_data_test1.json", JSON.stringify(alldata));
+    fs.appendFileSync("hungama_data_test2.json", JSON.stringify(alldata));
     console.log(alldata);
     nightmare.end();
 });
