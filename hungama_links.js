@@ -19,7 +19,7 @@ var makeRequest = function(crawlUrl, callback){
   request(crawlUrl, function (error, response, body) {
 
     var pageObject = {};
-    pageObject.links = [];
+    pageObject.links = []; 
 
     var endTime = new Date().getTime();
     var requestTime = endTime - startTime;
