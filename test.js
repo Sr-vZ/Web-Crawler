@@ -1,5 +1,3 @@
-
-
 var fs = require('fs');
 var _ = require('lodash');
 //fs.readFile('hungama_links_temp.json');
@@ -23,5 +21,12 @@ var objData = fs.readFileSync("links_to process.txt",'utf8');
 links = objData.split('\n');
 //console.log(links[1].trim().replace(/\"/g,"\'"));
 
-fs.writeFileSync('links_to_process.json',JSON.stringify(links))
+//fs.writeFileSync('links_to_process.json',JSON.stringify(links))
+
+var obj = fs.readFileSync('hungama_tv_links.json','utf8')
+links = obj.split(',')
+for (i=0;i<links.length;i++){
+    console.log(links[i].trim())
+}
+console.log(links.length)
 
