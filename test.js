@@ -29,4 +29,6 @@ for (i=0;i<links.length;i++){
     console.log(links[i].trim())
 }
 console.log(links.length)
+x = JSON.parse(links);
+console.log(x[0])
 
