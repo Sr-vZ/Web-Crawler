@@ -26,11 +26,11 @@ var vo = require('vo');
 
 const Nightmare = require("nightmare");
 const nightmare = Nightmare({
-  show: false
+  show: true
 });
 
 
-url = 'https://www.youtube.com/channel/UCNJcSUSzUeFm8W9P7UUlSeQ/videos'
+url = 'https://www.youtube.com/channel/UCNJcSUSzUeFm8W9P7UUlSeQ/videos' //tvf link
 
 var run = function* () {
     yield nightmare.goto(url);
@@ -46,7 +46,7 @@ var run = function* () {
     }
     yield nightmare
       .evaluate(() => {
-        data = document.querySelectorAll('.art-ttl');
+        data = document.querySelectorAll('#video-title');
         tv_links = [];
         for (i = 0; i < data.length; i++) {
           tv_links[i] = data[i].href;
@@ -56,7 +56,7 @@ var run = function* () {
       .end()
       .then(function (data) {
         console.dir(data);
-        fs.appendFileSync("youtube.json", JSON.stringify(data));
+        fs.appendFileSync("youtube_tvf_links.json", JSON.stringify(data));
       })
   
   };
