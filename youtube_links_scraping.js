@@ -31,6 +31,8 @@ const nightmare = Nightmare({
 
 
 url = 'https://www.youtube.com/channel/UCNJcSUSzUeFm8W9P7UUlSeQ/videos' //tvf link
+url = 'https://www.youtube.com/channel/UCf47je2ETRtgkhaVctg76Ew/videos' //ondraga
+url = 'https://www.youtube.com/channel/UCod3ehQL75jWcFGldE1xyug/videos' //smart screen
 
 var run = function* () {
     yield nightmare.goto(url);

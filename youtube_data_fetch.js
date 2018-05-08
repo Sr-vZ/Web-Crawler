@@ -15,10 +15,21 @@ const nightmare = Nightmare({
   show: false
 });
 
+// https://www.youtube.com/channel/UCf47je2ETRtgkhaVctg76Ew/videos
+// https://www.youtube.com/channel/UCod3ehQL75jWcFGldE1xyug/videos
+// https://www.youtube.com/channel/UCYhE3LuAdW98CdwoemBsrdA/videos
+// https://www.youtube.com/channel/UC9Jly1IEjKrjVBUAhMSPvTQ/videos
+// https://www.youtube.com/channel/UCRqoo3YKNHVJW8HopWvT98w/videos
+// https://www.youtube.com/channel/UCQFMqkiJD9R4RSH9IJ6tb4w/videos
+// https://www.youtube.com/channel/UCJfXLs_yEJvffKgt-jniMUQ/videos
+// https://www.youtube.com/channel/UCF-aIi0zXNwZZucGtWk4pug/videos
+// https://www.youtube.com/channel/UCNyeSfUfffmJXwA2_tmNG9A/videos
 
 // {videos: [{channel_link, image_link, link, heading, video_length, date_published, description}]}
 
 url = 'https://www.youtube.com/channel/UCNJcSUSzUeFm8W9P7UUlSeQ/videos' //tvf link
+url = 'https://www.youtube.com/channel/UCf47je2ETRtgkhaVctg76Ew/videos' //ondraga
+url = 'https://www.youtube.com/channel/UCod3ehQL75jWcFGldE1xyug/videos' //smart screen
 
 links = JSON.parse(fs.readFileSync('youtube_tvf_links.json','utf-8'))
 
@@ -107,7 +118,7 @@ var run = function* () {
       .end()
       .then(function (data) {
         console.dir(data);
-        fs.appendFileSync("youtube_tvf_dump.json", JSON.stringify(data));
+        fs.appendFileSync("youtube_SmartScreen_dump.json", JSON.stringify(data));
       })
   
   };
