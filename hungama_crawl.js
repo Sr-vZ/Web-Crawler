@@ -1,7 +1,8 @@
 var Crawler = require("crawler");
 var _ = require('lodash')
+var fs = require('fs')
 
-links = [], visited = [],t=0;
+links = [], visited = [], t = 0;
 var c = new Crawler({
     maxConnections: 10,
     // This will be called for each crawled page
@@ -16,19 +17,21 @@ var c = new Crawler({
             $('a').each(function () {
                 var text = $(this).text();
                 var link = $(this).attr('href');
-                if (_.includes(link, 'java') == false  && _.includes(link,'hungama'))
+                if (_.includes(link, 'java') == false && _.includes(link, 'hungama'))
                     links.push(link)
             })
             temp = _.differenceWith(_.uniq(links), visited);
-            if(temp.length>0){
+            if (temp.length > 0) {
                 links.push(temp)
-            console.log(temp)}
+                console.log(temp)
+            }
             t++
-            console.log('Attempt : '+ t +' Total links: ', _.uniq(links).length)
+            console.log('Attempt : ' + t + ' Total links: ', _.uniq(links).length)
             for (i = 0; i < links.length; i++) {
                 if (_.includes(visited, links[i]) == false) {
                     visited.push(links[i])
                     visited = _.uniq(visited)
+                    fs.writeFileSync('hungama_crawl_dump.json',JSON.stringify(visited))
                     c.queue(links[i])
                 }
             }

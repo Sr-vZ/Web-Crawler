@@ -38,54 +38,6 @@ links = JSON.parse(fs.readFileSync('youtube_tvf_links.json','utf-8'))
 //url =links[0]
 console.log(url)
 
-// nightmare
-//   .goto(url)
-//   //.type("#search_form_input_homepage", "github nightmare")
-//   //.click("#search_button_homepage")
-//   .wait('.ttl')
-//   .evaluate(
-//     () => {
-//       var jsonData = [];
-//       stars = document.querySelector('.art-carousal').querySelectorAll('.owl-item');
-//       starDetails = new Array();
-//       for (i = 0; i < stars.length; i++) {
-//         starDetails.push({
-//           "name": stars[i].querySelector('a').title,
-//           "image_link": stars[i].querySelector('img').src
-//         })
-//       }
-//       gist = document.querySelector('.subttl').innerHTML;
-//       release_year = gist.substring(0,gist.indexOf('&')).trim();
-//       genre = gist.substring(gist.indexOf('<br>')+4).trim();
-//       temp = gist.replace(/&nbsp;/g,' ');
-//       lang = temp.substring(temp.indexOf(' '),temp.indexOf('\n')).trim();
-//       jsonData.push({
-//         "url": document.URL,
-//         "title": document.querySelector('.ttl').innerHTML,
-//         "image_link": document.querySelector('.mainImg').src,
-//         "category": document.querySelector('.category').innerHTML,
-//         "synopsis": document.querySelector('.shortfilm-cont').querySelector('p').innerHTML,
-//         "stars": starDetails,
-//         "release_year" : release_year,
-//         "genre" : genre,
-//         "language": lang
-
-//       });
-//       //console.log(data.toString());
-//       //return [document.querySelectorAll(".qtip-tooltip").mtitle];
-//       return jsonData;
-//     })
-//   .end()
-//   .then(function (data) {
-//       console.dir(data);
-//       fs.writeFileSync("hungama_data_test.json", JSON.stringify(data));
-//     }
-
-//   )
-//   .catch(error => {
-//     console.error("Search failed:", error);
-//   });
-
 var run = function* () {
     yield nightmare.goto(url);
   
