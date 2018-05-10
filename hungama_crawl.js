@@ -1,5 +1,6 @@
 var Crawler = require("crawler")
 var _ = require('lodash')
+var fs = require('fs')
 
 links = [], visited = [],i = 0,t=0, currentUrl='';
 
@@ -19,13 +20,14 @@ var c = new Crawler({
             $('a').each(function () {
                 var text = $(this).text();
                 var link = $(this).attr('href');
-                if (_.includes(link, 'java') == false  && _.includes(link,'hungama'))
+                if (_.includes(link, 'java') == false && _.includes(link, 'hungama'))
                     links.push(link)
             })
             temp = _.differenceWith(_.uniq(links), visited);
-            if(temp.length>0){
+            if (temp.length > 0) {
                 links.push(temp)
-            console.log(temp)}
+                console.log(temp)
+            }
             t++
             console.log('Attempt : '+ t +' Current url: '+ links[i] +' Total links: ', _.uniq(links).length)
             for (; i < links.length; i++) {
