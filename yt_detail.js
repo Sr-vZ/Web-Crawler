@@ -1,8 +1,8 @@
 const fs = require('fs')
 
 
-inputFile = 'youtube_Ondraga_dump.json'
-outputFile = 'yt_Ondraga_details_dump.json'
+inputFile = "yt_sakkath_dump.json";
+outputFile = "yt_sakkath_details_dump.json";
 var data = JSON.parse(fs.readFileSync(inputFile, 'utf-8'))
 
 // for (i=0;i<data.length;i++){
@@ -54,7 +54,7 @@ urls.reduce(function (accumulator, url) {
             .then(function (data) {
                 i++;
                 console.log(i + '/' + totalUrl + ' Fetched ' + url + ' at ' + (new Date()));
-                fs.appendFileSync("yt_tvf_details_testdump.json", JSON.stringify(data[0]));
+                fs.appendFileSync('yt_test_dump.json', JSON.stringify(data[0]));
                 alldata.push(data[0]);
                 return data;
             })
