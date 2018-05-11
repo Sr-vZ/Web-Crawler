@@ -20,7 +20,7 @@ const nightmare = Nightmare({
 // https://www.youtube.com/channel/UCYhE3LuAdW98CdwoemBsrdA/videos
 // https://www.youtube.com/channel/UC9Jly1IEjKrjVBUAhMSPvTQ/videos
 // https://www.youtube.com/channel/UCRqoo3YKNHVJW8HopWvT98w/videos
- //sakkath// https://www.youtube.com/channel/UCQFMqkiJD9R4RSH9IJ6tb4w/videos
+// https://www.youtube.com/channel/UCQFMqkiJD9R4RSH9IJ6tb4w/videos
 // https://www.youtube.com/channel/UCJfXLs_yEJvffKgt-jniMUQ/videos
 // https://www.youtube.com/channel/UCF-aIi0zXNwZZucGtWk4pug/videos
 // https://www.youtube.com/channel/UCNyeSfUfffmJXwA2_tmNG9A/videos
@@ -33,8 +33,12 @@ url = 'https://www.youtube.com/channel/UCod3ehQL75jWcFGldE1xyug/videos' //smart 
 url = "https://www.youtube.com/channel/UCYhE3LuAdW98CdwoemBsrdA/videos" //wirally
 url = "https://www.youtube.com/channel/UC9Jly1IEjKrjVBUAhMSPvTQ/videos"; //We Are A Sambavam 
 url = 'https://www.youtube.com/channel/UCRqoo3YKNHVJW8HopWvT98w/videos' //sakkath
+url = 'https://www.youtube.com/channel/UCQFMqkiJD9R4RSH9IJ6tb4w/videos' //Rod Factory
+url = 'https://www.youtube.com/channel/UCJfXLs_yEJvffKgt-jniMUQ/videos' //Naati Factory
+url = 'https://www.youtube.com/channel/UCF-aIi0zXNwZZucGtWk4pug/videos' //Shudh Desi Endings
+url = 'https://www.youtube.com/channel/UCNyeSfUfffmJXwA2_tmNG9A/videos' //The Screen Patti
 
-outFile = "yt_sakkath_dump.json";
+outFile = "yt_TSP_dump.json";
 //links = JSON.parse(fs.readFileSync('youtube_tvf_links.json','utf-8'))
 
 //console.log(links)

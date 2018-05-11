@@ -1,9 +1,9 @@
 const fs = require('fs')
 const _ = require('lodash')
 
-indumpFile = "yt_sakkath_dump.json";
-indetailsdumpFile = "yt_sakkath_details_dump.json";
-outFile = "yt_sakkath_merged.json";
+indumpFile = "yt_TSP_dump.json";
+indetailsdumpFile = "yt_TSP_details_dump.json";
+outFile = "yt_TSP_merged.json";
 
 var dump_data = JSON.parse(fs.readFileSync(indumpFile, 'utf-8'))
 var dump_details = JSON.parse(fs.readFileSync(indetailsdumpFile, 'utf-8'))

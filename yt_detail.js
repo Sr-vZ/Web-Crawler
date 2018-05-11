@@ -1,8 +1,8 @@
 const fs = require('fs')
 
 
-inputFile = "yt_sakkath_dump.json";
-outputFile = "yt_sakkath_details_dump.json";
+inputFile = "yt_TSP_dump.json";
+outputFile = "yt_TSP_details_dump.json";
 var data = JSON.parse(fs.readFileSync(inputFile, 'utf-8'))
 
 // for (i=0;i<data.length;i++){
@@ -35,13 +35,10 @@ urls.reduce(function (accumulator, url) {
                     var jsonData = [],
                         description = '';
 
-
                     if (document.querySelectorAll('#description').length > 0)
                         description = document.querySelector('#description').innerText
                     else
                         description = ''
-
-
 
                     jsonData.push({
                         'url': document.URL,
