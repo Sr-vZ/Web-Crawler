@@ -3,17 +3,17 @@ var _ = require('lodash');
 //fs.readFile('hungama_links_temp.json');
 
 var obj, temp=[],urls=[];
-fs.readFile('hungama_links_temp.json', 'utf8', function (err, data) {
-  if (err) throw err;
-  obj = JSON.parse(data);
-  for (i=0;i<obj.length;i++){
-    //onsole.log(obj[i].linkUrl);
-    if(_.includes(obj[i].linkUrl,'movie'))
-        temp.push(obj[i].linkUrl)
-    }
-    urls = _.uniq(temp);
-    //console.log(urls)
-});
+// fs.readFile('hungama_links_temp.json', 'utf8', function (err, data) {
+//   if (err) throw err;
+//   obj = JSON.parse(data);
+//   for (i=0;i<obj.length;i++){
+//     //onsole.log(obj[i].linkUrl);
+//     if(_.includes(obj[i].linkUrl,'movie'))
+//         temp.push(obj[i].linkUrl)
+//     }
+//     urls = _.uniq(temp);
+//     //console.log(urls)
+// });
 
 
 var objData = fs.readFileSync("links_to process.txt",'utf8');
@@ -23,12 +23,16 @@ links = objData.split('\n');
 
 //fs.writeFileSync('links_to_process.json',JSON.stringify(links))
 
-var obj = fs.readFileSync('hungama_tv_links.json','utf8')
-links = obj.split(',')
-for (i=0;i<links.length;i++){
-    console.log(links[i].trim())
-}
-console.log(links.length)
-x = JSON.parse(links);
-console.log(x[0])
+// var obj = fs.readFileSync('hungama_tv_links.json','utf8')
+// links = obj.split(',')
+// for (i=0;i<links.length;i++){
+//     console.log(links[i].trim())
+// }
+// console.log(links.length)
+// x = JSON.parse(links);
+// console.log(x[0])
+
+
+var obj = JSON.parse(fs.readFileSync('hungama_tv_test3.json','utf8'))
+console.log(obj[0].url)
 
