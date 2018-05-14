@@ -21,27 +21,26 @@ var alldata = [],
 request(urls[0], function (error, response, html) {
   if (!error && response.statusCode == 200) {
     var $ = cheerio.load(html);
-    var parsedResults = [];
-    
+    var parsedResults = []
+    console.log('fetching :' , urls[0])
 
-      var jsonData = []          
-          episodes = []
+      var jsonData = [],episodes = [];
 
-          if ($('#show_details #pajax_a').length > 0)
-            epObj = $('#show_details').find('#pajax_a')
+          // if ($('.song-name'))
+          //   epObj = $('#show_details').find('#pajax_a')
 
-          for (i = 0; epObj.length; i++) {
-            episodes.push({
-              'episode_name': epObj.title,
-              'episode_url': epObj.href
-            })
-          }
+          // for (i = 0; epObj.length; i++) {
+          //   episodes.push({
+          //     'episode_name': epObj.title,
+          //     'episode_url': epObj.href
+          //   })
+          // }
           jsonData.push({
             "url": $.URL,
             "title": $('.ttl').innerHTML,
             "episode_details": episodes
           });
-          return jsonData;
+          //return jsonData;
     
     // Log our finished parse results in the terminal
     console.log(jsonData);
