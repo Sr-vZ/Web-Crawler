@@ -53,7 +53,7 @@ nightmare
     .goto(url)
     //.type("#search_form_input_homepage", "github nightmare")
     //.click("#search_button_homepage")
-    .wait(20000)
+    .wait(10000)
     .evaluate(() => {
         var jsonData = [],
             epObj = [],
@@ -67,15 +67,11 @@ nightmare
         if (typeof epObj === "undefined") {
             episodes = [];
         } else {
-            for (i = 0; epObj.length; i++) {
-                ep_name = document
-                  .querySelectorAll(".song-name")
-                  [i].querySelector(".art-ttl").title;
-                ep_link = document
-                  .querySelectorAll(".song-name")
-                  [i].querySelector(".art-ttl").href;
+            for (i = 0; i< epObj.length; i++) {
+                ep_name = document.querySelectorAll(".song-name")[i].querySelector(".art-ttl").title;
+                ep_link = document.querySelectorAll(".song-name")[i].querySelector(".art-ttl").href;
                 episodes.push({
-                    "episode_name" : ep_name,
+                    "episode_name": ep_name,
                     "episode_url": ep_link
                 });
             }
@@ -90,7 +86,7 @@ nightmare
         //return [document.querySelectorAll(".qtip-tooltip").mtitle];
         return jsonData;
     })
-    .end()
+    //.end()
     .then(function (data) {
         console.dir(data);
     })
