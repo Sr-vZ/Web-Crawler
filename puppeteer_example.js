@@ -5,24 +5,47 @@ url = "http://www.hungama.com/tv-show/motorcycle-experience/20835799/";
 let scrape = async () => {
     const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
-
+    seasons = []
     await page.goto(url);
-    await page.click('#default > div > div > div > div > section > div:nth-child(2) > ol > li:nth-child(1) > article > div.image_container > a > img');
-    await page.waitFor(1000);
+    await page.waitForSelector('.ttl')
+    //await page.click('');
+    //await page.waitFor(1000);
 
     const result = await page.evaluate(() => {
-        let title = document.querySelector('h1').innerText;
-        let price = document.querySelector('.price_color').innerText;
+        let seasonsSel = document.querySelector("#show_details").querySelectorAll("#pajax_a");
+        //for(i=0;i<seasons.length;i++)
 
-        return {
-            title,
-            price
-        }
 
-    });
+        return seasonsSel;
 
+    })
+    for(i=0;i<result.length;i++){
+        await page.click(result[i])
+        const data =await page.evaluate(()=>{
+            if (document.querySelectorAll(".song-name").length > 0)
+                epObj = document.querySelectorAll(".song-name")
+
+            for (j = 0; j < epObj.length; j++) {
+            
+                    episodes.push({
+                      season: result[i].innerText,
+                      // episode_name: ep_name,
+                      // episode_url: ep_link
+                      episode_name: epObj[j].title,
+                      episode_url: epObj[j].href
+                    });
+                  }
+             jsonData.push({
+              "url": document.URL,
+              "title": document.querySelector(".ttl").innerHTML,
+              "episode_details": episodes
+            });
+            
+            return jsonData;
+        })
+    }
     browser.close();
-    return result;
+    //return result;
 };
 
 scrape().then((value) => {
