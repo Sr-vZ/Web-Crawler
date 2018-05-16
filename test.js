@@ -5,14 +5,14 @@ var _ = require('lodash');
 
 const Nightmare = require("nightmare");
 const nightmare = Nightmare({
-    show: false
+  show: true
 });
 
 var async = require("async");
 
 
 var obj, temp = [],
-    urls = [];
+  urls = [];
 // fs.readFile('hungama_links_temp.json', 'utf8', function (err, data) {
 //   if (err) throw err;
 //   obj = JSON.parse(data);
@@ -52,104 +52,145 @@ url = obj[0].url
 url = "http://www.hungama.com/tv-show/motorcycle-experience/20835799/";
 
 nightmare
-    .goto(url)
-    //.type("#search_form_input_homepage", "github nightmare")
-    //.click("#search_button_homepage")
-    .wait('.ttl')
-    .evaluate(() => {
-        var jsonData = [],
-            epObj = [],
-            episodes = [];
-        
-        if (document.querySelectorAll(".tvshow ").length > 0) {
-          seasons = document.querySelectorAll(".tvshow ");
+  .goto(url)
+  //.type("#search_form_input_homepage", "github nightmare")
+  //.click("#search_button_homepage")
+  .wait('.ttl')
+  .evaluate(() => {
+      var jsonData = [],
+        epObj = [],
+        episodes = [];
 
-          for (i = 0; i < seasons.length; i++){
-            nightmare.click(seasons[i]) //seasons[i].click()
-            if (document.querySelectorAll(".song-name").length > 0) 
-                //epObj = document.querySelectorAll(".song-name");
-                epObj = document
-                  .querySelector("#show_details")
-                  .querySelectorAll("#pajax_a");
+      if (document.querySelectorAll(".tvshow ").length > 0) {
+        seasons = document.querySelectorAll(".tvshow ");
+
+        async function getEpisodes(){
+          for (i = 0; i < seasons.length; i++) {
+            const title = await nightmare
+              .goto(url)
+              .wait('.ttl')
+              .click(seasons[i])
+              .wait('.ttl')
+              .evaluate(()=>{
+                        epObj = document.querySelector("#show_details").querySelectorAll("#pajax_a");
 
 
-            for (j = 0; j < epObj.length; j++) {
-            //   ep_name = document
-            //     .querySelectorAll(".song-name")
-            //     [j].querySelector(".art-ttl").title;
-            //   ep_link = document
-            //     .querySelectorAll(".song-name")
-            //     [j].querySelector(".art-ttl").href;
-              episodes.push({
-                season: seasons[i].innerText,
-                // episode_name: ep_name,
-                // episode_url: ep_link
-                episode_name: epObj[j].title,
-                episode_url: epObj[j].href
-              });
-            }
-          }            
+                  for (j = 0; j < epObj.length; j++) {
+                    
+                    episodes.push({
+                      season: seasons[i].innerText,
+                      // episode_name: ep_name,
+                      // episode_url: ep_link
+                      episode_name: epObj[j].title,
+                      episode_url: epObj[j].href
+                    });
+                  }
+                  jsonData.push({
+              "url": document.URL,
+              "title": document.querySelector(".ttl").innerHTML,
+              "episode_details": episodes
+            });
+            
+            return jsonData;
+              })
+              
+
+          }
+          await nightmare.end()
         }
+        getEpisodes()
+      }
+
 
         
-        
-        details = document.querySelector("#show_details");
-        jsonData.push({
-            "url": document.URL,
-            "title": document.querySelector(".ttl").innerHTML,
-            "episode_details": episodes
-        });
-        //console.log(data.toString());
-        //return [document.querySelectorAll(".qtip-tooltip").mtitle];
-        return jsonData;
-    })
-    .end()
-    .then(function (data) {
-        console.dir(data)
-        console.log(data)
-        fs.appendFileSync("test.json", JSON.stringify(data[0]));
-    })
-    .catch(error => {
-        console.error("Search failed:", error);
-    });
-
-// var epLinks = JSON.parse(fs.readFileSync('hungama_tv_testdata.json','utf-8'))
-
-// console.log(epLinks[0].episode_details[0].episode_url)
-
-// for (i=0;i<epLinks.length;i++){
-//     for(j=0;j<epLinks[i].episode_details.length;j++){
-//         console.log(epLinks[i].episode_details[j].episode_url)
-//     }
-// }
+            //   for (i = 0; i < seasons.length; i++) {
 
 
+            //       seasons[i].click()
+
+            //       if (document.querySelectorAll(".song-name").length > 0)
+            //         //epObj = document.querySelectorAll(".song-name");
+            //         epObj = document
+            //         .querySelector("#show_details")
+            //         .querySelectorAll("#pajax_a");
+
+
+            //       for (j = 0; j < epObj.length; j++) {
+            //         //   ep_name = document
+            //         //     .querySelectorAll(".song-name")
+            //         //     [j].querySelector(".art-ttl").title;
+            //         //   ep_link = document
+            //         //     .querySelectorAll(".song-name")
+            //         //     [j].querySelector(".art-ttl").href;
+            //         episodes.push({
+            //           season: seasons[i].innerText,
+            //           // episode_name: ep_name,
+            //           // episode_url: ep_link
+            //           episode_name: epObj[j].title,
+            //           episode_url: epObj[j].href
+            //         });
+            //       }
+
+            //   }
+            // }
 
 
 
-var Nightmare = require('nightmare')
+            // details = document.querySelector("#show_details");
+            // jsonData.push({
+            //   "url": document.URL,
+            //   "title": document.querySelector(".ttl").innerHTML,
+            //   "episode_details": episodes
+            // });
+            
+            // return jsonData;
+      })
+          .end()
+          .then(function (data) {
+            console.dir(data)
+            console.log(data)
+            fs.appendFileSync("test.json", JSON.stringify(data[0]));
+          })
+          .catch(error => {
+            console.error("Search failed:", error);
+          });
 
-async function main() {
-  var urls = [
-    'http://example1.com',
-    'http://example2.com',
-    'http://example3.com'
-  ]
+        // var epLinks = JSON.parse(fs.readFileSync('hungama_tv_testdata.json','utf-8'))
 
-  var nightmare = Nightmare({ show: true })
+        // console.log(epLinks[0].episode_details[0].episode_url)
 
-  for (let i = 0; i < urls.length; i++) {
-    const url = urls[i]
-    const title = await nightmare
-      .goto(url)
-      .wait('body')
-      .title()
+        // for (i=0;i<epLinks.length;i++){
+        //     for(j=0;j<epLinks[i].episode_details.length;j++){
+        //         console.log(epLinks[i].episode_details[j].episode_url)
+        //     }
+        // }
 
-    console.log(url, title)
-  }
 
-  await nightmare.end()
-}
 
-main().catch(console.error)
- 
+
+
+        // var Nightmare = require('nightmare')
+
+        // async function main() {
+        //   var urls = [
+        //     'http://example1.com',
+        //     'http://example2.com',
+        //     'http://example3.com'
+        //   ]
+
+        //   var nightmare = Nightmare({ show: true })
+
+        //   for (let i = 0; i < urls.length; i++) {
+        //     const url = urls[i]
+        //     const title = await nightmare
+        //       .goto(url)
+        //       .wait('body')
+        //       .title()
+
+        //     console.log(url, title)
+        //   }
+
+        //   await nightmare.end()
+        // }
+
+        // main().catch(console.error)
