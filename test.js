@@ -5,7 +5,7 @@ var _ = require('lodash');
 
 const Nightmare = require("nightmare");
 const nightmare = Nightmare({
-  show: true
+  show: false
 });
 
 var async = require("async");
@@ -43,154 +43,164 @@ links = objData.split('\n');
 // console.log(x[0])
 
 
-var obj = JSON.parse(fs.readFileSync('hungama_tv_test3.json', 'utf8'))
-console.log(obj[0].url)
+// var obj = JSON.parse(fs.readFileSync('hungama_tv_test3.json', 'utf8'))
+// console.log(obj[0].url)
 
 
-url = obj[0].url
+// url = obj[0].url
 
-url = "http://www.hungama.com/tv-show/motorcycle-experience/20835799/";
+// url = "http://www.hungama.com/tv-show/motorcycle-experience/20835799/";
+// seasons=[]
+// nightmare
+//   .goto(url)
+//   //.type("#search_form_input_homepage", "github nightmare")
+//   //.click("#search_button_homepage")
+//   .wait('.ttl')
+//   .evaluate(() => {
+//       var jsonData = [],
+//         epObj = [],
+//         episodes = [];
 
-nightmare
-  .goto(url)
-  //.type("#search_form_input_homepage", "github nightmare")
-  //.click("#search_button_homepage")
-  .wait('.ttl')
-  .evaluate(() => {
-      var jsonData = [],
-        epObj = [],
-        episodes = [];
+//       if (document.querySelectorAll(".tvshow ").length > 0) {
+//         seasons = document.querySelectorAll(".tvshow ");
 
-      if (document.querySelectorAll(".tvshow ").length > 0) {
-        seasons = document.querySelectorAll(".tvshow ");
-
-        async function getEpisodes(){
-          for (i = 0; i < seasons.length; i++) {
-            const title = await nightmare
-              .goto(url)
-              .wait('.ttl')
-              .click(seasons[i])
-              .wait('.ttl')
-              .evaluate(()=>{
-                        epObj = document.querySelector("#show_details").querySelectorAll("#pajax_a");
+//         async function getEpisodes(){
+//           for (i = 0; i < seasons.length; i++) {
+//             const title = await nightmare
+//               .goto(url)
+//               .wait('.ttl')
+//               .click(seasons[i])
+//               .wait('.ttl')
+//               .evaluate(()=>{
+//                         epObj = document.querySelector("#show_details").querySelectorAll("#pajax_a");
 
 
-                  for (j = 0; j < epObj.length; j++) {
+//                   for (j = 0; j < epObj.length; j++) {
                     
-                    episodes.push({
-                      season: seasons[i].innerText,
-                      // episode_name: ep_name,
-                      // episode_url: ep_link
-                      episode_name: epObj[j].title,
-                      episode_url: epObj[j].href
-                    });
-                  }
-                  jsonData.push({
-              "url": document.URL,
-              "title": document.querySelector(".ttl").innerHTML,
-              "episode_details": episodes
-            });
+//                     episodes.push({
+//                       season: seasons[i].innerText,
+//                       // episode_name: ep_name,
+//                       // episode_url: ep_link
+//                       episode_name: epObj[j].title,
+//                       episode_url: epObj[j].href
+//                     });
+//                   }
+//                   jsonData.push({
+//               "url": document.URL,
+//               "title": document.querySelector(".ttl").innerHTML,
+//               "episode_details": episodes
+//             });
             
-            return jsonData;
-              })
+//             return jsonData;
+//               })
               
 
-          }
-          await nightmare.end()
-        }
-        getEpisodes()
-      }
+//           }
+//           await nightmare.end()
+//         }
+//         getEpisodes()
+//       }
 
 
         
-            //   for (i = 0; i < seasons.length; i++) {
+//             //   for (i = 0; i < seasons.length; i++) {
 
 
-            //       seasons[i].click()
+//             //       seasons[i].click()
 
-            //       if (document.querySelectorAll(".song-name").length > 0)
-            //         //epObj = document.querySelectorAll(".song-name");
-            //         epObj = document
-            //         .querySelector("#show_details")
-            //         .querySelectorAll("#pajax_a");
-
-
-            //       for (j = 0; j < epObj.length; j++) {
-            //         //   ep_name = document
-            //         //     .querySelectorAll(".song-name")
-            //         //     [j].querySelector(".art-ttl").title;
-            //         //   ep_link = document
-            //         //     .querySelectorAll(".song-name")
-            //         //     [j].querySelector(".art-ttl").href;
-            //         episodes.push({
-            //           season: seasons[i].innerText,
-            //           // episode_name: ep_name,
-            //           // episode_url: ep_link
-            //           episode_name: epObj[j].title,
-            //           episode_url: epObj[j].href
-            //         });
-            //       }
-
-            //   }
-            // }
+//             //       if (document.querySelectorAll(".song-name").length > 0)
+//             //         //epObj = document.querySelectorAll(".song-name");
+//             //         epObj = document
+//             //         .querySelector("#show_details")
+//             //         .querySelectorAll("#pajax_a");
 
 
+//             //       for (j = 0; j < epObj.length; j++) {
+//             //         //   ep_name = document
+//             //         //     .querySelectorAll(".song-name")
+//             //         //     [j].querySelector(".art-ttl").title;
+//             //         //   ep_link = document
+//             //         //     .querySelectorAll(".song-name")
+//             //         //     [j].querySelector(".art-ttl").href;
+//             //         episodes.push({
+//             //           season: seasons[i].innerText,
+//             //           // episode_name: ep_name,
+//             //           // episode_url: ep_link
+//             //           episode_name: epObj[j].title,
+//             //           episode_url: epObj[j].href
+//             //         });
+//             //       }
 
-            // details = document.querySelector("#show_details");
-            // jsonData.push({
-            //   "url": document.URL,
-            //   "title": document.querySelector(".ttl").innerHTML,
-            //   "episode_details": episodes
-            // });
+//             //   }
+//             // }
+
+
+
+//             // details = document.querySelector("#show_details");
+//             // jsonData.push({
+//             //   "url": document.URL,
+//             //   "title": document.querySelector(".ttl").innerHTML,
+//             //   "episode_details": episodes
+//             // });
             
-            // return jsonData;
-      })
-          .end()
-          .then(function (data) {
-            console.dir(data)
-            console.log(data)
-            fs.appendFileSync("test.json", JSON.stringify(data[0]));
-          })
-          .catch(error => {
-            console.error("Search failed:", error);
-          });
+//             // return jsonData;
+//       })
+//           .end()
+//           .then(function (data) {
+//             console.dir(data)
+//             console.log(data)
+//             fs.appendFileSync("test.json", JSON.stringify(data[0]));
+//           })
+//           .catch(error => {
+//             console.error("Search failed:", error);
+//           });
 
-        // var epLinks = JSON.parse(fs.readFileSync('hungama_tv_testdata.json','utf-8'))
+//         // var epLinks = JSON.parse(fs.readFileSync('hungama_tv_testdata.json','utf-8'))
 
-        // console.log(epLinks[0].episode_details[0].episode_url)
+//         // console.log(epLinks[0].episode_details[0].episode_url)
 
-        // for (i=0;i<epLinks.length;i++){
-        //     for(j=0;j<epLinks[i].episode_details.length;j++){
-        //         console.log(epLinks[i].episode_details[j].episode_url)
-        //     }
-        // }
-
-
+//         // for (i=0;i<epLinks.length;i++){
+//         //     for(j=0;j<epLinks[i].episode_details.length;j++){
+//         //         console.log(epLinks[i].episode_details[j].episode_url)
+//         //     }
+//         // }
 
 
 
-        // var Nightmare = require('nightmare')
 
-        // async function main() {
-        //   var urls = [
-        //     'http://example1.com',
-        //     'http://example2.com',
-        //     'http://example3.com'
-        //   ]
 
-        //   var nightmare = Nightmare({ show: true })
+//         // var Nightmare = require('nightmare')
 
-        //   for (let i = 0; i < urls.length; i++) {
-        //     const url = urls[i]
-        //     const title = await nightmare
-        //       .goto(url)
-        //       .wait('body')
-        //       .title()
+//         // async function main() {
+//         //   var urls = [
+//         //     'http://example1.com',
+//         //     'http://example2.com',
+//         //     'http://example3.com'
+//         //   ]
 
-        //     console.log(url, title)
-        //   }
+//         //   var nightmare = Nightmare({ show: true })
 
-        //   await nightmare.end()
-        // }
+//         //   for (let i = 0; i < urls.length; i++) {
+//         //     const url = urls[i]
+//         //     const title = await nightmare
+//         //       .goto(url)
+//         //       .wait('body')
+//         //       .title()
 
-        // main().catch(console.error)
+//         //     console.log(url, title)
+//         //   }
+
+//         //   await nightmare.end()
+//         // }
+
+//         // main().catch(console.error)
+
+
+var obj = JSON.parse(fs.readFileSync('hungama_tv_testdata.json', 'utf8'))
+console.log(obj[0].episode_details[0].episode_url);
+
+for(i=0;i<obj.length;i++){
+  for(j=0;j<obj[i].episode_details.length;j++){
+    console.log(obj[i].episode_details[j].episode_url);
+  }
+}
