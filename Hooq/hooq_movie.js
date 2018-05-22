@@ -2,36 +2,34 @@ const fs = require('fs')
 const _  = require('lodash')
 const cheerio = require('cheerio')
 
-var obj = JSON.parse(fs.readFileSync("collections_movie.json"));
-
-//console.log(obj.collections[13].attributes.titles.length)
-
-
-
-html = fs.readFileSync('hooq.html')
-var $ = cheerio.load(html);
+//var obj = JSON.parse(fs.readFileSync("collections_movie.json"));
+var obj = JSON.parse(fs.readFileSync("hooq_movie_test.json"));
+console.log(obj[143][0].id)
+console.log(obj.length)
+console.log(obj[0].length)
+//console.log(obj[0])
 
 total = 0
 hooqMovie = []
-for (i=0;i<obj.collections.length;i++){
-    for(j=0;j<obj.collections[i].attributes.titles.length;j++){
-    console.log(obj.collections[i].attributes.titles[j].title);
+for (i=0;i<obj.length;i++){
+    for(j=0;j<obj[i].length;j++){
+    console.log(obj[i][j].attributes.title);
     total++
     hooqMovie.push({
       category: "",
       genre: "",
-      age_rating: obj.collections[i].attributes.titles[j].meta.ageRating,
-      //image_link: obj.collections[i].attributes.titles[j].images[2].url,
+      age_rating: obj[i][j].attributes.meta.ageRating,
+      //image_link: obj[i].attributes.titles.images[2].url,
       language: "",
       release_year:
-        obj.collections[i].attributes.titles[j].meta.releaseYear,
+        obj[i][j].attributes.meta.releaseYear,
       stars: [],
-      synopsis: obj.collections[i].attributes.titles[j].short_description,
-      length: obj.collections[i].attributes.titles[j].running_time_player,
-      title: obj.collections[i].attributes.titles[j].title,
+      synopsis: obj[i][j].attributes.short_description,
+      length: obj[i][j].attributes.running_time_player,
+      title: obj[i][j].attributes.title,
       url:
-        "www.hooq.tv/catalog/" +
-        obj.collections[i].attributes.titles[j].id +
+        "https://www.hooq.tv/catalog/" +
+        obj[i][j].attributes.id +
         "?__sr=feed&amp;autoplay=1"
     });
 
@@ -39,6 +37,6 @@ for (i=0;i<obj.collections.length;i++){
     }
 }
 console.log(total)
-console.dir(hooqMovie)
+//console.dir(hooqMovie)
 
 fs.writeFileSync('hooq_movies.json',JSON.stringify(hooqMovie))

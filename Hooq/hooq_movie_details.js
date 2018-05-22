@@ -272,14 +272,17 @@ async function main() {
                 response.push(document.body.innerText);
                 return response
             }).then(result => {
-                response.push(result)
-                fs.appendFileSync("hooq_movie_dump2.json",result)
+                data = JSON.parse(result).data
+                
+                    response.push(data);
+                                
+                fs.appendFileSync("hooq_movie_dump3.json",JSON.stringify(data))
                 console.log(url);
             })
 
         //console.log(url);
     }
-    fs.writeFileSync("hooq_movie_test.json",response);
+    fs.writeFileSync("hooq_movie_test.json",JSON.stringify(response));
     await nightmare.end()
 }
 
