@@ -22,6 +22,7 @@
     "cheerio": "^1.0.0-rc.2",
     "crawler": "^1.1.2",
     "lodash": "^4.17.10",
+    "nickjs": "^0.3.6",
     "nightmare": "^3.0.1",
     "request": "^2.85.0",
     "selenium-webdriver": "^4.0.0-alpha.1",
