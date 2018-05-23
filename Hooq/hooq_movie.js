@@ -7,19 +7,25 @@ var obj = JSON.parse(fs.readFileSync("hooq_movie_test.json"));
 console.log(obj[143][0].id)
 console.log(obj.length)
 console.log(obj[0].length)
-//console.log(obj[0])
+console.log(obj[7][4].attributes.images.length)
 
 total = 0
 hooqMovie = []
 for (i=0;i<obj.length;i++){
     for(j=0;j<obj[i].length;j++){
-    console.log(obj[i][j].attributes.title);
+    console.log(i+' '+j+' '+obj[i][j].attributes.title);
     total++
+    nImg = obj[i][j].attributes.images.length
+    if(nImg > 2){
+      imgLink = obj[i][j].attributes.images[2].url;
+    }else{
+      imgLink = obj[i][j].attributes.images[1].url;
+    }
     hooqMovie.push({
       category: "",
       genre: "",
       age_rating: obj[i][j].attributes.meta.ageRating,
-      //image_link: obj[i].attributes.titles.images[2].url,
+      image_link: imgLink,
       language: "",
       release_year:
         obj[i][j].attributes.meta.releaseYear,

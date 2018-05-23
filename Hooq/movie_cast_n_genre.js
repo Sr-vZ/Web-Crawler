@@ -68,7 +68,7 @@ async function main() {
         response.push(result);
 
         fs.appendFileSync("hooq_movie_castngenre.json", JSON.stringify(result));
-        console.log(url);
+        console.log(i + ' of ' + movieURLs.length+' '+ url);
       })
       .catch(error => {
         console.error("Failed:", error);
