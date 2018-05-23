@@ -13,9 +13,9 @@ vo = require('vo'),
     nightmare2 = Nightmare();
 
 
-cookieJar = JSON.parse(fs.readFileSync('hooq_nmjs_cookie.json', 'utf8'))
+// cookieJar = JSON.parse(fs.readFileSync('hooq_nmjs_cookie.json', 'utf8'))
 
-console.log(cookieJar)
+// console.log(cookieJar)
 
 
 
