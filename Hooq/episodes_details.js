@@ -61,9 +61,10 @@ getStream()
                 if(epData[i].people[s].role==='CAST')
                     stars.push(epData[i].people[s].name)
             }
-            
+
             episodeDetails.push({
                 series_title: titles[idx].title,
+                series_url:'https://www.hooq.tv/catalog/'+titles[idx].id+'?__sr=feed',
                 season: epData[i].season,
                 episode: epData[i].episode,
                 ageRating: epData[i].meta.ageRating,
@@ -79,6 +80,7 @@ getStream()
             })
         }
         console.log(episodeDetails[0])
+        fs.writeFile('episode_details.json',JSON.stringify(episodeDetails))
     })
 
 
