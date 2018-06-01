@@ -63,12 +63,13 @@ url = 'https://www.zee5.com/movies/all'; //zee movies all;
 
     // console.log(movieData[0].link)
     videoDetails =[]
-    for (i = 0; i < movieData.length; i++) {
+    //for (i = 0; i < movieData.length; i++) {
+        for (i = 0; i < 5; i++) {
         movieURL = movieData[i].url
         console.log('fetching ' + (i + 1) + ' of ' + movieData.length + ' url: ' + movieURL)
         await page.goto(movieURL)
         await page.waitFor('body')
-        await page.click('.read')
+        // await page.click('.read')
         const videoData = await page.evaluate(() => {
             var jsonData = [],
                 description = '',
@@ -102,12 +103,12 @@ url = 'https://www.zee5.com/movies/all'; //zee movies all;
 
     for (i = 0; i < movieData.length; i++) {
 
-        movieData[i].release_date_formatted = videoDetails[i][0].release_date_formatted
-        movieData[i].description = videoDetails[i][0].description
-        movieData[i].language = videoDetails[i][0].language
-        movieData[i].director = videoDetails[i][0].director
-        movieData[i].genre = videoDetails[i][0].genre
-        movieData[i].stars = videoDetails[i][0].stars
+        movieData[i].release_date_formatted = videoDetails[i].release_date_formatted
+        movieData[i].description = videoDetails[i].description
+        movieData[i].language = videoDetails[i].language
+        movieData[i].director = videoDetails[i].director
+        movieData[i].genre = videoDetails[i].genre
+        movieData[i].stars = videoDetails[i].stars
 
     }
     // console.log(videoDetails[0][0].date_published)
