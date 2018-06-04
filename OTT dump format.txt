@@ -1,0 +1,37 @@
+CineBee OTT Dump File Format
+
+Parameter names and format to follow while creating dump files from OTT websites:
+
+series_name: String | For series name
+
+title: String | For episode title
+
+language: String | For language of this series.
+
+languages: Array of string | If multiple languages available use this instead of language.
+
+episode_number: Integer | For episode number
+
+season_name: String | Should be formatted like Season 1, Season 2.
+
+release_date_formatted: String | If full date is available then only this parameter should be used. Format - %d-%B-%Y - for ex: 17-May-2018, 23-November-2018, 02-December-2018.
+
+release_year: Integer | Many times only release year is present. Should be only used if only release year data is available and not full date. Either use release_year or release_date_formatted.
+
+synopsis: String | Episode synopsis
+
+link: String | Episode link
+
+series_link: String | If series link is different then episode link.
+
+video_length: Integer | In seconds. Always convert the episode length to time in seconds.
+
+image_link: String | episode image link.
+
+stars: Array of Dictionary: [{"name": "Actor name", "image_link": "Actor image link if available"}].
+
+director: String | If only one director name is available.
+
+directors: Array of string | If multiple director names available.
+
+If in doubt about any parameter please consult. Different website can have data in different format, so if facing any issues while converting to the format above please consult.

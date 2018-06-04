@@ -6,11 +6,9 @@ const fs = require('fs')
 url = 'https://www.zee5.com/movies/all'; //zee movies all;
 
 (async () => {
-    
     const browser = await puppeteer.launch({
         headless: true
     });
-    var url = 'https://www.zee5.com/movies/all'; //zee movies all;
     const page = await browser.newPage();
     await page.goto(url);
     await page.waitForSelector('body')
@@ -68,52 +66,69 @@ url = 'https://www.zee5.com/movies/all'; //zee movies all;
     videoDetails = []
     for (i = 0; i < movieData.length; i++) {
         // for (i = 0; i < 5; i++) {
-        movieURL = movieData[i].url
+        t = movieData[i].url.split('/')[movieData[i].url.split('/').length - 1]
+        movieURL = 'https://catalogapi.zee5.com/v1/movie/' + t + '?translation=en'
         console.log('fetching ' + (i + 1) + ' of ' + movieData.length + ' url: ' + movieURL)
         await page.goto(movieURL)
-        // await page.waitForSelector('body')
-        await page.waitFor(3000)
+        await page.waitForSelector('body')
+        // await page.waitFor(3000)
         // await page.click('.read')
-        if (await page.$('.read') !== null)
-            await page.click('.read')
-
         const videoData = await page.evaluate(async () => {
 
             var jsonData = [],
                 description = '',
                 release_date = '',
                 director = '',
-                genre = '',
-                language = ''
+                genre = [],
+                language = []
             stars = []
+            data = JSON.parse(document.querySelector('pre').innerText)
+            // if (document.querySelectorAll('.description').length > 0)
+            //     description = document.querySelector('.description').innerText
+            // if (document.querySelectorAll('.metadata').length > 0)
+            //     // release_date = document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(1) > td:nth-child(2)').innerText
+            //     release_date = document.querySelector('.metadata').innerText.trim().split('\n')[0].split('\t')[1]
+            // if (document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').length > 0)
+            //     director = document.querySelector('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').innerText
+            // if (document.querySelectorAll('.title3').length > 0)
+            //     genre = document.querySelector('.title3').innerText.split('.')[0].trim()
+            // if (document.querySelectorAll('.title3').length > 0)
+            //     language = document.querySelector('.title3').innerText.split('.')[1].trim()
 
-            if (document.querySelectorAll('.description').length > 0)
-                description = document.querySelector('.description').innerText
-            if (document.querySelectorAll('.metadata').length > 0)
-                // release_date = document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(1) > td:nth-child(2)').innerText
-                release_date = document.querySelector('.metadata').innerText.trim().split('\n')[0].split('\t')[1]
-            if (document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').length > 0)
-                director = document.querySelector('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').innerText
-            if (document.querySelectorAll('.title3').length > 0)
-                genre = document.querySelector('.title3').innerText.split('.')[0].trim()
-            if (document.querySelectorAll('.title3').length > 0)
-                language = document.querySelector('.title3').innerText.split('.')[1].trim()
-
-            if (document.querySelectorAll('.outer1').length > 0 && document.querySelector('.outer1').querySelectorAll('.title2').length > 0) {
-                temp = document.querySelector('.outer1').querySelectorAll('.title2')
-                for (s = 0; s < temp.length; s++) {
-                    stars.push({
-                        name: temp[s].innerText,
-                        image_link: ''
-                    })
-                }
+            // if (document.querySelectorAll('.outer1').length > 0 && document.querySelector('.outer1').querySelectorAll('.title2').length > 0) {
+            temp = data.actors
+            for (s = 0; s < temp.length; s++) {
+                stars.push({
+                    name: temp[s].split(':')[0],
+                    image_link: ''
+                })
             }
-
+            // }
+            temp = data.genres
+            for (s = 0; s < temp.length; s++) {
+                genre.push(temp[s].value)
+            }
+            lang_list = {
+                "hi": "Hindi",
+                "mr": "Marathi",
+                "en": "English",
+                "kn":"Kannada",
+                "bn": "Bengali",
+                "ml":"Malayalam",
+                "pa":"Punjabi",
+                "gu":"Gujarati",
+                "ta": "Tamil",
+                "te":"Telegu"
+            }
+            temp = data.languages
+            for (s = 0; s < temp.length; s++) {
+                language.push(lang_list[temp[s]])
+            }
             jsonData.push({
                 'url': document.URL,
-                'description': description,
-                'release_date_formatted': release_date,
-                'director': director,
+                'description': data.description,
+                'release_date_formatted': data.release_date,
+                'director': data.directors,
                 'genre': genre,
                 //'language': document.querySelector('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(5) > td:nth-child(2)').innerText,
                 'language': language,
@@ -122,10 +137,7 @@ url = 'https://www.zee5.com/movies/all'; //zee movies all;
             return jsonData;
         })
 
-
         videoDetails.push(videoData)
-        console.log(videoDetails.length)
-        console.log(movieData[0].url)
     }
 
     for (i = 0; i < movieData.length; i++) {
