@@ -22,7 +22,7 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
         const maxScroll = Number.MAX_SAFE_INTEGER;
         let lastScroll = 0;
         const interval = setInterval(() => {
-          window.scrollBy(0, 1000);
+          window.scrollBy(0, 200);
           const scrollTop = document.documentElement.scrollTop;
           if (scrollTop === maxScroll || scrollTop === lastScroll) {
             clearInterval(interval);
@@ -47,11 +47,14 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
         series_name: data[i].querySelector("h3").innerText,
         image_link: data[i].querySelector("img").src,
         link_host_name: "",
+        season_name: "",
+        title: "",
         director: "",
         release_year: "",
         release_date_formatted: "",
         video_length: "",
-        decsription: "",
+        synopsis: "",
+        video_length: "",
         genre: "",
         stars: [],
         language: "",
@@ -60,7 +63,7 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
     }
     return jsonData;
   });
-
+  fs.writeFileSync('zee_series.json',JSON.stringify(seriesData))
   // console.log(seriesData[0].link)
   videoDetails = [];
   for (i = 0; i < seriesData.length; i++) {
@@ -77,29 +80,17 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
     await page.waitForSelector("body");
     // await page.waitFor(3000)
     // await page.click('.read')
-    const videoData = await page.evaluate(async () => {
+    const episodeData = await page.evaluate(async () => {
       var jsonData = [],
         description = "",
         release_date = "",
         director = "",
         genre = [],
         language = [];
+        seasons=[]
       stars = [];
       data = JSON.parse(document.querySelector("pre").innerText);
-    //   if (document.querySelectorAll('.description').length > 0)
-    //       description = document.querySelector('.description').innerText
-    //   if (document.querySelectorAll('.metadata').length > 0)
-    //       // release_date = document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(1) > td:nth-child(2)').innerText
-    //       release_date = document.querySelector('.metadata').innerText.trim().split('\n')[0].split('\t')[1]
-    //   if (document.querySelectorAll('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').length > 0)
-    //       director = document.querySelector('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(2) > td:nth-child(2)').innerText
-    //   if (document.querySelectorAll('.title3').length > 0)
-    //       genre = document.querySelector('.title3').innerText.split('.')[0].trim()
-    //   if (document.querySelectorAll('.title3').length > 0)
-    //       language = document.querySelector('.title3').innerText.split('.')[1].trim()
-
-    //   if (document.querySelectorAll('.outer1').length > 0 && document.querySelector('.outer1').querySelectorAll('.title2').length > 0) {
-    //   temp = data.actors;
+      temp = data.actors;
         
       for (s = 0; s < temp.length; s++) {
         stars.push({
@@ -128,6 +119,13 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
       for (s = 0; s < temp.length; s++) {
         language.push(lang_list[temp[s]]);
       }
+      temp = data.seasons
+      for (s = 0; s < temp.length; s++) {
+        seasons.push({
+          season_id: temp[s].id,
+          season_title: temp[s].title
+        });
+      }
       jsonData.push({
         url: document.URL,
         description: data.description,
@@ -136,12 +134,13 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
         genre: genre,
         //'language': document.querySelector('#body > app-root > div > app-movie-details > div.outerContainer > div.titleContainer > div.metadata > table > tbody > tr:nth-child(5) > td:nth-child(2)').innerText,
         language: language,
-        stars: stars
+        stars: stars,
+        seasons: seasons
       });
       return jsonData;
     });
 
-    videoDetails.push(videoData);
+    videoDetails.push(episodeData);
   }
 
   for (i = 0; i < seriesData.length; i++) {
@@ -156,5 +155,56 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
   // console.log(videoDetails[0][0].date_published)
   // console.log(seriesData)
   fs.writeFileSync("zee_series.json", JSON.stringify(seriesData));
+
+  for(i=0;i<videoDetails.length;i++){
+    for(j=0;j<videoDetails[i][0].seasons.length;j++){
+      season_id=videoDetails[i][0].seasons[j].season_id
+      seasonURL ='https://catalogapi.zee5.com/v1/season/'+season_id+'?asset_subtype=episode&translation=en&sort_by_field=index&sort_order=DESC&page_size=100'
+      console.log(
+      "fetching " + (i + 1) + " of " + videoDetails.length + " url: " + seasonURL
+    );
+    await page.goto(seasonURL);
+    await page.waitForSelector("body")
+    const episodeData = await page.evaluate(async () => {
+      data = JSON.parse(document.querySelector("pre").innerText);
+      jsonData =[]
+      for(k=0;k<data.episodes.length;k++){
+        genre = []
+        temp = data.episodes[k].genres;
+        for (s = 0; s < temp.length; s++) {
+          genre.push(temp[s].value);
+        }
+        jsonData.push({
+          series_name: data.title,
+          image_link:
+            "https://akamaividz.zee5.com/resources/" +
+            data.episodes[k].id +
+            "/list/270x152/" +
+            data.episodes[k].image.list,
+          season_name: data.title.split("-")[1],
+          title: data.episodes[k].title,
+          director: data.episodes[k].directors,
+          release_year: "",
+          episode_number: data.episodes[k].index,
+          release_date_formatted:data.episodes[k].release_date,
+          video_length:data.episodes[k].duration,
+          synopsis: data.episodes[k].description,
+          genre: genre,
+          stars:  data.episodes[k].actors,
+          language: "",
+          url: 'https://zee5vod.akamaized.net'+data.episodes[k].url
+        });
+
+      }
+      return jsonData
+    })
+    fs.appendFileSync("zee_episodes.json", JSON.stringify(episodeData));
+    }
+  }
+
+
+
+
   await browser.close();
 })();
+
