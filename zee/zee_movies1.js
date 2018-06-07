@@ -6,9 +6,11 @@ const fs = require('fs')
 url = 'https://www.zee5.com/movies/all'; //zee movies all;
 
 (async () => {
+    
     const browser = await puppeteer.launch({
         headless: true
     });
+    var url = 'https://www.zee5.com/movies/all'; //zee movies all;
     const page = await browser.newPage();
     await page.goto(url);
     await page.waitForSelector('body')
@@ -122,6 +124,8 @@ url = 'https://www.zee5.com/movies/all'; //zee movies all;
 
 
         videoDetails.push(videoData)
+        console.log(videoDetails.length)
+        console.log(movieData[0].url)
     }
 
     for (i = 0; i < movieData.length; i++) {
