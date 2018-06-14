@@ -69,7 +69,7 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
     fs.writeFileSync('voot_series.json', JSON.stringify(movieData))
 
     seriesData = JSON.parse(fs.readFileSync('voot_series.json'))
-    episodeData =[]
+    episodeData = []
     for (s = 0; s < seriesData.length; s++) {
 
         seriesID = seriesData[s].url.split('/')[seriesData[s].url.split('/').length - 1]
@@ -79,7 +79,7 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
         await page.waitForSelector('body')
         const totalEpisodes = await page.evaluate(() => {
             tmp = JSON.parse(document.querySelector('pre').innerText)
-            if (tmp.status.message==="") {
+            if (tmp.status.message === "") {
                 return tmp.assets[0].totalItems
             } else {
                 return 0
@@ -113,31 +113,41 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
                 }
                 if (data.status.message === "") {
                     for (j = 0; j < data.assets[0].items.length; j++) {
+                        months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                        release_date = ''
+                        if (data.assets[0].items[j].telecastDate) {
+                            release_date = data.assets[0].items[j].telecastDate.substring(6, 8) + '-' +
+                                months[parseInt(data.assets[0].items[j].telecastDate.substring(6, 8)) - 1] +
+                                '-' + data.assets[0].items[j].telecastDate.substring(0, 4)
+                        }
+
                         jsonData.push({
                             "series_name": data.assets[0].items[j].refSeriesTitle,
                             "image_link": data.assets[0].items[j].imgURL,
                             "director": '',
                             "release_year": data.assets[0].items[j].yearofRelease,
-                            "release_date_formatted": "",
-                            "video_length": "",
+                            "release_date_formatted": release_date,
+                            "video_length": data.assets[0].items[j].duration,
                             "synopsis": data.assets[0].items[j].desc,
                             "genre": data.assets[0].items[j].genre,
                             "stars": [],
                             "language": data.assets[0].items[j].language,
                             "url": seriesURL,
-                            "episode_number": data.assets[0].items[j].episode_number,
+                            "episode_number": data.assets[0].items[j].episodeNo,
                             "title": data.assets[0].items[j].title,
-                            "season_name": 'Season ' + data.assets[0].items[j].season
+                            "season_name": 'Season ' + data.assets[0].items[j].season,
+                            "link": seriesURL + '/' + data.assets[0].items[j].title.toLocaleLowerCase().replace("'", "-").replace(/ /g, "-") + '/' + data.assets[0].items[j].mId
+
                         })
                     }
                 }
                 return jsonData
             }, seriesURL)
             episodeData = episodeData.concat(episodes)
-             
+
         }
         // episodeData = episodeData.concat(episodeData)
-         console.log(episodeData)
+        console.log(episodeData)
     }
     fs.writeFileSync('voot_episodes.json', JSON.stringify(episodeData))
     await browser.close()
