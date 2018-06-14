@@ -47,7 +47,7 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
                     "director": '',
                     "release_year": data.assets[0].items[j].yearofRelease,
                     "release_date_formatted": "",
-                    "video_length": "",
+                    "video_length": data.assets[0].items[j].duration,
                     "decsription": data.assets[0].items[j].desc,
                     "genre": data.assets[0].items[j].genre,
                     "stars": [],
