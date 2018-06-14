@@ -15,10 +15,10 @@ url =
         'Host': 'api.yuppflix.com',
         'Origin': 'https://www.yuppflix.com',
         'Referer': 'https://www.yuppflix.com/movies',
-        'session-id': 'YF-534a7c4b-12be-46c5-a9fd-d6c18978c3c3',
+        'session-id': 'YF-9c31b80e-6e46-4d60-9835-cf40e9492f5e',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36',
         'Content-Type': 'application/json',
-        'box-id': 'c8fc005c-0fbc-93b5-c3a4-8bc1e4983633'
+        'box-id': '23446766-ead1-b851-a242-4d3c1137d839'
     });
 
     await page.goto(url);
@@ -60,13 +60,14 @@ url =
     var movieDetails = []
     for (i = 0; i < seriesData.length; i++) {
         tvshowCode = seriesData[i].code;
+        seriesURL=seriesData[i].url
         detailsURL = "https://api.yuppflix.com/yupptv/yuppflix/api/v2/tvshows/tvshow/details?code=" + tvshowCode + "&episode_count=1000";
         // https://api.yuppflix.com/yupptv/yuppflix/api/v2/tvshows/tvshow/episodes?tvshow_id=508556&season_id=64&last_index=11&count=12
         // https://api.yuppflix.com/yupptv/yuppflix/api/v2/tvshows/tvshow/details?code=hey-krishna&episode_count=12
         console.log('url ' + (i + 1) + ' of ' + seriesData.length + ' :' + detailsURL)
         await page.goto(detailsURL)
         await page.waitForSelector('body')
-        const mDetails = await page.evaluate(() => {
+        const mDetails = await page.evaluate((seriesURL) => {
             jsonData = [];
             allEpisodes = []
             data = JSON.parse(document.querySelector("pre").innerText);
@@ -81,47 +82,33 @@ url =
             //     }
             // }
             for (j = 0; j < data.response.selectedSeasonEpisodes.episodes.length; j++) {
-              release_date = new Date(data.response.selectedSeasonEpisodes.episodes[j].telecastDate);
-              jsonData.push({
-                image_link:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .iconUrl,
-                director: "",
-                release_year: release_date.getFullYear(),
-                release_date_formatted: release_date.toISOString(),
-                video_length:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .duration,
-                decsription:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .description,
-                genre:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .genre,
-                stars: [],
-                language:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .language,
-                //   id: data.shows[i].id,
-                series_name:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .tvShowName,
-                season_name:
-                  "Season " +
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .seasonNumber,
-                episode_number: j + 1,
-                title:
-                  data.response.selectedSeasonEpisodes.episodes[j]
-                    .name
-              });
-            //   allEpisodes.push(jsonData);
-              
+                release_date = new Date(data.response.selectedSeasonEpisodes.episodes[j].telecastDate);
+                months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                jsonData.push({
+                    image_link: data.response.selectedSeasonEpisodes.episodes[j]
+                        .iconUrl,
+                    director: "",
+                    release_year: release_date.getFullYear(),
+                    release_date_formatted: release_date.getDate() + '-' + months[release_date.getMonth()] + '-' + release_date.getFullYear(),
+                    video_length: parseInt(data.response.selectedSeasonEpisodes.episodes[j].duration)*60*60,
+                    decsription: data.response.selectedSeasonEpisodes.episodes[j].description,
+                    genre: data.response.selectedSeasonEpisodes.episodes[j].genre,
+                    stars: [],
+                    language: data.response.selectedSeasonEpisodes.episodes[j].language,
+                    //   id: data.shows[i].id,
+                    series_name: data.response.selectedSeasonEpisodes.episodes[j].tvShowName,
+                    season_name: "Season " + data.response.selectedSeasonEpisodes.episodes[j].seasonNumber,
+                    episode_number: j + 1,
+                    title: data.response.selectedSeasonEpisodes.episodes[j].name,
+                    link:seriesURL
+                });
+                //   allEpisodes.push(jsonData);
+
             }
 
 
             return jsonData
-        })
+        },seriesURL)
         // movieDetails.push(mDetails)
         console.log(mDetails)
         fs.appendFileSync("yupp_episodes.json", JSON.stringify(mDetails));
