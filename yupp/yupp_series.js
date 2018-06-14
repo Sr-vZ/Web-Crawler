@@ -15,10 +15,10 @@ url =
         'Host': 'api.yuppflix.com',
         'Origin': 'https://www.yuppflix.com',
         'Referer': 'https://www.yuppflix.com/movies',
-        'session-id': 'YF-9c31b80e-6e46-4d60-9835-cf40e9492f5e',
+        'session-id': 'YF-060e4f6e-b4c8-4de4-8451-10fce9b184cd',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36',
         'Content-Type': 'application/json',
-        'box-id': '23446766-ead1-b851-a242-4d3c1137d839'
+        'box-id': '4b187b6c-6d57-0227-fed2-793c7e6bac9c'
     });
 
     await page.goto(url);
@@ -40,7 +40,7 @@ url =
                 genre: "",
                 stars: [],
                 language: data.shows[i].language,
-                url: "https://www.yuppflix.com/movies/watch/" + data.shows[i].code,
+                url: "https://www.yuppflix.com/tvshows/watch/" + data.shows[i].code,
                 id: data.shows[i].id,
                 series_name: data.shows[i].name,
                 season_name: "",
@@ -90,8 +90,8 @@ url =
                     director: "",
                     release_year: release_date.getFullYear(),
                     release_date_formatted: release_date.getDate() + '-' + months[release_date.getMonth()] + '-' + release_date.getFullYear(),
-                    video_length: parseInt(data.response.selectedSeasonEpisodes.episodes[j].duration)*60*60,
-                    decsription: data.response.selectedSeasonEpisodes.episodes[j].description,
+                    video_length: "",
+                    synopsis: data.response.selectedSeasonEpisodes.episodes[j].description,
                     genre: data.response.selectedSeasonEpisodes.episodes[j].genre,
                     stars: [],
                     language: data.response.selectedSeasonEpisodes.episodes[j].language,

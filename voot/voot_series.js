@@ -19,27 +19,13 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
     movieData = []
     fetchTimes = Math.round(totalMovies / 50)
     for (i = 0; i < fetchTimes; i++) {
-        offset = i * 50
+        offset = i
         fetchURL = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTabId=allShows&rowId=893&sortId=mostPopular&limit=50&offSet=' + offset
         await page.goto(fetchURL)
         await page.waitForSelector('body')
         const movies = await page.evaluate(() => {
             data = JSON.parse(document.querySelector('pre').innerText)
             jsonData = []
-
-            function msToHMS(ms) {
-                // 1- Convert to seconds:
-                var seconds = ms / 1000;
-                // 2- Extract hours:
-                var hours = parseInt(seconds / 3600); // 3,600 seconds in 1 hour
-                seconds = seconds % 3600; // seconds remaining after extracting hours
-                // 3- Extract minutes:
-                var minutes = parseInt(seconds / 60); // 60 seconds in 1 minute
-                // 4- Keep only seconds not extracted to minutes:
-                seconds = parseInt(seconds % 60);
-                return (hours + ":" + minutes + ":" + seconds);
-            }
-
             for (j = 0; j < data.assets[0].items.length; j++) {
                 jsonData.push({
                     "series_name": data.assets[0].items[j].title,
@@ -89,7 +75,7 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
 
         console.log((s + 1) + ' of ' + seriesData.length + ' url: ' + seriesURL)
         for (i = 0; i < fetchTimes; i++) {
-            offset = i * 50
+            offset = i
 
             fetchURL = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=showDetaill&subTabId=allEpisodes&rowId=922&tvSeriesId=' + seriesID + '&sortId=oldestFirst&limit=50&offSet=' + offset
             console.log((i + 1) + ' of ' + fetchTimes + ' url: ' + fetchURL)
@@ -99,25 +85,14 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
                 data = JSON.parse(document.querySelector('pre').innerText)
                 jsonData = []
 
-                function msToHMS(ms) {
-                    // 1- Convert to seconds:
-                    var seconds = ms / 1000;
-                    // 2- Extract hours:
-                    var hours = parseInt(seconds / 3600); // 3,600 seconds in 1 hour
-                    seconds = seconds % 3600; // seconds remaining after extracting hours
-                    // 3- Extract minutes:
-                    var minutes = parseInt(seconds / 60); // 60 seconds in 1 minute
-                    // 4- Keep only seconds not extracted to minutes:
-                    seconds = parseInt(seconds % 60);
-                    return (hours + ":" + minutes + ":" + seconds);
-                }
+                
                 if (data.status.message === "") {
                     for (j = 0; j < data.assets[0].items.length; j++) {
                         months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
                         release_date = ''
                         if (data.assets[0].items[j].telecastDate) {
                             release_date = data.assets[0].items[j].telecastDate.substring(6, 8) + '-' +
-                                months[parseInt(data.assets[0].items[j].telecastDate.substring(6, 8)) - 1] +
+                                months[parseInt(data.assets[0].items[j].telecastDate.substring(4, 6)) - 1] +
                                 '-' + data.assets[0].items[j].telecastDate.substring(0, 4)
                         }
 
@@ -127,16 +102,16 @@ url = 'https://wapiv2.voot.com/wsv_1_0/media/assetDetails.json?tabId=shows&subTa
                             "director": '',
                             "release_year": data.assets[0].items[j].yearofRelease,
                             "release_date_formatted": release_date,
-                            "video_length": data.assets[0].items[j].duration,
+                            "video_length": parseInt(data.assets[0].items[j].duration)/1000,
                             "synopsis": data.assets[0].items[j].desc,
                             "genre": data.assets[0].items[j].genre,
                             "stars": [],
                             "language": data.assets[0].items[j].language,
-                            "url": seriesURL,
-                            "episode_number": data.assets[0].items[j].episodeNo,
+                            "series_link": seriesURL,
+                            "episode_number": parseInt(data.assets[0].items[j].episodeNo),
                             "title": data.assets[0].items[j].title,
                             "season_name": 'Season ' + data.assets[0].items[j].season,
-                            "link": seriesURL + '/' + data.assets[0].items[j].title.toLocaleLowerCase().replace("'", "-").replace(/ /g, "-") + '/' + data.assets[0].items[j].mId
+                            "link": seriesURL + '/' + data.assets[0].items[j].title.toLocaleLowerCase().replace(/ |'/g, "-").replace("?", "").replace("!", "") + '/' + data.assets[0].items[j].mId
 
                         })
                     }
