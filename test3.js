@@ -1,63 +1,53 @@
-
-var fs = require("fs");
-var _ = require("lodash");
-
-const Nightmare = require("nightmare");
-const nightmare = Nightmare({
-  show: false
-});
+const puppeteer = require('puppeteer');
+const _ = require('lodash')
+const fs = require('fs')
 
 
-url = "http://www.hungama.com/tv-show/motorcycle-experience/20835799/";
+url = 'https://news.ycombinator.com/show';
 
+(async () => {
+    const browser = await puppeteer.launch({
+        headless: true
+    });
+    const page = await browser.newPage();
+    await page.goto(url)
+    await page.waitForSelector('body')
+    const output = await page.evaluate(() => {
+        jsonData =[]
+        items=[]
+        data = document.querySelectorAll('.athing')
 
-nightmare
-  .goto(url)
-  //.type("#search_form_input_homepage", "github nightmare")
-  //.click("#search_button_homepage")
-  .wait(5000)
-  .evaluate(()=>{
-      var x= []
-      s = document.querySelectorAll('.tvshow')
-      for(i=0;i<s.length;i++)
-        x.push(s[i].title)
-    
-    return x
-  })
-  .then(function (res) {
-      console.log(res)
-      for(j=0;j<res.length;j++){
-        season = res[j]
-      return nightmare
-        .click('a[title="' + res[j] + '"]')
-        .wait("#show_details")
-        .evaluate(() => {
-          episodes = [];
-          jsonData = [];
-          epObj = document
-            .querySelector("#show_details")
-            .querySelectorAll("#pajax_a");
+        for(i=0;i<data.length;i++){
+            items.push({
+                title: data[i].querySelector('.storylink').innerText,
+                url: data[i].querySelector('.storylink').href,
+                urlSource: document.URL,
+                descriptionRaw: data[i].innerHTML,
+                description: data[i].innerText,
+                dateCreated: '',
+                price: '',
+            })
+        }
+        
+ 
+        jsonData.push({
+            siteUrl: document.URL,
+            siteName: document.title,
+            categoryTags: [],
 
-          for (i = 0; i < epObj.length; i++) {
-            episodes.push({
-              episode_name: epObj[i].title,
-              episode_url: epObj[i].href,
-              //season: season
-            });
-          }
-          jsonData.push({
-            url: document.URL,
-            title: document.querySelector(".ttl").innerHTML,
-            episode_details: episodes
-          });
-          return jsonData;
+            items: items
+
         })
-        .then(function(data) {
-          console.log(data);
-          fs.appendFileSync("test3.json", JSON.stringify(data));
-          //nigthmare.end()
-        });
-    }
-  })
-  
-  
+
+        
+        return jsonData
+
+    })
+    
+
+
+    console.log(output)
+    // for(i=0;i<movieData.length;i++)
+    fs.writeFileSync('ycombinator.json', JSON.stringify(output))
+    await browser.close()
+})()

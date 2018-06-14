@@ -1,0 +1,246 @@
+[{
+    "siteUrl": "https://news.ycombinator.com/show",
+    "siteName": "Show | Hacker News",
+    "categoryTags": [],
+    "items": [{
+        "title": "Show HN: Side-Project: Collection of blockchain, ICO and cryptocurrency websites",
+        "url": "https://news.ycombinator.com/item?id=17301564",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">1.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17301564\" href=\"vote?id=17301564&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"item?id=17301564\" class=\"storylink\">Show HN: Side-Project: Collection of blockchain, ICO and cryptocurrency websites</a></td>",
+        "description": "1.\t\nShow HN: Side-Project: Collection of blockchain, ICO and cryptocurrency websites",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Dilay – A free 3D sculpting application",
+        "url": "https://abau.org/dilay/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">2.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17291269\" href=\"vote?id=17291269&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://abau.org/dilay/\" class=\"storylink\">Show HN: Dilay – A free 3D sculpting application</a><span class=\"sitebit comhead\"> (<a href=\"from?site=abau.org\"><span class=\"sitestr\">abau.org</span></a>)</span></td>",
+        "description": "2.\t\nShow HN: Dilay – A free 3D sculpting application (abau.org)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Plot modern addresses on Earth 240M years ago",
+        "url": "http://dinosaurpictures.org/ancient-earth",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">3.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17286770\" href=\"vote?id=17286770&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"http://dinosaurpictures.org/ancient-earth\" class=\"storylink\">Show HN: Plot modern addresses on Earth 240M years ago</a><span class=\"sitebit comhead\"> (<a href=\"from?site=dinosaurpictures.org\"><span class=\"sitestr\">dinosaurpictures.org</span></a>)</span></td>",
+        "description": "3.\t\nShow HN: Plot modern addresses on Earth 240M years ago (dinosaurpictures.org)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Fo: An experimental language which adds generics on top of Go",
+        "url": "https://github.com/albrow/fo",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">4.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294548\" href=\"vote?id=17294548&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/albrow/fo\" class=\"storylink\">Show HN: Fo: An experimental language which adds generics on top of Go</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "4.\t\nShow HN: Fo: An experimental language which adds generics on top of Go (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: NoKey, a Distributed Password Manager Without a Master Password",
+        "url": "https://github.com/Zinggi/NoKey",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">5.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17291987\" href=\"vote?id=17291987&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/Zinggi/NoKey\" class=\"storylink\">Show HN: NoKey, a Distributed Password Manager Without a Master Password</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "5.\t\nShow HN: NoKey, a Distributed Password Manager Without a Master Password (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: T2b – A wicked-powerful text macro language for building binary files",
+        "url": "https://github.com/thosakwe/t2b",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">6.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17289801\" href=\"vote?id=17289801&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/thosakwe/t2b\" class=\"storylink\">Show HN: T2b – A wicked-powerful text macro language for building binary files</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "6.\t\nShow HN: T2b – A wicked-powerful text macro language for building binary files (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: 22 top US newspapers in an RSS OPML list",
+        "url": "https://www.quod.us/article/rss-feeds-for-major-us-newspapers",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">7.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17281824\" href=\"vote?id=17281824&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://www.quod.us/article/rss-feeds-for-major-us-newspapers\" class=\"storylink\">Show HN: 22 top US newspapers in an RSS OPML list</a><span class=\"sitebit comhead\"> (<a href=\"from?site=quod.us\"><span class=\"sitestr\">quod.us</span></a>)</span></td>",
+        "description": "7.\t\nShow HN: 22 top US newspapers in an RSS OPML list (quod.us)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Wallaby – A very Rails admin interface",
+        "url": "https://github.com/reinteractive/wallaby",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">8.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17289590\" href=\"vote?id=17289590&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/reinteractive/wallaby\" class=\"storylink\">Show HN: Wallaby – A very Rails admin interface</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "8.\t\nShow HN: Wallaby – A very Rails admin interface (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Grok, a modern wiki for useful, concise, trustworthy content",
+        "url": "https://grok.how/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">9.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17289639\" href=\"vote?id=17289639&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://grok.how/\" class=\"storylink\">Show HN: Grok, a modern wiki for useful, concise, trustworthy content</a><span class=\"sitebit comhead\"> (<a href=\"from?site=grok.how\"><span class=\"sitestr\">grok.how</span></a>)</span></td>",
+        "description": "9.\t\nShow HN: Grok, a modern wiki for useful, concise, trustworthy content (grok.how)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: A privacy-focused JSON pretty printer",
+        "url": "https://nicejson.com/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">10.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294810\" href=\"vote?id=17294810&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://nicejson.com\" class=\"storylink\" rel=\"nofollow\">Show HN: A privacy-focused JSON pretty printer</a><span class=\"sitebit comhead\"> (<a href=\"from?site=nicejson.com\"><span class=\"sitestr\">nicejson.com</span></a>)</span></td>",
+        "description": "10.\t\nShow HN: A privacy-focused JSON pretty printer (nicejson.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Monthly subscription flights between SF and LA for $105/flight",
+        "url": "https://flyteleport.com/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">11.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17284060\" href=\"vote?id=17284060&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://flyteleport.com\" class=\"storylink\">Show HN: Monthly subscription flights between SF and LA for $105/flight</a><span class=\"sitebit comhead\"> (<a href=\"from?site=flyteleport.com\"><span class=\"sitestr\">flyteleport.com</span></a>)</span></td>",
+        "description": "11.\t\nShow HN: Monthly subscription flights between SF and LA for $105/flight (flyteleport.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: One Click Pose Estimation",
+        "url": "https://github.com/aribornstein/TensorflowJS4Azure/blob/master/README.md",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">12.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17283525\" href=\"vote?id=17283525&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/aribornstein/TensorflowJS4Azure/blob/master/README.md\" class=\"storylink\">Show HN: One Click Pose Estimation</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "12.\t\nShow HN: One Click Pose Estimation (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: UserTesters.io",
+        "url": "https://news.ycombinator.com/item?id=17296355",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">13.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17296355\" href=\"vote?id=17296355&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"item?id=17296355\" class=\"storylink\">Show HN: UserTesters.io</a></td>",
+        "description": "13.\t\nShow HN: UserTesters.io",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: A Site to Compare GitHub Alternatives(Hosted on GitHub)",
+        "url": "https://gitcomp.com/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">14.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17296050\" href=\"vote?id=17296050&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://gitcomp.com/\" class=\"storylink\" rel=\"nofollow\">Show HN: A Site to Compare GitHub Alternatives(Hosted on GitHub)</a><span class=\"sitebit comhead\"> (<a href=\"from?site=gitcomp.com\"><span class=\"sitestr\">gitcomp.com</span></a>)</span></td>",
+        "description": "14.\t\nShow HN: A Site to Compare GitHub Alternatives(Hosted on GitHub) (gitcomp.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: An infinite runner for the command line, because why not",
+        "url": "https://github.com/smallhadroncollider/ascii-runner",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">15.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17282993\" href=\"vote?id=17282993&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/smallhadroncollider/ascii-runner\" class=\"storylink\">Show HN: An infinite runner for the command line, because why not</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "15.\t\nShow HN: An infinite runner for the command line, because why not (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Deploy and Retrain Cutting Edge ML Image Recognition via REST API",
+        "url": "https://modeldepot.io/percept",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">16.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294875\" href=\"vote?id=17294875&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://modeldepot.io/percept\" class=\"storylink\" rel=\"nofollow\">Show HN: Deploy and Retrain Cutting Edge ML Image Recognition via REST API</a><span class=\"sitebit comhead\"> (<a href=\"from?site=modeldepot.io\"><span class=\"sitestr\">modeldepot.io</span></a>)</span></td>",
+        "description": "16.\t\nShow HN: Deploy and Retrain Cutting Edge ML Image Recognition via REST API (modeldepot.io)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Bmarks – a simple tag-based bookmark manager",
+        "url": "https://bmarks.net/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">17.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294594\" href=\"vote?id=17294594&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://bmarks.net/\" class=\"storylink\" rel=\"nofollow\">Show HN: Bmarks – a simple tag-based bookmark manager</a><span class=\"sitebit comhead\"> (<a href=\"from?site=bmarks.net\"><span class=\"sitestr\">bmarks.net</span></a>)</span></td>",
+        "description": "17.\t\nShow HN: Bmarks – a simple tag-based bookmark manager (bmarks.net)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: A simple app to recommend products based on price, reviews, etc.",
+        "url": "https://shopfast.app/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">18.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294541\" href=\"vote?id=17294541&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://shopfast.app/\" class=\"storylink\" rel=\"nofollow\">Show HN: A simple app to recommend products based on price, reviews, etc.</a><span class=\"sitebit comhead\"> (<a href=\"from?site=shopfast.app\"><span class=\"sitestr\">shopfast.app</span></a>)</span></td>",
+        "description": "18.\t\nShow HN: A simple app to recommend products based on price, reviews, etc. (shopfast.app)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: ReportBugz Chrome Extension – Report Bugs in Few Clicks for Any Web App",
+        "url": "https://chrome.google.com/webstore/detail/ofiojppigemglgceonhmkkainfbiibke",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">19.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17294220\" href=\"vote?id=17294220&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://chrome.google.com/webstore/detail/ofiojppigemglgceonhmkkainfbiibke\" class=\"storylink\" rel=\"nofollow\">Show HN: ReportBugz Chrome Extension – Report Bugs in Few Clicks for Any Web App</a><span class=\"sitebit comhead\"> (<a href=\"from?site=chrome.google.com\"><span class=\"sitestr\">chrome.google.com</span></a>)</span></td>",
+        "description": "19.\t\nShow HN: ReportBugz Chrome Extension – Report Bugs in Few Clicks for Any Web App (chrome.google.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Interactive guitar scales diagrams",
+        "url": "https://grunfy.com/scaler.html",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">20.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17272516\" href=\"vote?id=17272516&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://grunfy.com/scaler.html\" class=\"storylink\">Show HN: Interactive guitar scales diagrams</a><span class=\"sitebit comhead\"> (<a href=\"from?site=grunfy.com\"><span class=\"sitestr\">grunfy.com</span></a>)</span></td>",
+        "description": "20.\t\nShow HN: Interactive guitar scales diagrams (grunfy.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: JavaScript has Yarn, Ruby has Bundler, and now R has Jetpack",
+        "url": "https://github.com/ankane/jetpack",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">21.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17287422\" href=\"vote?id=17287422&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/ankane/jetpack\" class=\"storylink\" rel=\"nofollow\">Show HN: JavaScript has Yarn, Ruby has Bundler, and now R has Jetpack</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "21.\t\nShow HN: JavaScript has Yarn, Ruby has Bundler, and now R has Jetpack (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: wicked-predictive power for founders hiring",
+        "url": "https://moonshotinsights.io/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">22.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17293483\" href=\"vote?id=17293483&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://moonshotinsights.io/\" class=\"storylink\" rel=\"nofollow\">Show HN: wicked-predictive power for founders hiring</a><span class=\"sitebit comhead\"> (<a href=\"from?site=moonshotinsights.io\"><span class=\"sitestr\">moonshotinsights.io</span></a>)</span></td>",
+        "description": "22.\t\nShow HN: wicked-predictive power for founders hiring (moonshotinsights.io)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: I am bootstrapping a video-based Duolingo competitor",
+        "url": "https://seedlang.com/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">23.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17279322\" href=\"vote?id=17279322&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://seedlang.com/\" class=\"storylink\">Show HN: I am bootstrapping a video-based Duolingo competitor</a><span class=\"sitebit comhead\"> (<a href=\"from?site=seedlang.com\"><span class=\"sitestr\">seedlang.com</span></a>)</span></td>",
+        "description": "23.\t\nShow HN: I am bootstrapping a video-based Duolingo competitor (seedlang.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: ChromeREPL, Interact with Chrome from Sublime Text",
+        "url": "https://github.com/acarabott/chromeREPL",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">24.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17279737\" href=\"vote?id=17279737&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/acarabott/chromeREPL\" class=\"storylink\">Show HN: ChromeREPL, Interact with Chrome from Sublime Text</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "24.\t\nShow HN: ChromeREPL, Interact with Chrome from Sublime Text (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: KeyBox – Web-Based Bastion Host and SSH Key Management",
+        "url": "https://github.com/skavanagh/KeyBox/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">25.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17292024\" href=\"vote?id=17292024&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://github.com/skavanagh/KeyBox/\" class=\"storylink\" rel=\"nofollow\">Show HN: KeyBox – Web-Based Bastion Host and SSH Key Management</a><span class=\"sitebit comhead\"> (<a href=\"from?site=github.com\"><span class=\"sitestr\">github.com</span></a>)</span></td>",
+        "description": "25.\t\nShow HN: KeyBox – Web-Based Bastion Host and SSH Key Management (github.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: 60GS – CSS Grid Layout",
+        "url": "https://vladocar.github.io/60gs/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">26.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17291697\" href=\"vote?id=17291697&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://vladocar.github.io/60gs/\" class=\"storylink\" rel=\"nofollow\">Show HN: 60GS – CSS Grid Layout</a><span class=\"sitebit comhead\"> (<a href=\"from?site=vladocar.github.io\"><span class=\"sitestr\">vladocar.github.io</span></a>)</span></td>",
+        "description": "26.\t\nShow HN: 60GS – CSS Grid Layout (vladocar.github.io)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: All* Perfect Pangrams of English",
+        "url": "https://medium.com/@FallingForFallacies/all-perfect-pangrams-of-english-8c8d0f621bee",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">27.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17293820\" href=\"vote?id=17293820&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://medium.com/@FallingForFallacies/all-perfect-pangrams-of-english-8c8d0f621bee\" class=\"storylink\" rel=\"nofollow\">Show HN: All* Perfect Pangrams of English</a><span class=\"sitebit comhead\"> (<a href=\"from?site=medium.com\"><span class=\"sitestr\">medium.com</span></a>)</span></td>",
+        "description": "27.\t\nShow HN: All* Perfect Pangrams of English (medium.com)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Postkit – Effortlessly create API endpoints in your browser",
+        "url": "https://postkit.io/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">28.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17291313\" href=\"vote?id=17291313&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://postkit.io\" class=\"storylink\" rel=\"nofollow\">Show HN: Postkit – Effortlessly create API endpoints in your browser</a><span class=\"sitebit comhead\"> (<a href=\"from?site=postkit.io\"><span class=\"sitestr\">postkit.io</span></a>)</span></td>",
+        "description": "28.\t\nShow HN: Postkit – Effortlessly create API endpoints in your browser (postkit.io)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Quiz that estimates your engineer level",
+        "url": "http://www.engquiz.me/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">29.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17284288\" href=\"vote?id=17284288&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"http://www.engquiz.me/\" class=\"storylink\" rel=\"nofollow\">Show HN: Quiz that estimates your engineer level</a><span class=\"sitebit comhead\"> (<a href=\"from?site=engquiz.me\"><span class=\"sitestr\">engquiz.me</span></a>)</span></td>",
+        "description": "29.\t\nShow HN: Quiz that estimates your engineer level (engquiz.me)",
+        "dateCreated": "",
+        "price": ""
+    }, {
+        "title": "Show HN: Find and mentor at high school hackathons near you",
+        "url": "https://hackathons.hackclub.com/",
+        "urlSource": "https://news.ycombinator.com/show",
+        "descriptionRaw": "\n      <td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">30.</span></td>      <td valign=\"top\" class=\"votelinks\"><center><a id=\"up_17289469\" href=\"vote?id=17289469&amp;how=up&amp;goto=show\"><div class=\"votearrow\" title=\"upvote\"></div></a></center></td><td class=\"title\"><a href=\"https://hackathons.hackclub.com/\" class=\"storylink\" rel=\"nofollow\">Show HN: Find and mentor at high school hackathons near you</a><span class=\"sitebit comhead\"> (<a href=\"from?site=hackclub.com\"><span class=\"sitestr\">hackclub.com</span></a>)</span></td>",
+        "description": "30.\t\nShow HN: Find and mentor at high school hackathons near you (hackclub.com)",
+        "dateCreated": "",
+        "price": ""
+    }]
+}]
