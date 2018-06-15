@@ -123,7 +123,7 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
       for (s = 0; s < temp.length; s++) {
         seasons.push({
           season_id: temp[s].id,
-          season_title: temp[s].title
+          season_title: temp[s].titlesrvz2
         });
       }
       jsonData.push({
@@ -192,7 +192,7 @@ url = "https://www.zee5.com/tvshows/all"; //zee movies all;
           genre: genre,
           stars:  data.episodes[k].actors,
           language: "",
-          url: 'https://zee5vod.akamaized.net'+data.episodes[k].url
+          link: 'https://www.zee5.com/tvshows/details/'+data.tvshow.id+data.episodes[k].url
         });
 
       }
