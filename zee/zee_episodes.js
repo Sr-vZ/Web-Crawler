@@ -46,16 +46,16 @@ lang_list = {
       pageURL = 'https://catalogapi.zee5.com/v1/season/' + seriesID[i] + '?asset_subtype=episode&translation=en&sort_by_field=index&sort_order=DESC&country=IN&page_size=100&page=' + pageNo
       await page.goto(pageURL);
       await page.waitForSelector("body");
-      var episodeDetails = await page.evaluate(() => {
+      var episodeDetails = await page.evaluate((lang_list) => {
         data = JSON.parse(document.querySelector('pre').innerText)
 
         jsonData = []
-
+        for(k=0;k<data.episodes.length;k++){
         jsonData.push({
-          series_name: '', // String | For series name,
-          title: '', //String | For episode title,
-          language: '', //String | For language of this series,
-          episode_number: null, //Integer | For episode number
+          series_name: data.title, // String | For series name,
+          title: data.episodes[k].title, //String | For episode title,
+          language: lang_list[data.episodes[k].video.audiotracks[0]], //String | For language of this series,
+          episode_number: data.episodes[k].index, //Integer | For episode number
           season_name: '', //String | Should be formatted like Season 1, Season 2.
           release_date_formatted: '', //String | If full date is available then only this parameter should be used. Format - %d-%B-%Y - for ex: 17-May-2018, 23-November-2018, 02-December-2018.
           release_year: null, //Integer | Many times only release year is present. Should be only used if only release year data is available and not full date. Either use release_year or release_date_formatted.
@@ -68,8 +68,8 @@ lang_list = {
           director: '', //String | If only one director name is available.
 
 
-        })
-
+        },lang_list)
+      }
 
 
       })
