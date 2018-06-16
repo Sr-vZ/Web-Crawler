@@ -32,11 +32,19 @@ lang_list = {
 
   for (i = 0; i < seriesID.length; i++) {
     // episodeURL = 'https://catalogapi.zee5.com/v1/season/0-2-KundaliBhagya1?asset_subtype=episode&translation=en&sort_by_field=index&sort_order=DESC&country=IN&page_size=100&page=2'
-    fetchURL = 'https://catalogapi.zee5.com/v1/season/' + seriesID[i] + '?asset_subtype=episode&translation=en&sort_by_field=index&sort_order=DESC&country=IN&page_size=100&page=1'
+    seriesURL = 'https://catalogapi.zee5.com/v1/tvshow/'+seriesID[i]+'?translation=en&country=IN'
+    var seasonID = await page.evaluate(() => {
+      jsonData=[]
+      JSON.parse(document.querySelector('pre').innerText);
+
+      return jsonData
+    });
+
+    fetchURL = 'https://catalogapi.zee5.com/v1/season/' + seasonID[i] + '?asset_subtype=episode&translation=en&sort_by_field=index&sort_order=DESC&country=IN&page_size=100&page=1'
     await page.goto(fetchURL);
     await page.waitForSelector("body");
 
-    const totalEpisodes = await page.evaluate(() => {
+    var totalEpisodes = await page.evaluate(() => {
       return JSON.parse(document.querySelector('pre').innerText).total;
     });
     fetchTimes = Math.round(totalEpisodes / 100)
