@@ -7,20 +7,47 @@ url = 'http://www.crunchyroll.com/videos/anime';
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: true
+        headless: false
     });
     const page = await browser.newPage();
     await page.goto(url);
     await page.waitForSelector("body");
 
-    const animeList = await page.evaluate(() => {
+    console.log('Scrolling through page');
+
+    await page.evaluate(async () => {
         load_more = document.querySelector('.load-more')
         style = window.getComputedStyle(load_more)
+        
+        await new Promise((resolve, reject) => {
+            try {
+                const maxScroll = Number.MAX_SAFE_INTEGER;
+                let lastScroll = 0;
+                const interval = setInterval(() => {
+                    window.scrollBy(0, 500);
+                    const scrollTop = document.documentElement.scrollTop;
+                    if (scrollTop === maxScroll || scrollTop === lastScroll) {
+                        clearInterval(interval);
+                        resolve();
+                    } else {
+                        lastScroll = scrollTop;
+                        
+                    }
+                    while (style.display != 'none') {
+                        load_more.click()
+                    }
+                }, 500);
+            } catch (err) {
+                console.log(err);
+                reject(err.toString());
+            }
+        });
+    });
 
-        while (style.display != 'none') {
-            load_more.click()
 
-        }
+    const animeList = await page.evaluate(() => {
+        
+
 
 
         data = document.querySelectorAll('.hover-bubble')
@@ -107,9 +134,9 @@ url = 'http://www.crunchyroll.com/videos/anime';
             if (td.indexOf(',') > 0)
                 rd = td.split(' ')[1].replace(',', '') + '-' + td.split(' ')[0] + '-' + td.split(' ')[2]
 
-            title =''
-            if(document.querySelector('#showmedia_about_name')!==null)
-            title = document.querySelector('#showmedia_about_name').innerText.replace('“', '').replace('”', '')
+            title = ''
+            if (document.querySelector('#showmedia_about_name') !== null)
+                title = document.querySelector('#showmedia_about_name').innerText.replace('“', '').replace('”', '')
             jsonData.push({
                 synopsis: document.querySelector('.description').innerText.replace('less', ''),
                 release_date_formatted: rd,
