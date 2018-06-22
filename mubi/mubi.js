@@ -6,11 +6,12 @@ url = 'https://mubi.com/films?sort=title';
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: false
+        headless: true
     });
     const page = await browser.newPage();
     await page.setDefaultNavigationTimeout(0)
     await page.goto(url);
+    
     // await page.waitForSelector("body");
     await page.waitFor("body");
 
@@ -19,6 +20,7 @@ url = 'https://mubi.com/films?sort=title';
         return parseInt(p[p.length - 1].innerText)
     })
     // pages = 2 //for test run
+    movies = []
     for (i = 0; i < pages; i++) {
         pagedURL = 'https://mubi.com/films?page=' + (i + 1) + '&sort=title'
         await page.goto(pagedURL);
@@ -29,14 +31,14 @@ url = 'https://mubi.com/films?sort=title';
             })
  */
 
-        // await page.waitFor(1000);
-        page.waitForNavigation({
-            waitUntil: 'domcontentloaded'
-        })
+        await page.waitFor(1000);
+        // page.waitForNavigation({
+        //     waitUntil: 'domcontentloaded'
+        // })
 
         console.log(i + ' of ' + pages + ' pagedURL: ' + pagedURL)
 
-        var movies = await page.evaluate(() => {
+        var movieDetails = await page.evaluate(() => {
             data = document.querySelectorAll('.film-tile')
             jsonData = []
             imgSrc = ''
@@ -52,8 +54,12 @@ url = 'https://mubi.com/films?sort=title';
             }
             return jsonData
         })
-
+        movies = movies.concat(movieDetails)
     }
+    console.log(movies.length)
+    
+    fs.writeFileSync('mubi_movieList.json',JSON.stringify(movies))
+    
     mubiDB = []
     for (i = 0; i < movies.length; i++) {
         movieURL = movies[i].movieLink
@@ -65,10 +71,10 @@ url = 'https://mubi.com/films?sort=title';
                 console.log(err)
                 return
             }) */
-        // await page.waitFor(1000);
-        page.waitForNavigation({
-            waitUntil: 'domcontentloaded'
-        })
+        await page.waitFor(1000);
+        // page.waitForNavigation({
+        //     waitUntil: 'domcontentloaded'
+        // })
         console.log(i + ' of ' + movies.length + ' movie url: ' + movieURL)
 
         var movieDetails = await page.evaluate((title, imgLink) => {
@@ -113,10 +119,10 @@ url = 'https://mubi.com/films?sort=title';
                 return
             })
  */
-        // await page.waitFor(1000);
-        page.waitForNavigation({
-            waitUntil: 'domcontentloaded'
-        })
+        await page.waitFor(1000);
+        // page.waitForNavigation({
+        //     waitUntil: 'domcontentloaded'
+        // })
         var castDetails = await page.evaluate(() => {
             stars = []
             data = document.querySelectorAll('.cast_member')
@@ -142,3 +148,8 @@ url = 'https://mubi.com/films?sort=title';
     fs.writeFileSync('mubi.json', JSON.stringify(mubiDB))
     await browser.close();
 })();
+process.on("unhandledRejection", (reason, p) => {
+    console.error("Unhandled Rejection at: Promise", p, "reason:", reason);
+    // browser.close();
+    page.reload()
+  });
