@@ -1,0 +1,137 @@
+const puppeteer = require("puppeteer");
+const fs = require("fs");
+
+url = 'https://www.hmnow.com/movies/movies-az?type=list';
+
+(async () => {
+    const browser = await puppeteer.launch({
+        headless: true
+    });
+    const page = await browser.newPage();
+    await page.setDefaultNavigationTimeout(0)
+    await page.goto(url);
+
+    // await page.waitForSelector("body");
+    await page.waitFor("body");
+
+
+    movies = []
+    await page.evaluate(async () => {
+        await new Promise((resolve, reject) => {
+            try {
+                const maxScroll = Number.MAX_SAFE_INTEGER;
+                let lastScroll = 0;
+                const interval = setInterval(() => {
+                    window.scrollBy(0, 500);
+                    const scrollTop = document.documentElement.scrollTop;
+                    if (scrollTop === maxScroll || scrollTop === lastScroll) {
+                        clearInterval(interval);
+                        resolve();
+                    } else {
+                        lastScroll = scrollTop;
+                    }
+                }, 200);
+            } catch (err) {
+                console.log(err);
+                reject(err.toString());
+            }
+        });
+    });
+
+    const movieList = await page.evaluate(() => {
+
+        jsonData = []
+        data = document.querySelectorAll('.row.item')
+        for (i = 0; i < data.length; i++) {
+            temp = data[i].querySelector('.list-unstyled').innerText.replace('Runtime:', '').trim().split(' ')
+            hour = parseInt(temp[0])
+            min = parseInt(temp[2])
+            seconds = (hour * 60 + min) * 60
+            jsonData.push({
+                movieLink: data[i].querySelector('a').href,
+                imgLink: data[i].querySelector('img').src,
+                synopsis: data[i].querySelectorAll('p')[1].innerText,
+                duration: seconds
+            })
+        }
+        return jsonData
+    })
+    fs.writeFileSync('hallmark_movieList.json', JSON.stringify(movieList))
+
+    hallmarkDB = []
+    for (i = 0; i < movieList.length; i++) {
+        movieURL = movieList[i].movieLink
+        // title = movies[i].movieTitle
+        imgLink = movieList[i].movieImg
+        duration = movieList[i].duration
+        synopsis = movieList[i].synopsis
+
+        await page.goto(movieURL);
+        /* await page.waitForSelector("body")
+            .catch(err => {
+                console.log(err)
+                return
+            }) */
+        await page.waitForSelector('body');
+        // page.waitForNavigation({
+        //     waitUntil: 'domcontentloaded'
+        // })
+        console.log(i + ' of ' + movieList.length + ' movie url: ' + movieURL)
+
+        var movieDetails = await page.evaluate((imgLink, duration, synopsis) => {
+            jsonData = []
+
+            release_year = 0
+            cast = []
+            if (document.querySelector('#details > div.row.preview > div > div:nth-child(2) > div > p:nth-child(2)')) {
+                temp = document.querySelector('#details > div.row.preview > div > div:nth-child(2) > div > p:nth-child(2)').innerText.replace('Starring: ', '').split(',')
+                for(c=0;c<temp.length;c++){
+                    cast.push({
+                        name: temp[c].trim(),
+                        image_link:''
+                    })
+                }
+            }
+
+
+            if (document.querySelector('h2'))
+                title = document.querySelector('h2').innerText
+            if (document.querySelector('#expanded-details > div > div > div:nth-child(1) > p:nth-child(4)'))
+                release_year = parseInt(document.querySelector('#expanded-details > div > div > div:nth-child(1) > p:nth-child(4)').innerText)
+            jsonData.push({
+                // anime_name: anime_name, // String | For anime name,
+                title: title, //String | For episode title,
+                // language: '', //String | For language of this anime,
+                // episode_number: (j + 1), //Integer | For episode number
+                // season_name: 'Season ' + (s + 1), //String | Should be formatted like Season 1, Season 2.
+                // release_date_formatted: '', //String | If full date is available then only this parameter should be used. Format - %d-%B-%Y - for ex: 17-May-2018, 23-November-2018, 02-December-2018.
+                release_year: release_year, //Integer | Many times only release year is present. Should be only used if only release year data is available and not full date. Either use release_year or release_date_formatted.
+                synopsis: synopsis, //String | Episode synopsis
+                link: document.URL, //String | Episode link
+                // anime_link: anime_link, //String | If anime link is different then episode link.
+                video_length: duration, //Integer | In seconds. Always convert the episode length to time in seconds.
+                image_link: imgLink, //String | episode image link.
+                stars: cast, //Array of Dictionary: [{"name": "Actor name", "image_link": "Actor image link if available"}].
+                // directors: directors //Array of string | If multiple director names available.
+            })
+            return jsonData
+        }, imgLink, duration, synopsis)
+
+
+
+
+
+
+        hallmarkDB = hallmarkDB.concat(movieDetails)
+    }
+
+
+
+    fs.writeFileSync('hallmark_movies.json', JSON.stringify(hallmarkDB))
+    await browser.close();
+})();
+process.on("unhandledRejection", (reason, p) => {
+    console.error("Unhandled Rejection at: Promise", p, "reason:", reason);
+    // browser.close();
+    // page.reload()
+});
