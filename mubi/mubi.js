@@ -3,12 +3,13 @@ const fs = require("fs");
 
 url = 'https://mubi.com/films?sort=title';
 
+let page
 
 (async () => {
     const browser = await puppeteer.launch({
         headless: true
     });
-    const page = await browser.newPage();
+    page = await browser.newPage();
     await page.setDefaultNavigationTimeout(0)
     await page.goto(url);
     
