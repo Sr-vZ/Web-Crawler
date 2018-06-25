@@ -12,7 +12,7 @@ for (i = 0; i < tmp.length; i++) {
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: false
+        headless: true
     });
     numOfTabs = 2
     for (t = 0; t < numOfTabs; t++) {

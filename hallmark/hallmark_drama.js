@@ -101,7 +101,7 @@ url = 'https://www.hmnow.com/tv/series?type=list';
                 tmp = table[0].querySelector('a').innerText.split(',')
                 // if (document.querySelector('h2'))
                 title = table[t].querySelector('td:nth-child(2)').innerText
-                duration = parseInt(table[t].querySelector('td:nth-child(3)').innerText.split(' ')[0])*60
+                duration = duration = (parseInt(table[t].querySelector('td:nth-child(3)').innerText.split(' ')[0]) * 60 + parseInt(table[t].querySelector('td:nth-child(3)').innerText.split(' ')[2])) * 60
                 // if (document.querySelector('#expanded-details > div > div > div:nth-child(1) > p:nth-child(4)'))
                 //     release_year = parseInt(document.querySelector('#expanded-details > div > div > div:nth-child(1) > p:nth-child(4)').innerText)
                 jsonData.push({

@@ -1,0 +1,25 @@
+{
+  "name": "upwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upwork.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "SrvZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issues"
+  },
+  "homepage": "https://github.com/#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "lodash": "^4.17.10",
+    "puppeteer": "^1.4.0",
+    "request": "^2.85.0"
+  }
+}
