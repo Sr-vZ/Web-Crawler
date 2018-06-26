@@ -1,0 +1,35 @@
+I think I am understanding the problem. Thanks for simplifying it. waitFor expects to return a value. But evaluate returns a Promise. So that's why it is not working. This is not a problem of the module but rather problem with waitFor. Since everything is executed asynchronously then you have to wait for the value.
+
+I think what you want is more of a function like this:
+
+function waitUntil(asyncTest) {
+    return new Promise(function(resolve, reject) {
+        function wait() {
+            console.log('loop...')
+            asyncTest().then(function(value) {
+                console.log('value', value)
+                if (value === true) {
+                    resolve();
+                } else {
+                    setTimeout(wait, 100);
+                }
+            }).catch(function(e) {
+                console.log('Error found. Rejecting.', e);
+                reject();
+            });
+        }
+        wait();
+    });
+}
+
+Then you could do
+
+waitUtil(function() {
+    return sitepage.evaluate(function() {
+        return document.querySelectorAll('.content > ul > li').length > 1;
+    })
+}).then(function(){
+  // evaluate is true
+})
+
+I only tested this quickly. You probably want to implement maxTries or something similar.
