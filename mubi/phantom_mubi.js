@@ -14,6 +14,7 @@ mubiDB = [];
 (async function () {
     const instance = await phantom.create(['--webdriver-loglevel=ERROR', '--load-images=no']);
     const page = await instance.createPage();
+    // page.settings.resourceTimeout = 0
     // await page.on('onResourceRequested', function (requestData) {
     //     console.info('Requesting', requestData.url);
     // });
@@ -22,14 +23,24 @@ mubiDB = [];
     // const content = await page.property('content');
     // console.log(content);
 
-    for (i = 0; i < length ; i++) {
+    for (i = 0; i < length; i++) {
         movieURL = movies[i].movieLink
         title = movies[i].movieTitle
         imgLink = movies[i].movieImg
 
-        console.log((i+1) + ' of ' + movieURLS.length + ' movie url: ' + movieURL)
+        console.log((i + 1) + ' of ' + movieURLS.length + ' movie url: ' + movieURL)
         const status = await page.open(movieURLS[i])
-        const movieDetails = await page.evaluate(function (title, imgLink){
+        const content = await page.property('content');
+        console.log(content);
+        // await page.on('onLoadFinished', function (status) {
+        //     console.log(status)
+
+        // })
+        await page.on('onResourceRequested', function (requestData) {
+            // console.info('Requesting', requestData.url);
+        });
+
+        const movieDetails = await page.evaluate(function (title, imgLink) {
             jsonData = []
 
             duration = 0;
@@ -66,7 +77,7 @@ mubiDB = [];
 
         await page.open(castURL);
 
-        var castDetails = await page.evaluate(function(){
+        var castDetails = await page.evaluate(function () {
             stars = []
             data = document.querySelectorAll('.cast_member')
             for (c = 0; c < data.length; c++) {
@@ -89,3 +100,27 @@ mubiDB = [];
     fs.writeFileSync('mubi.json', JSON.stringify(mubiDB))
     await instance.exit();
 })();
+
+
+function waitFor(testFx, onReady, timeOutMillis) {
+    var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 3000, //< Default Max Timout is 3s
+        start = new Date().getTime(),
+        condition = false,
+        interval = setInterval(function () {
+            if ((new Date().getTime() - start < maxtimeOutMillis) && !condition) {
+                // If not time-out yet and condition not yet fulfilled
+                condition = (typeof (testFx) === "string" ? eval(testFx) : testFx()); //< defensive code
+            } else {
+                if (!condition) {
+                    // If condition still not fulfilled (timeout but condition is 'false')
+                    console.log("'waitFor()' timeout");
+                    phantom.exit(1);
+                } else {
+                    // Condition fulfilled (timeout and/or condition is 'true')
+                    console.log("'waitFor()' finished in " + (new Date().getTime() - start) + "ms.");
+                    typeof (onReady) === "string" ? eval(onReady) : onReady(); //< Do what it's supposed to do once the condition is fulfilled
+                    clearInterval(interval); //< Stop this interval
+                }
+            }
+        }, 250); //< repeat check every 250ms
+};
