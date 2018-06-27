@@ -54,7 +54,7 @@ async function getData(tabIndex, movieURL, title, imgLink) {
             console.log(err)
             return
         }) */
-    await page[tabIndex].waitFor(1000);
+    await page[tabIndex].waitForSelector('body');
     // page.waitForNavigation({
     //     waitUntil: 'domcontentloaded'
     // })
@@ -102,7 +102,7 @@ async function getData(tabIndex, movieURL, title, imgLink) {
             return
         })
 */
-    await page[tabIndex].waitFor(1000);
+    await page[tabIndex].waitForSelector('body');
     // page.waitForNavigation({
     //     waitUntil: 'domcontentloaded'
     // })

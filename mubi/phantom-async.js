@@ -3,18 +3,20 @@ const fs = require('fs')
 
 movies = JSON.parse(fs.readFileSync('mubi_movieList.json'));
 movieURLS = []
+movieDetails=[]
+castDetails=[]
 length = movies.length
 length = 50
 for (i = 0; i < length; i++) {
     movieURLS[i] = movies[i].movieLink
     // movies[i] = tmp[i]
 }
-
-mubiDB = [];
-i=0;
+let page,
+    mubiDB = [];
+i = 0;
 (async function () {
     const instance = await phantom.create(['--webdriver-loglevel=ERROR', '--load-images=no']);
-    const page = await instance.createPage();
+    page = await instance.createPage();
     // page.settings.resourceTimeout = 0
     // await page.on('onResourceRequested', function (requestData) {
     //     console.info('Requesting', requestData.url);
@@ -25,25 +27,39 @@ i=0;
     // console.log(content);
 
     // for (i = 0; i < length; i++) {
-    for (url of movieURLS){
+    for (const url of movieURLS) {
         movieURL = movies[i].movieLink
         title = movies[i].movieTitle
         imgLink = movies[i].movieImg
 
-        console.log((i++) + ' of ' + movieURLS.length + ' movie url: ' + movieURL)
-        var status = await page.open(movieURLS[i])
-        var content = await page.property('content');
-        console.log(content);
-        // await page.on('onLoadFinished', function (status) {
-        //     console.log(status)
+        // console.log((i++) + ' of ' + movieURLS.length + ' movie url: ' + movieURL)
+        await pageFunction(url, title, imgLink)
+    }
 
-        // })
-        await page.on('onResourceRequested', function (requestData) {
-            // console.info('Requesting', requestData.url);
-        });
+    fs.writeFileSync('mubi.json', JSON.stringify(mubiDB))
+    await instance.exit();
+})();
 
-        
-        var movieDetails = await page.evaluate(function (title, imgLink) {
+
+
+
+async function pageFunction(url, title, imgLink) {
+
+    console.log((i++) + ' of ' + movieURLS.length + ' movie url: ' + url)
+
+    var status = await page.open(url)
+    var content = await page.property('content');
+    // console.log(content);
+    // await page.on('onLoadFinished', function (status) {
+    //     console.log(status)
+
+    // })
+    await page.on('onResourceRequested', function (requestData) {
+        // console.info('Requesting', requestData.url);
+    });
+    await page.on('onLoadFinished', async function (requestData) {
+        // console.info('Requesting', requestData.url);
+        movieDetails = await page.evaluate(function (title, imgLink) {
             jsonData = []
 
             duration = 0;
@@ -76,11 +92,16 @@ i=0;
             })
             return jsonData
         }, title, imgLink)
-        castURL = movieURL + '/cast'
+    });
 
-        await page.open(castURL);
 
-        var castDetails = await page.evaluate(function () {
+    castURL = movieURL + '/cast'
+
+    await page.open(castURL);
+    var content = await page.property('content');
+    await page.on('onLoadFinished', async function (requestData) {
+        // console.info('Requesting', requestData.url);
+        castDetails =  await page.evaluate(function () {
             stars = []
             data = document.querySelectorAll('.cast_member')
             for (c = 0; c < data.length; c++) {
@@ -94,37 +115,10 @@ i=0;
             }
             return stars
         })
-
-        movieDetails.stars = castDetails
-
-        mubiDB = mubiDB.concat(movieDetails)
-    }
-
-    fs.writeFileSync('mubi.json', JSON.stringify(mubiDB))
-    await instance.exit();
-})();
+    });
 
 
-function waitFor(testFx, onReady, timeOutMillis) {
-    var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 3000, //< Default Max Timout is 3s
-        start = new Date().getTime(),
-        condition = false,
-        interval = setInterval(function () {
-            if ((new Date().getTime() - start < maxtimeOutMillis) && !condition) {
-                // If not time-out yet and condition not yet fulfilled
-                condition = (typeof (testFx) === "string" ? eval(testFx) : testFx()); //< defensive code
-            } else {
-                if (!condition) {
-                    // If condition still not fulfilled (timeout but condition is 'false')
-                    console.log("'waitFor()' timeout");
-                    phantom.exit(1);
-                } else {
-                    // Condition fulfilled (timeout and/or condition is 'true')
-                    console.log("'waitFor()' finished in " + (new Date().getTime() - start) + "ms.");
-                    typeof (onReady) === "string" ? eval(onReady) : onReady(); //< Do what it's supposed to do once the condition is fulfilled
-                    clearInterval(interval); //< Stop this interval
-                }
-            }
-        }, 250); //< repeat check every 250ms
-};
+    movieDetails[0].stars = castDetails
 
+    mubiDB = mubiDB.concat(movieDetails)
+}
