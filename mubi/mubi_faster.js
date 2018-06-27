@@ -1,6 +1,6 @@
 const fs = require('fs')
 const puppeteer = require('puppeteer')
-var page = []
+var page = [],browser=[]
 tmp = JSON.parse(fs.readFileSync('mubi_movieList.json'));
 movieURLS = []
 for (i = 0; i < tmp.length; i++) {
@@ -16,7 +16,10 @@ for (i = 0; i < tmp.length; i++) {
     });
     numOfTabs = 2
     for (t = 0; t < numOfTabs; t++) {
-        page[t] = await browser.newPage();
+        browser[t] = await puppeteer.launch({
+            headless: true
+        });
+        page[t] = await browser[t].newPage();
         await page[t].setDefaultNavigationTimeout(0)
     }
 
