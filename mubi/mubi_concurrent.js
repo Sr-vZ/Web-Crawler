@@ -20,7 +20,10 @@ tmp = JSON.parse(fs.readFileSync('mubi_movieList.json'));
 movieURLS = [], titles = [], imgLinks = []
 length = tmp.length
 // length = 50
-for (i = 0; i < length; i++) {
+start = 4000;
+end = 6000
+// for(i = 0; i < length; i++) {
+for (i = start; i < end; i++) {
     movieURLS[i] = tmp[i].movieLink
     titles[i] = tmp[i].movieTitle
     imgLinks[i] = tmp[i].movieImg
@@ -160,7 +163,8 @@ const promiseProducer = () => {
         // Print results.
         console.log('Results:');
         console.log(JSON.stringify(results, null, 2));
-        fs.writeFileSync('mubi_test4.json', JSON.stringify(mubiDB, null, 2))
+        // fs.writeFileSync('mubi_test4.json', JSON.stringify(mubiDB, null, 2))
+        fs.appendFileSync('mubi_test4.json', JSON.stringify(mubiDB, null, 2))
         // await Apify.setValue('OUTPUT', results);
         await browser.close();
     } catch (error) {
