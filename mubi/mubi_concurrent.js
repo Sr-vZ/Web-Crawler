@@ -105,7 +105,7 @@ const crawlUrl = async (url) => {
         release_year = 0
         if (document.querySelector('time'))
             duration = parseInt(document.querySelector('time').innerText) * 60
-        if (document.querySelector('.film-show__descriptions__synopsis'))
+        if (document.querySelector('.film-show__descriptions__synopsis').querySelector('p'))
             synopsis = document.querySelector('.film-show__descriptions__synopsis').querySelector('p').innerText
         if (document.querySelector('.listed-directors'))
             directors = document.querySelector('.listed-directors').innerText.split(',')
@@ -146,18 +146,24 @@ const promiseProducer = () => {
 
 (async () => {
     // Starts browser.
-    browser = await puppeteer.launch({
-        headless: true
-    });
+    try {
 
-    // Runs thru all the urls in a pool of given concurrency.
-    const pool = new PromisePool(promiseProducer, CONCURRENCY);
-    await pool.start();
 
-    // Print results.
-    console.log('Results:');
-    console.log(JSON.stringify(results, null, 2));
-    fs.writeFileSync('mubi_test4.json', JSON.stringify(mubiDB, null, 2))
-    // await Apify.setValue('OUTPUT', results);
-    await browser.close();
+        browser = await puppeteer.launch({
+            headless: true
+        });
+
+        // Runs thru all the urls in a pool of given concurrency.
+        const pool = new PromisePool(promiseProducer, CONCURRENCY);
+        await pool.start();
+
+        // Print results.
+        console.log('Results:');
+        console.log(JSON.stringify(results, null, 2));
+        fs.writeFileSync('mubi_test4.json', JSON.stringify(mubiDB, null, 2))
+        // await Apify.setValue('OUTPUT', results);
+        await browser.close();
+    } catch (error) {
+        console.log('error caught: ' + error)
+    }
 })();
