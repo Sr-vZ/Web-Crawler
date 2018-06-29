@@ -20,8 +20,8 @@ tmp = JSON.parse(fs.readFileSync('mubi_movieList.json'));
 movieURLS = [], titles = [], imgLinks = []
 length = tmp.length
 // length = 50
-start = 4000;
-end = 6000
+start = 9000;
+end = 9984;
 // for(i = 0; i < length; i++) {
 for (i = start; i < end; i++) {
     movieURLS[i] = tmp[i].movieLink
