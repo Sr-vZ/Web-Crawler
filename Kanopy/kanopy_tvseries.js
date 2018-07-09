@@ -1,20 +1,13 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
+const cheerio = require('cheerio')
 
 
-temp = JSON.parse(fs.readFileSync('kanopy_movieList.json'))
 
-movieURLS = []
-kanopyDB = []
-movieLinks =[]
-for(i=0;i<temp.length;i++){
-    movieURLS[i] = temp [i].movieLink
-    movieLinks[i] = temp[i].movieLink
-}
-
-url = 'http://www.kanopy.com/catalog/movies-tv';
+url = 'http://www.kanopy.com/catalog/movies/tv-series';
 
 
+html=[]
 (async () => {
 
     const browser = await puppeteer.launch({
@@ -28,12 +21,68 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
     // console.log('Scrolling through page');
 
     // await autoScroll(page);
+    var pages = await page.evaluate(() => {
+        p = document.querySelector('.ui.pagination.inverted.menu').querySelectorAll('.do-search.item')
+        return parseInt(p[p.length - 1].innerText)
+    })
+    // pages = 2 //for test run
+    console.log('total pages: ' + pages)
+
+    for (i = 0; i < pages; i++) {
+        // http://www.kanopy.com/catalog/movies-tv?space=videos&sm_vid_3=%22Movies%22&page=1&rows=20&sort=most-popular
+        // http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22Movies%22&sort=most-popular&page=2&rows=20
+        pagedURL = 'http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22Movies%22&sort=most-popular&page=' + i + '&rows=20'
+
+        await page.goto(pagedURL);
+
+
+        await page.waitForSelector("body");
+
+
+        console.log(i + ' of ' + pages + ' pagedURL: ' + pagedURL)
+
+        var movieDetails = await page.evaluate(() => {
+            // cheerio = require('cheerio')
+            // data = document.querySelector('.ui.divided.items').querySelectorAll('.item')
+            jsonData = []
+            imgSrc = ''
+            
+            data = JSON.parse(document.querySelector('pre').innerText)
+            
+            return data.results
+        })
+        movies = movies.concat(movieDetails)
+    }
+    const $ = cheerio.load(html)
+    jsonData = []
+    kanopyURL = 'http://www.kanopy.com'
+
+    $('.ui.divided.items > .item').each(function (i, elem) {
+        console.log(i + ' ' + $(this).find('.content > a').text())
+        jsonData.push({
+            movieTitle: $(this).find('.content > a').text(),
+            movieLink: kanopyURL + $(this).find('.content > a').attr('href'),
+            movieImg: kanopyURL + $(this).find('img').attr('src')
+        })
+    })
+    
+    fs.writeFileSync('kanopy_seriesList.json', JSON.stringify(jsonData, null, 2))
+
+        temp = JSON.parse(fs.readFileSync('kanopy_movieList.json'))
+
+        movieURLS = []
+        kanopyDB = []
+        movieLinks = []
+        for (i = 0; i < temp.length; i++) {
+            movieURLS[i] = temp[i].movieLink
+            movieLinks[i] = temp[i].movieLink
+        }
 
     for (i = 0; i < movieLinks.length; i++) {
         movieURL = movieLinks[i]
         // title = movies[i].movieTitle
-        imgLink = temp[i].movieImg
-        title = temp[i].movieTitle
+        imgLink = temp[i].imgLink
+        title = temp[i].title
 
         await page.goto(movieURL);
         
@@ -90,7 +139,7 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
             jsonData.push({
                 // anime_name: anime_name, // String | For anime name,
                 title: title, //String | For episode title,
-                language: language, //String | For language of this anime,
+                language: '', //String | For language of this anime,
                 // episode_number: (j + 1), //Integer | For episode number
                 // season_name: 'Season ' + (s + 1), //String | Should be formatted like Season 1, Season 2.
                 // release_date_formatted: release_date_formatted, //String | If full date is available then only this parameter should be used. Format - %d-%B-%Y - for ex: 17-May-2018, 23-November-2018, 02-December-2018.
@@ -105,7 +154,6 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
                 director: director //String | If only one director name is available.
             })
             return jsonData
-
         }, imgLink, title)
 
 
