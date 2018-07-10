@@ -3,11 +3,11 @@ const fs = require("fs");
 const cheerio = require('cheerio')
 
 
-
+html = []
 url = 'http://www.kanopy.com/catalog/movies/tv-series';
 
 
-html=[]
+
 (async () => {
 
     const browser = await puppeteer.launch({
@@ -30,8 +30,8 @@ html=[]
 
     for (i = 0; i < pages; i++) {
         // http://www.kanopy.com/catalog/movies-tv?space=videos&sm_vid_3=%22Movies%22&page=1&rows=20&sort=most-popular
-        // http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22Movies%22&sort=most-popular&page=2&rows=20
-        pagedURL = 'http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22Movies%22&sort=most-popular&page=' + i + '&rows=20'
+        // http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22TV+Series%22&page=1&rows=20&sort=most-popular
+        pagedURL = 'http://www.kanopy.com/s/search?space=videos&sm_vid_3=%22TV+Series%22&page=' + i + '&rows=20&sort=most-popular'
 
         await page.goto(pagedURL);
 
@@ -46,13 +46,15 @@ html=[]
             // data = document.querySelector('.ui.divided.items').querySelectorAll('.item')
             jsonData = []
             imgSrc = ''
-            
+
             data = JSON.parse(document.querySelector('pre').innerText)
-            
+
             return data.results
         })
-        movies = movies.concat(movieDetails)
+        html = html.concat(movieDetails)
     }
+    fs.writeFileSync('series.html',html)
+    html = fs.readFileSync('series.html')
     const $ = cheerio.load(html)
     jsonData = []
     kanopyURL = 'http://www.kanopy.com'
@@ -65,29 +67,29 @@ html=[]
             movieImg: kanopyURL + $(this).find('img').attr('src')
         })
     })
-    
+
     fs.writeFileSync('kanopy_seriesList.json', JSON.stringify(jsonData, null, 2))
 
-        temp = JSON.parse(fs.readFileSync('kanopy_movieList.json'))
+    temp = JSON.parse(fs.readFileSync('kanopy_seriesList.json'))
 
-        movieURLS = []
-        kanopyDB = []
-        movieLinks = []
-        for (i = 0; i < temp.length; i++) {
-            movieURLS[i] = temp[i].movieLink
-            movieLinks[i] = temp[i].movieLink
-        }
+    movieURLS = []
+    kanopyDB = []
+    movieLinks = []
+    for (i = 0; i < temp.length; i++) {
+        movieURLS[i] = temp[i].movieLink
+        movieLinks[i] = temp[i].movieLink
+    }
 
     for (i = 0; i < movieLinks.length; i++) {
         movieURL = movieLinks[i]
         // title = movies[i].movieTitle
-        imgLink = temp[i].imgLink
-        title = temp[i].title
+        imgLink = temp[i].movieImg
+        title = temp[i].movieTitle
 
         await page.goto(movieURL);
-        
+
         await page.waitForSelector('body');
-        
+
         console.log(i + ' of ' + movieLinks.length + ' movie url: ' + movieURL)
 
         var movieDetails = await page.evaluate((imgLink, title) => {
@@ -100,11 +102,11 @@ html=[]
             duration = 0
 
             if (document.querySelector('.ui.grid.features')) {
-                if (document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column') && document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column') ){
+                if (document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column') && document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column')) {
                     tags = document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column')
                     values = document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column')
-                    for(t=0;t<tags.length;t++){
-                        if (tags[t].innerText ==='Features'){
+                    for (t = 0; t < tags.length; t++) {
+                        if (tags[t].innerText === 'Features') {
                             temp = values[t].innerText.split(', ')
                             for (c = 0; c < temp.length; c++) {
                                 cast.push({
@@ -113,29 +115,29 @@ html=[]
                                 })
                             }
                         }
-                        if (tags[t].innerText === 'Filmmakers'){
+                        if (tags[t].innerText === 'Filmmakers') {
                             director = values[t].innerText
                         }
-                        if (tags[t].innerText === 'Languages'){
+                        if (tags[t].innerText === 'Languages') {
                             language = values[t].innerText
                         }
-                        if (tags[t].innerText === 'Year'){
+                        if (tags[t].innerText === 'Year') {
                             release_year = parseInt(values[t].innerText)
                         }
                         if (tags[t].innerText === 'Running Time') {
-                            duration = parseInt(values[t].innerText.replace('mins',''))*60
+                            duration = parseInt(values[t].innerText.replace('mins', '')) * 60
                         }
                     }
                 }
-            
-                
+
+
             }
-            
-            
+
+
             if (document.querySelector('.product-body'))
                 synopsis = document.querySelector('.product-body').innerText
-            
-            
+
+
             jsonData.push({
                 // anime_name: anime_name, // String | For anime name,
                 title: title, //String | For episode title,
@@ -164,10 +166,6 @@ html=[]
         kanopyDB = kanopyDB.concat(movieDetails)
     }
 
-        fs.writeFileSync('kanopy_movies.json', JSON.stringify(kanopyDB, null, 2))
+    fs.writeFileSync('kanopy_tvseries.json', JSON.stringify(kanopyDB, null, 2))
     await browser.close();
 })();
-
-
-
-

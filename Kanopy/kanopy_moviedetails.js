@@ -6,9 +6,9 @@ temp = JSON.parse(fs.readFileSync('kanopy_movieList.json'))
 
 movieURLS = []
 kanopyDB = []
-movieLinks =[]
-for(i=0;i<temp.length;i++){
-    movieURLS[i] = temp [i].movieLink
+movieLinks = []
+for (i = 0; i < temp.length; i++) {
+    movieURLS[i] = temp[i].movieLink
     movieLinks[i] = temp[i].movieLink
 }
 
@@ -18,7 +18,7 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
 (async () => {
 
     const browser = await puppeteer.launch({
-        headless: true
+        headless: false
     });
     // var url = 'https://www.zee5.com/movies/all'; //zee movies all;
     const page = await browser.newPage();
@@ -30,15 +30,16 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
     // await autoScroll(page);
 
     for (i = 0; i < movieLinks.length; i++) {
+    // for (i = 0; i < 10; i++) { //test run
         movieURL = movieLinks[i]
         // title = movies[i].movieTitle
         imgLink = temp[i].movieImg
         title = temp[i].movieTitle
 
         await page.goto(movieURL);
-        
+
         await page.waitForSelector('body');
-        
+
         console.log(i + ' of ' + movieLinks.length + ' movie url: ' + movieURL)
 
         var movieDetails = await page.evaluate((imgLink, title) => {
@@ -51,11 +52,11 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
             duration = 0
 
             if (document.querySelector('.ui.grid.features')) {
-                if (document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column') && document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column') ){
+                if (document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column') && document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column')) {
                     tags = document.querySelector('.ui.grid.features').querySelectorAll('.five.wide.column')
                     values = document.querySelector('.ui.grid.features').querySelectorAll('.eleven.wide.column')
-                    for(t=0;t<tags.length;t++){
-                        if (tags[t].innerText ==='Features'){
+                    for (t = 0; t < tags.length; t++) {
+                        if (tags[t].innerText === 'Features') {
                             temp = values[t].innerText.split(', ')
                             for (c = 0; c < temp.length; c++) {
                                 cast.push({
@@ -64,29 +65,29 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
                                 })
                             }
                         }
-                        if (tags[t].innerText === 'Filmmakers'){
+                        if (tags[t].innerText === 'Filmmakers') {
                             director = values[t].innerText
                         }
-                        if (tags[t].innerText === 'Languages'){
+                        if (tags[t].innerText === 'Languages') {
                             language = values[t].innerText
                         }
-                        if (tags[t].innerText === 'Year'){
+                        if (tags[t].innerText === 'Year') {
                             release_year = parseInt(values[t].innerText)
                         }
                         if (tags[t].innerText === 'Running Time') {
-                            duration = parseInt(values[t].innerText.replace('mins',''))*60
+                            duration = parseInt(values[t].innerText.replace('mins', '')) * 60
                         }
                     }
                 }
-            
-                
+
+
             }
-            
-            
+
+
             if (document.querySelector('.product-body'))
                 synopsis = document.querySelector('.product-body').innerText
-            
-            
+
+
             jsonData.push({
                 // anime_name: anime_name, // String | For anime name,
                 title: title, //String | For episode title,
@@ -116,10 +117,6 @@ url = 'http://www.kanopy.com/catalog/movies-tv';
         kanopyDB = kanopyDB.concat(movieDetails)
     }
 
-        fs.writeFileSync('kanopy_movies.json', JSON.stringify(kanopyDB, null, 2))
+    fs.writeFileSync('kanopy_movies.json', JSON.stringify(kanopyDB, null, 2))
     await browser.close();
 })();
-
-
-
-
