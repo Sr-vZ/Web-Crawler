@@ -25,6 +25,8 @@
     "es6-promise-pool": "^2.5.0",
     "event-stream": "^3.3.4",
     "ffprobe": "^1.1.0",
+    "ffprobe-static": "^2.0.0",
+    "fluent-ffmpeg": "^2.1.2",
     "lodash": "^4.17.10",
     "modern-random-ua": "^1.0.3",
     "nightmare": "^3.0.1",
