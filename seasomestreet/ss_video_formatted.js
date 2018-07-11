@@ -12,7 +12,7 @@ for(i=0;i<temp.length;i++){
 jsonData = []
     jsonData.push({
         title: temp[i].title,
-        video_length: meta[i].video_length,
+        // video_length: meta[i].video_length,
         synopsis: temp[i].parenttip,
         image_link: temp[i].thumbnail,
         link: temp[i].downloadUrl

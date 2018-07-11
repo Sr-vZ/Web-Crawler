@@ -1,13 +1,20 @@
-Unpaid Sites
+Unpaid Sites:
 Crunchyroll
 Hallmark
 mubi
 LycaTv
 kanopy
-
-
+seasomestreet
+noggin
 
 
 
 
 https://us.hbomax.tv/peliculas hboplus films
+
+Next will be: Viceland
+https://www.viceland.com/en_us/shows
+
+crackle:
+https://web-api-us.crackle.com/Service.svc/browse/movies/full/all/alpha-asc/US/20/4?format=json
+https://web-api-us.crackle.com/Service.svc/browse/shows/full/all/alpha-asc/US/20/2?format=json
