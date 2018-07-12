@@ -18,3 +18,6 @@ https://www.viceland.com/en_us/shows
 crackle:
 https://web-api-us.crackle.com/Service.svc/browse/movies/full/all/alpha-asc/US/20/4?format=json
 https://web-api-us.crackle.com/Service.svc/browse/shows/full/all/alpha-asc/US/20/2?format=json
+
+https://web-api-us.crackle.com/Service.svc/channel/1489/playlists/all/US?format=json
+https://web-api-us.crackle.com/Service.svc/nowplaying/2487189/1490/US?format=json
