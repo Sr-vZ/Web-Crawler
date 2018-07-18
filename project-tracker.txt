@@ -6,11 +6,7 @@ LycaTv
 kanopy
 seasomestreet
 noggin
-<<<<<<< HEAD
 Viceland
-=======
-viceland
->>>>>>> 902f6a1039674c2dc8b58609d819de0a3699d765
 
 
 
