@@ -1,0 +1,97 @@
+[
+  {
+    "seriesName": "PAW Patrol",
+    "seriesURL": "http://www.nickjr.tv/paw-patrol/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=paw-patrol&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Shimmer and Shine",
+    "seriesURL": "http://www.nickjr.tv/shimmer-and-shine/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=shimmer-and-shine&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Top Wing",
+    "seriesURL": "http://www.nickjr.tv/top-wing/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=top-wing&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Sunny Day",
+    "seriesURL": "http://www.nickjr.tv/sunny-day/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=sunny-day&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Kiva Can Do",
+    "seriesURL": "http://www.nickjr.tv/kiva-can-do/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=kiva-can-do&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Blaze and the Monster Machines",
+    "seriesURL": "http://www.nickjr.tv/blaze-and-the-monster-machines/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=blaze-and-the-monster-machines&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Nella the Princess Knight",
+    "seriesURL": "http://www.nickjr.tv/nella-the-princess-knight/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=nella-the-princess-knight&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Rusty Rivets",
+    "seriesURL": "http://www.nickjr.tv/rusty-rivets/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=rusty-rivets&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Bubble Guppies",
+    "seriesURL": "http://www.nickjr.tv/bubble-guppies/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=bubble-guppies&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Nick Jr Shorts",
+    "seriesURL": "http://www.nickjr.tv/nick-jr-shorts/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=nick-jr-shorts&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Dora the Explorer",
+    "seriesURL": "http://www.nickjr.tv/dora-the-explorer/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=dora-the-explorer&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Dora and Friends: Into the City!",
+    "seriesURL": "http://www.nickjr.tv/dora-and-friends/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=dora-and-friends&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Fresh Beat Band of Spies",
+    "seriesURL": "http://www.nickjr.tv/fresh-beat-band-of-spies/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=fresh-beat-band-of-spies&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Wallykazam!",
+    "seriesURL": "http://www.nickjr.tv/wallykazam/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=wallykazam&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Little Charmers",
+    "seriesURL": "http://www.nickjr.tv/little-charmers/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=little-charmers&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Team Umizoomi",
+    "seriesURL": "http://www.nickjr.tv/team-umizoomi/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=team-umizoomi&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Go, Diego, Go!",
+    "seriesURL": "http://www.nickjr.tv/go-diego-go/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=go-diego-go&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Max and Ruby",
+    "seriesURL": "http://www.nickjr.tv/max-and-ruby/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=max-and-ruby&apiKey=global_Nickjr_web"
+  },
+  {
+    "seriesName": "Zack & Quack",
+    "seriesURL": "http://www.nickjr.tv/zack-and-quack/",
+    "seriesAPI": "http://www.nickjr.tv/data/property.json?urlKey=zack-and-quack&apiKey=global_Nickjr_web"
+  }
+]
