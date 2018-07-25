@@ -38,3 +38,5 @@ https://web-api-us.crackle.com/Service.svc/browse/shows/full/all/alpha-asc/US/20
 
 https://web-api-us.crackle.com/Service.svc/channel/1489/playlists/all/US?format=json
 https://web-api-us.crackle.com/Service.svc/nowplaying/2487189/1490/US?format=json
+
+http://pluto.tv/guide/all
