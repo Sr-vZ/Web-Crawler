@@ -1,4 +1,11 @@
-Unpaid Sites:
+Paid Sites:
+youtube
+voot
+hooq
+hungama
+yupp
+zee
+---------------
 Crunchyroll
 Hallmark
 mubi
@@ -7,8 +14,17 @@ kanopy
 seasomestreet
 noggin
 Viceland
--------------------------
-spuul
+---------------
+
+Received till date:
+25/07/2018 3200
+           3200
+           3200
+
+Unpaid Sites:
+Spuul
+crackle
+
 
 
 https://us.hbomax.tv/peliculas hboplus films
@@ -22,3 +38,5 @@ https://web-api-us.crackle.com/Service.svc/browse/shows/full/all/alpha-asc/US/20
 
 https://web-api-us.crackle.com/Service.svc/channel/1489/playlists/all/US?format=json
 https://web-api-us.crackle.com/Service.svc/nowplaying/2487189/1490/US?format=json
+
+http://pluto.tv/guide/all
