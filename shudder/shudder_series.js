@@ -1,7 +1,7 @@
 const fs = require("fs");
 const puppeteer = require("puppeteer");
 
-temp = JSON.parse(fs.readFileSync('seriesLinks.json'))
+temp = JSON.parse(fs.readFileSync('shudder_seriesLinks.json'))
 
 seriesLinks = []
 
@@ -14,7 +14,7 @@ url = seriesLinks[0];
 (async () => {
     const browser = await puppeteer.launch({
         args: [
-            "--proxy-server=167.99.156.53:8080"
+            "--proxy-server=104.245.69.26:3128"
         ],
         headless: false
     });
