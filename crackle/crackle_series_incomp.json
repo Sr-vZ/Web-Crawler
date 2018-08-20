@@ -1,5 +1,8 @@
 [
   {
+    "seriesID": 513,
+    "episodeID": 2479492,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479492/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The New Boss",
     "episode_number": 1,
@@ -12,57 +15,12 @@
     "video_length": 1327,
     "image_link": "https://images-us-am.crackle.com/1/h/ul/wc4wb_tnl_1920x1080.jpg?ts=20171116191222",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Andrew Friedman",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Evie Peck",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Don Perry",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479495,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479495/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The Miracle Worker",
     "episode_number": 2,
@@ -75,65 +33,12 @@
     "video_length": 1327,
     "image_link": "https://images-us-am.crackle.com/1/h/ul/0c4wb_tnl_1920x1080.jpg?ts=20171116191225",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Tessa Vonn",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Samantha Tannenbaum",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Diana Morgan",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Raymond Ochoa",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Jack Wallace",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479491,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479491/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Health Insurance",
     "episode_number": 3,
@@ -146,53 +51,12 @@
     "video_length": 1326,
     "image_link": "https://images-us-am.crackle.com/1/g/ul/vc4wb_tnl_1920x1080.jpg?ts=20171116191221",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Caryne Shea",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " David Wiater",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479489,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479489/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "What Women Want",
     "episode_number": 4,
@@ -205,57 +69,12 @@
     "video_length": 1325,
     "image_link": "https://images-us-am.crackle.com/1/g/ul/tc4wb_tnl_1920x1080.jpg?ts=20171116191218",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Kate Mulligan",
-        "image_link": ""
-      },
-      {
-        "name": " Don Perry",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Julie Mitchell",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Walter Addison",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479494,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479494/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Bag It",
     "episode_number": 5,
@@ -268,53 +87,12 @@
     "video_length": 1327,
     "image_link": "https://images-us-am.crackle.com/1/h/ul/zc4wb_tnl_1920x1080.jpg?ts=20171116191224",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Tim Bagley",
-        "image_link": ""
-      },
-      {
-        "name": " Daniel T. Parker",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479493,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479493/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "To Heir Is Human",
     "episode_number": 1,
@@ -327,53 +105,12 @@
     "video_length": 1327,
     "image_link": "https://images-us-am.crackle.com/1/h/ul/yc4wb_tnl_1920x1080.jpg?ts=20171116191223",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Edith Jefferson",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Evie Peck",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479490,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479490/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "First Time",
     "episode_number": 2,
@@ -386,49 +123,12 @@
     "video_length": 1329,
     "image_link": "https://images-us-am.crackle.com/1/g/ul/uc4wb_tnl_1920x1080.jpg?ts=20171116191219",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Rene Ashton",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479496,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479496/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Dollar Day",
     "episode_number": 3,
@@ -441,61 +141,12 @@
     "video_length": 1329,
     "image_link": "https://images-us-am.crackle.com/1/i/ul/1c4wb_tnl_1920x1080.jpg?ts=20171116191227",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Ryan Gaul",
-        "image_link": ""
-      },
-      {
-        "name": " Hamilton Von Watts",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Diana Morgan",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Daniel T. Parker",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479507,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479507/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The Bromance",
     "episode_number": 4,
@@ -508,53 +159,12 @@
     "video_length": 1329,
     "image_link": "https://images-us-am.crackle.com/1/k/ul/cd4wb_tnl_1920x1080.jpg?ts=20171116191239",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Allison Dunbar",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Paul Scheer",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479504,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479504/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Forever Young",
     "episode_number": 5,
@@ -567,57 +177,12 @@
     "video_length": 1327,
     "image_link": "https://images-us-am.crackle.com/1/k/ul/9c4wb_tnl_1920x1080.jpg?ts=20171116191236",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Emanuel Borria",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Raymond Ochoa",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Valery Ortiz",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479506,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479506/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Amy Strikes Back",
     "episode_number": 6,
@@ -630,61 +195,12 @@
     "video_length": 1329,
     "image_link": "https://images-us-am.crackle.com/1/k/ul/bd4wb_tnl_1920x1080.jpg?ts=20171116191238",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Pat Crawford Brown",
-        "image_link": ""
-      },
-      {
-        "name": " Jane Morris",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Evie Peck",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Dee Ryan",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479499,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479499/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Illegal Alien",
     "episode_number": 7,
@@ -697,61 +213,12 @@
     "video_length": 1330,
     "image_link": "https://images-us-am.crackle.com/1/i/ul/4c4wb_tnl_1920x1080.jpg?ts=20171116191230",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Craig Anton",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Matt Griesser",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Mike Mauloff",
-        "image_link": ""
-      },
-      {
-        "name": " Daniel T. Parker",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479498,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479498/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The Ren Fair",
     "episode_number": 8,
@@ -764,57 +231,12 @@
     "video_length": 1329,
     "image_link": "https://images-us-am.crackle.com/1/i/ul/3c4wb_tnl_1920x1080.jpg?ts=20171116191229",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Tim Bagley",
-        "image_link": ""
-      },
-      {
-        "name": " Ralph Garman",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Eileen Galindo",
-        "image_link": ""
-      },
-      {
-        "name": " Jennifer Elise Cox",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479500,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479500/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Turkey Bowling",
     "episode_number": 1,
@@ -827,53 +249,12 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/j/ul/5c4wb_tnl_1920x1080.jpg?ts=20171116191231",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Kim Coles",
-        "image_link": ""
-      },
-      {
-        "name": " Ralph Garman",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Hamilton Von Watts",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479497,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479497/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Sesquicentennial",
     "episode_number": 2,
@@ -886,57 +267,12 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/i/ul/2c4wb_tnl_1920x1080.jpg?ts=20171116191228",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Erin Chambers",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Galen Gering",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Laura Margolis",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Don Perry",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479502,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479502/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Star Trok",
     "episode_number": 3,
@@ -949,53 +285,12 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/j/ul/7c4wb_tnl_1920x1080.jpg?ts=20171116191234",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Jolene Blalock",
-        "image_link": ""
-      },
-      {
-        "name": " Andrew Friedman",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Dov Tiefenbach",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479512,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479512/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "Eye Can See Clearly...",
     "episode_number": 4,
@@ -1008,57 +303,12 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/m/ul/hd4wb_tnl_1920x1080.jpg?ts=20171116191242",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Tim Bagley",
-        "image_link": ""
-      },
-      {
-        "name": " Evie Peck",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Andrew Friedman",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Raymond Ochoa",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479505,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479505/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The Whistler",
     "episode_number": 5,
@@ -1071,49 +321,12 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/k/ul/ad4wb_tnl_1920x1080.jpg?ts=20171116191237",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Kim Coles",
-        "image_link": ""
-      },
-      {
-        "name": " Ralph Garman",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479501,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479501/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "One Day At A Time",
     "episode_number": 6,
@@ -1126,49 +339,12 @@
     "video_length": 1268,
     "image_link": "https://images-us-am.crackle.com/1/j/ul/6c4wb_tnl_1920x1080.jpg?ts=20171116191232",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "Jane Morris",
-        "image_link": ""
-      },
-      {
-        "name": " John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Daniel T. Parker",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
+    "seriesID": 513,
+    "episodeID": 2479511,
+    "castURL": "https://web-api-us.crackle.com/Service.svc/nowplaying/2479511/513/US?format=json",
     "series_name": "10 Items Or Less",
     "title": "The Milkman",
     "episode_number": 7,
@@ -1181,47 +357,7 @@
     "video_length": 1267,
     "image_link": "https://images-us-am.crackle.com/1/l/ul/gd4wb_tnl_1920x1080.jpg?ts=20171116191240",
     "stars": [],
-    "directors": [
-      "Nancy Hower"
-    ],
-    "cast": [
-      {
-        "name": "John Lehr",
-        "image_link": ""
-      },
-      {
-        "name": " Kim Coles",
-        "image_link": ""
-      },
-      {
-        "name": " Kirk Ward",
-        "image_link": ""
-      },
-      {
-        "name": " Robert Clendenin",
-        "image_link": ""
-      },
-      {
-        "name": " Greg Davis Jr.",
-        "image_link": ""
-      },
-      {
-        "name": " Chris Payne Gilbert",
-        "image_link": ""
-      },
-      {
-        "name": " Kirsten Gronfield",
-        "image_link": ""
-      },
-      {
-        "name": " Christopher Liam Moore",
-        "image_link": ""
-      },
-      {
-        "name": " Roberta Valderrama",
-        "image_link": ""
-      }
-    ]
+    "directors": []
   },
   {
     "seriesID": 513,
