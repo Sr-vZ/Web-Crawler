@@ -20,9 +20,10 @@ tmp = JSON.parse(fs.readFileSync('movie_id.json'));
 movieURLS = [], titles = [], imgLinks = [], mID = [], synopsis = [], rel_date = []
 length = tmp.length
 // length = 50
+console.log(length)
 totalMovies=8770
-start = 1000;
-end = 2000;
+start = 8000;
+end = 8757;
 // for(i = 0; i < length; i++) {
 for (i = start; i < end; i++) {
     movieURLS[i] = tmp[i].movieLink
