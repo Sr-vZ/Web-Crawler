@@ -1,0 +1,3392 @@
+[
+  {
+    "Product Name": "Method Minnie Mouse Shampoo + Body Wash, Strawberry Fizz",
+    "Product Image": "https://static.ewg.org/skindeep/img/product_images/productimage_594476.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/594476/Method_Minnie_Mouse_Shampoo_%2B_Body_Wash%2C_Strawberry_Fizz/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 73.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 76
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "LIMONENE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Developmental/reproductive toxicity",
+        "Score": 6,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "HEXYL CINNAMAL",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity",
+        "Score": 5,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "DISODIUM LAUROAMPHODIACETATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "OCTANOHYDROXAMIC ACID\nCAPRYLHYDROXAMIC ACID",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM COCO-SULFATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM OLEAMIDO MIPA SULFOSUCCINATE",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CAPRYLYL GLYCOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PROPANEDIOL",
+        "Concerns": "Irritation (skin, eyes, or lungs)",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Miss Jessie's Super Slip Sudsy Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/641344/Miss_Jessie%27s_Super_Slip_Sudsy_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 70.66684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 46.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PEG-55 PROPYLENE GLYCOL OLEATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYSORBATE-20",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-7",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ACRYLAMIDE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PROPYLENE GLYCOL",
+        "Concerns": "Enhanced skin absorption, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Allergies/immunotoxicity, Use restrictions",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "DISODIUM COCOAMPHODIPROPIONATE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 2,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "ISOSTEARYL ETHYLIMIDAZOLINIUM ETHOSULFATE\nISOSTEARYL ETHYLIMIDAZOLINIUM ETHOSULPHATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCOL STEARATE",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "AMMONIUM LAURYL SULFATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Mop Top Gentle Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/683945/Mop_Top_Gentle_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 10
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 70.66684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 44.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "STEARETH-4",
+        "Concerns": "Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SORBIC ACID",
+        "Concerns": "Allergies/immunotoxicity, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TOCOPHERYL ACETATE",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Ecotoxicology, Contamination concerns (HYDROQUINONE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "ALOE BARBADENSIS (ALOE VERA) LEAF EXTRACT\nALOE BARBADENSIS LEAF EXTRACT",
+        "Concerns": "Use restrictions, Cancer, Data gaps",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "HYDROXYPROPYLTRIMONIUM HONEY",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SILK AMINO ACIDS",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "RED ALGAE EXTRACT\nHYPNEA MUSCIFORMIS (RED ALGA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "ATLANTIC RED SEAWEED EXTRACT\nGELIDIELA ACEROSA (RED SEAWEED) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "HIMANTHALIA ELONGATA (BROWN ALGAE) EXTRACT\nSARGASSUM FILIPENDULA (BROWN ALGA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "URTICA DIOICA (NETTLE) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SALIX ALBA (WHITE WILLOW) BARK EXTRACT\nSALIX ALBA (WILLOW) BARK EXTRACT",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SORBITOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCOL DISTEARATE",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ETHYLHEXYLGLYCERIN",
+        "Concerns": "Irritation (skin, eyes, or lungs)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Mop Top Gentle Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/641356/Mop_Top_Gentle_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 10
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 71.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 44
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PEG-18 GLYCERYL OLEATE/ COCOATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SORBIC ACID",
+        "Concerns": "Allergies/immunotoxicity, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TOCOPHERYL ACETATE",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Ecotoxicology, Contamination concerns (HYDROQUINONE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "ALOE BARBADENSIS (ALOE VERA) LEAF EXTRACT\nALOE BARBADENSIS LEAF EXTRACT",
+        "Concerns": "Use restrictions, Cancer, Data gaps",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM METHYL COCOYL TAURATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "HYDROXYPROPYLTRIMONIUM HONEY",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SILK AMINO ACIDS",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "HYPNEA MUSCIFORMIS (HYPNEACEAE) EXTRACT\nHYPNEA MUSCIFORMIS EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GELLIDIELA ACEROSA EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SARGASSUM FILIPENDULA (SARGASSUM WEED) EXTRACT\nSARGASSUM FILIPENDULA EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "URTICA DIOICA (NETTLE) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED WHEAT PROTEIN",
+        "Concerns": "Allergies/immunotoxicity",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SALIX ALBA (WHITE WILLOW) BARK EXTRACT\nSALIX ALBA (WILLOW) BARK EXTRACT",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED GLYCINE SOJA (SOY) PROTEIN\nHYDROLYZED SOY PROTEIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SORBITOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCOL STEARATE",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CAPRYLYL GLYCOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Mustela Bebe 2-in-1 Hair and Body Wash",
+    "Product Image": "https://static.ewg.org/skindeep/img/product_images/productimage_599346.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/599346/Mustela_Bebe_2-in-1_Hair_and_Body_Wash/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 71.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 46
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PEG-3 DISTEARATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Data gaps, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PEG-150 DISTEARATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Data gaps, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "POTASSIUM SORBATE",
+        "Concerns": "Allergies/immunotoxicity, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PERSEA GRATISSIMA (AVOCADO) FRUIT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCOL DISTEARATE",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10\nPOLYQUARTERNIUM 10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCERYL CAPRYLATE",
+        "Concerns": "Enhanced skin absorption",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM MYRETH SULFATE",
+        "Concerns": "Use restrictions, Data gaps",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nature's Gate Calming Shampoo Tea Tree",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684185/Nature%27s_Gate_Calming_Shampoo_Tea_Tree/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 67.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 36.00000000000001
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM HYDROXIDE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Irritation (skin, eyes, or lungs)",
+        "Score": 0,
+        "Data": ""
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYSORBATE-20",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "VEGETABLE GLYCERIN\nGLYCERIN (VEGETABLE DERIVED)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED VEGETABLE PROTEIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BORAGO OFFICINALIS (BORAGE) SEED OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HAMAMELIS VIRGINIANA (WITCH HAZEL) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "MELISSA OFFICINALIS (LEMON BALM) EXTRACT\nMELISSA OFFICINALIS (BALM MINT) EXTRACT",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "URTICA DIOICA (NETTLE) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "NASTURTIUM OFFICINALE (WATERCRESS) EXTRACT\nNASTURTIUM OFFICINALE (WATERCRESS) FLOWER/LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "QUILLAJA SAPONARIA (SOAPBARK) BARK EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCERYL UNDECYLENATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED GLYCINE SOJA (SOY) PROTEIN\nHYDROLYZED SOY PROTEIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HUMULUS LUPULUS (HOPS) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM COCOAMPHODIACETATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "MELALEUCA ALTERNIFOLIA (TEA TREE) LEAF OIL",
+        "Concerns": "Endocrine disruption, Allergies/immunotoxicity",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SAPONIFIED SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL\n[PRODUCT OF SODIUM HYDROXIDE AND SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL]",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ASCORBIC ACID (VITAMIN C)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "ASCORBYL PALMITATE (VITAMIN C PALMITATE)",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROXYPROPYL METHYLCELLULOSE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TOCOPHEROL",
+        "Concerns": "Cancer, Contamination concerns (HYDROQUINONE)",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "LAURYL GLUCOSIDE",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM COCOYL ISETHIONATE",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nature's Gate Volumizing Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684215/Nature%27s_Gate_Volumizing_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 67.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 37.33331578947369
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM HYDROXIDE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Irritation (skin, eyes, or lungs)",
+        "Score": 0,
+        "Data": ""
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYSORBATE-20",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "BETULA ALBA (BIRCH) LEAF EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "VEGETABLE GLYCERIN\nGLYCERIN (VEGETABLE DERIVED)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HEDYCHIUM CORONARIUM (BUTTERFLY GINGER) ROOT EXTRACT\nHEDYCHIUM CORONARIUM (HAWAIIAN WHITE GINGER/AWAPUHI) ROOT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED VEGETABLE PROTEIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BORAGO OFFICINALIS (BORAGE) SEED OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "EQUISETUM ARVENSE (HORSETAIL) LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "QUILLAJA SAPONARIA (SOAPBARK) BARK EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCERYL UNDECYLENATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CALENDULA OFFICINALIS (POT MARIGOLD) FLOWER EXTRACT\nCALENDULA OFFICINALIS FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED GLYCINE SOJA (SOY) PROTEIN\nHYDROLYZED SOY PROTEIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PRUNUS SEROTINA (WILD CHERRY) EXTRACT\nPRUNUS SEROTINA (WILD CHERRY) BARK EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HUMULUS LUPULUS (HOPS) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ALGAE EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CARAMEL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM COCOAMPHODIACETATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SAPONIFIED SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL\n[PRODUCT OF SODIUM HYDROXIDE AND SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL]",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ASCORBIC ACID (VITAMIN C)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "ASCORBYL PALMITATE (VITAMIN C PALMITATE)",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROXYPROPYL METHYLCELLULOSE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TOCOPHEROL",
+        "Concerns": "Cancer, Contamination concerns (HYDROQUINONE)",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "LAURYL GLUCOSIDE",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM COCOYL ISETHIONATE",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nioxin Cleanser Fine Hair 1 Shampooing",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684633/Nioxin_Cleanser_Fine_Hair_1_Shampooing/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 21.333315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 47.33331578947369
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "METHYLPARABEN",
+        "Concerns": "Endocrine disruption, Allergies/immunotoxicity, Biochemical or cellular level changes, Use restrictions",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SALICYLIC ACID",
+        "Concerns": "Enhanced skin absorption, Multiple, additive exposure sources, Use restrictions, Irritation (skin, eyes, or lungs)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "LECITHIN",
+        "Concerns": "Multiple, additive exposure sources, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM LAURETH SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM BENZOATE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Data gaps",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ ZINC FERMENT",
+        "Concerns": "Use restrictions, Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PROPYLENE GLYCOL",
+        "Concerns": "Enhanced skin absorption, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Allergies/immunotoxicity, Use restrictions",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ IRON FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive), Developmental/reproductive toxicity",
+        "Score": 2,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SODIUM LAURYL SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "KOU-CHA EKISU\nCAMELLIA SINENSIS LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CYSTINE BIS-PG-PROPYL SILANETRIOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "URTICA DIOICA (NETTLE) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SERENOA SERRULATA FRUIT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BLUE 1",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BIOTIN/FOLIC ACID/CYANOCOBALAMIN/NIACINAMIDE/PANTOTHENIC ACID/RIBOFLAVIN/THIAMINE/YEAST POLYPEPTIDES\nBIOTIN/FOLIC ACID/CYANOCOBALAMIN/NIACINAMIDE/PANTOTHENIC ACID/PYRIDOXINE/RIBOFLAVIN/THIAMINE/YEAST POLYPEPTIDES",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "YEAST EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ MAGNESIUM FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "MENTHA ARVENSIS (WILD MINT) OIL\nMENTHA ARVENSIS LEAF OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HUMULUS LUPULUS (HOPS) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM CITRATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM XYLENE SULFONATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ SILICON FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ COPPER FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CITRUS PARADISI (GRAPEFRUIT) PEEL EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "MENTHA PIPERITA (PEPPERMINT) OIL",
+        "Concerns": "Enhanced skin absorption, Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nioxin Hair System 3 Cleanser",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684639/Nioxin_Hair_System_3_Cleanser/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 20.666684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 44.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "METHYLPARABEN",
+        "Concerns": "Endocrine disruption, Allergies/immunotoxicity, Biochemical or cellular level changes, Use restrictions",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SALICYLIC ACID",
+        "Concerns": "Enhanced skin absorption, Multiple, additive exposure sources, Use restrictions, Irritation (skin, eyes, or lungs)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "LECITHIN",
+        "Concerns": "Multiple, additive exposure sources, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM LAURETH SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM BENZOATE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Data gaps",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ ZINC FERMENT",
+        "Concerns": "Use restrictions, Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PROPYLENE GLYCOL",
+        "Concerns": "Enhanced skin absorption, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Allergies/immunotoxicity, Use restrictions",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ IRON FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive), Developmental/reproductive toxicity",
+        "Score": 2,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SODIUM LAURYL SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PPG-2 HYDROXYETHYL COCO/ ISOSTEARAMIDE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "KOU-CHA EKISU\nCAMELLIA SINENSIS LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CYSTINE BIS-PG-PROPYL SILANETRIOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "FOENICULUM VULGARE (FENNEL) FRUIT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "YEAST EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "BLUE 1",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ MAGNESIUM FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "MENTHA ARVENSIS (WILD MINT) OIL\nMENTHA ARVENSIS LEAF OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FOLIC ACID",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CYANOCOBALAMIN (VITAMIN B12)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "VITAMIN B3\nPANTOTHANIC ACID",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PYRIDOXINE",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "RIBOFLAVIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "VITAMIN B1\nTHIAMINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM CITRATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM XYLENE SULFONATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BIOTIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "NIACINAMIDE\nNIANCINAMIDE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ SILICON FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ COPPER FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHA PIPERITA (PEPPERMINT) OIL",
+        "Concerns": "Enhanced skin absorption, Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nioxin System 4 Cleanser for Fine Hair",
+    "Product Image": "https://static.ewg.org/skindeep/img/product_images/productimage_592000.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/592000/Nioxin_System_4_Cleanser_for_Fine_Hair/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 20.666684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 46
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "METHYLPARABEN",
+        "Concerns": "Endocrine disruption, Allergies/immunotoxicity, Biochemical or cellular level changes, Use restrictions",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SALICYLIC ACID",
+        "Concerns": "Enhanced skin absorption, Multiple, additive exposure sources, Use restrictions, Irritation (skin, eyes, or lungs)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "LECITHIN",
+        "Concerns": "Multiple, additive exposure sources, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "FD&C YELLOW 5",
+        "Concerns": "Persistence and bioaccumulation, Use restrictions, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "D&C RED 33",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM LAURETH SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM BENZOATE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Data gaps",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ ZINC FERMENT",
+        "Concerns": "Use restrictions, Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PROPYLENE GLYCOL",
+        "Concerns": "Enhanced skin absorption, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Allergies/immunotoxicity, Use restrictions",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ IRON FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive), Developmental/reproductive toxicity",
+        "Score": 2,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SODIUM LAURYL SULFATE",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PPG-2 HYDROXYETHYL COCO/ ISOSTEARAMIDE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "KOU-CHA EKISU\nCAMELLIA SINENSIS LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CYSTINE BIS-PG-PROPYL SILANETRIOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "FOENICULUM VULGARE (FENNEL) FRUIT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "YEAST POLYPEPTIDE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "YEAST EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "BLUE 1",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ MAGNESIUM FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "MENTHA ARVENSIS (WILD MINT) OIL\nMENTHA ARVENSIS LEAF OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FOLIC ACID",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CYANOCOBALAMIN (VITAMIN B12)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "VITAMIN B3\nPANTOTHENIC ACID",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PYRIDOXINE",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "RIBOFLAVIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "VITAMIN B1\nTHIAMINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM CITRATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM XYLENE SULFONATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BIOTIN",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "NIACINAMIDE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ SILICON FERMENT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "SACCHAROMYCES/ COPPER FERMENT",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHA PIPERITA (PEPPERMINT) OIL",
+        "Concerns": "Enhanced skin absorption, Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "North American Hemp Co. Smoothing Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684965/North_American_Hemp_Co._Smoothing_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 69.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 50.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "DMDM HYDANTOIN (FORMALDEHYDE RELEASER)",
+        "Concerns": "Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Use restrictions, Cancer, Contamination concerns (FORMALDEHYDE)",
+        "Score": 7,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FLAVOR\nFLAVOUR",
+        "Concerns": "Miscellaneous",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PEG-12",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TOCOPHERYL ACETATE",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Ecotoxicology, Contamination concerns (HYDROQUINONE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-7",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ACRYLAMIDE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DIMETHICONE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM LAURETH SULFOSUCCINATE",
+        "Concerns": "Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CANNABIS SATIVA (HEMP) SEED OIL",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PINUS STROBUS (WHITE PINE) BARK EXTRACT\nWHITE PINE BARK (PINUS STROBUS) EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT\nGREEN TEA (CAMELLIA SINENSIS) LEAF EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CITRUS ARANTIUM DULCIS OIL\nORANGE (CITRUS AURANTIUM DULCIS) OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PUNICA GRANATUM (POMEGRANATE) EXTRACT\nPOMEGRANATE (PUNICA GRANATUM) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "VITIS VINIFERA (GRAPE) SEED EXTRACT\nGRAPE (VITIS VINIFERA) SEED EXTRACT",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PANAX GINSENG (GINSENG) EXTRACT\nGINSENG (PANAX GINSENG) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ARCTOSTAPHYLOS UVA-URSI (BEARBERRY) LEAF EXTRACT\nBEARBERRY (ARCTOSTAPHYLOS UVA URSI) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ECHINACEA PURPUREA (PURPLE CONEFLOWER) EXTRACT\nCONEFLOWER (ECHINACEA ANGUSTIFOLIA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT\nLICORICE (GLYCYRRHIZA GLABRA) ROOT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED WHEAT PROTEIN",
+        "Concerns": "Allergies/immunotoxicity",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ALGAE EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER\nAQUA",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "North American Hemp Company Moisturizing Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684962/North_American_Hemp_Company_Moisturizing_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 69.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 49.33331578947369
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "DMDM HYDANTOIN (FORMALDEHYDE RELEASER)",
+        "Concerns": "Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Use restrictions, Cancer, Contamination concerns (FORMALDEHYDE)",
+        "Score": 7,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FLAVOR\nFLAVOUR",
+        "Concerns": "Miscellaneous",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TOCOPHERYL ACETATE",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Ecotoxicology, Contamination concerns (HYDROQUINONE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-7",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ACRYLAMIDE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM LAURETH SULFOSUCCINATE",
+        "Concerns": "Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CANNABIS SATIVA (HEMP) SEED OIL",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PINUS STROBUS (WHITE PINE) BARK EXTRACT\nWHITE PINE BARK (PINUS STROBUS) EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT\nGREEN TEA (CAMELLIA SINENSIS) LEAF EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-55",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRUS ARANTIUM DULCIS OIL\nORANGE (CITRUS AURANTIUM DULCIS) OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PUNICA GRANATUM (POMEGRANATE) EXTRACT\nPOMEGRANATE (PUNICA GRANATUM) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "VITIS VINIFERA (GRAPE) SEED EXTRACT\nGRAPE (VITIS VINIFERA) SEED EXTRACT",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PANAX GINSENG (GINSENG) EXTRACT\nGINSENG (PANAX GINSENG) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ARCTOSTAPHYLOS UVA-URSI (BEARBERRY) LEAF EXTRACT\nBEARBERRY (ARCTOSTAPHYLOS UVA URSI) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ECHINACEA PURPUREA (PURPLE CONEFLOWER) EXTRACT\nCONEFLOWER (ECHINACEA ANGUSTIFOLIA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT\nLICORICE (GLYCYRRHIZA GLABRA) ROOT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED WHEAT PROTEIN",
+        "Concerns": "Allergies/immunotoxicity",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ALGAE EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER\nAQUA",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "North American Hemp Company Volumizing Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684967/North_American_Hemp_Company_Volumizing_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 69.33315789473684
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 50
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "DMDM HYDANTOIN (FORMALDEHYDE RELEASER)",
+        "Concerns": "Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Use restrictions, Cancer, Contamination concerns (FORMALDEHYDE)",
+        "Score": 7,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FLAVOR\nFLAVOUR",
+        "Concerns": "Miscellaneous",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PHENOXYETHANOL",
+        "Concerns": "Irritation (skin, eyes, or lungs), Occupational hazards, Use restrictions, Organ system toxicity (non-reproductive), Allergies/immunotoxicity",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TOCOPHERYL ACETATE",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Ecotoxicology, Contamination concerns (HYDROQUINONE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-7",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ACRYLAMIDE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "DISODIUM LAURETH SULFOSUCCINATE",
+        "Concerns": "Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CANNABIS SATIVA (HEMP) SEED OIL",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PINUS STROBUS (WHITE PINE) BARK EXTRACT\nWHITE PINE BARK (PINUS STROBUS) EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT\nGREEN TEA (CAMELLIA SINENSIS) LEAF EXTRACT",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-55",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRUS ARANTIUM DULCIS OIL\nORANGE (CITRULLINE AURANTIUM DULCIS) OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PUNICA GRANATUM (POMEGRANATE) EXTRACT\nPOMEGRANATE (PUNICA GRANATUM) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "VITIS VINIFERA (GRAPE) SEED EXTRACT\nGRAPE (VITIS VINIFERA) SEED EXTRACT",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PANAX GINSENG (GINSENG) EXTRACT\nGINSENG (PANAX GINSENG) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ARCTOSTAPHYLOS UVA-URSI (BEARBERRY) LEAF EXTRACT\nBEARBERRY (ARCTOSTAPHYLOS UVA URSI) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ECHINACEA PURPUREA (PURPLE CONEFLOWER) EXTRACT\nCONEFLOWER (ECHINACEA ANGUSTIFOLIA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT\nLICORICE (GLYCYRRHIZA GLABRA) ROOT EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "HYDROLYZED WHEAT PROTEIN",
+        "Concerns": "Allergies/immunotoxicity",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "ALGAE EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PANTHENOL",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER\nAQUA",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Not Your Mother's Clean Freak Cleansing Conditioner",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684980/Not_Your_Mother%27s_Clean_Freak_Cleansing_Conditioner/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 78.66684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 78.66684210526316
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLISOTHIAZOLINONE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Irritation (skin, eyes, or lungs), Neurotoxicity, Ecotoxicology",
+        "Score": 7,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PPG-3 BENZYL ETHER ETHYLHEXANOATE",
+        "Concerns": "Miscellaneous, Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "METHYLCHLOROISOTHIAZOLINONE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Ecotoxicology, Cancer",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "BEHENTRIMONIUM CHLORIDE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Ecotoxicology",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "HYDROLYZED QUINOA",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MENTHA AQUATICA (WATER MINT) LEAF EXTRACT\nMENTHA AQUATICA EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "RUBUS IDAEUS (RASPBERRY) LEAF EXTRACT\nRUBUS IDAEUS LEAF EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "STEARAMIDOPROPYL DIMETHYLAMINE",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CETEARYL ALCOHOL",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Not Your Mother's Clean Freak Dry Shampoo, Unscented",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/685009/Not_Your_Mother%27s_Clean_Freak_Dry_Shampoo%2C_Unscented/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 30
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 44
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 34.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "ISOBUTANE",
+        "Concerns": "Multiple, additive exposure sources, Organ system toxicity (non-reproductive), Irritation (skin, eyes, or lungs), Allergies/immunotoxicity, Use restrictions, Contamination concerns (BUTADIENE)",
+        "Score": 7,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "PROPANE",
+        "Concerns": "Multiple, additive exposure sources, Irritation (skin, eyes, or lungs), Allergies/immunotoxicity, Organ system toxicity (non-reproductive)",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SD ALCOHOL 40B",
+        "Concerns": "Enhanced skin absorption, Multiple, additive exposure sources, Developmental/reproductive toxicity, Organ system toxicity (non-reproductive), Cancer",
+        "Score": 4,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SILICA, AMORPHOUS",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "ALUMINUM STARCH OCTENYLSUCCINATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (ALUMINUM POWDER)",
+        "Score": 2,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "ISOPROPYL MYRISTATE",
+        "Concerns": "Irritation (skin, eyes, or lungs)",
+        "Score": 1,
+        "Data": "Fair"
+      }
+    ]
+  },
+  {
+    "Product Name": "Not Your Mother's Clean Freak Purifying Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep_images/6849/684983.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/684983/Not_Your_Mother%27s_Clean_Freak_Purifying_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 76.66684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 82.00000000000001
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLISOTHIAZOLINONE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Irritation (skin, eyes, or lungs), Neurotoxicity, Ecotoxicology",
+        "Score": 7,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLCHLOROISOTHIAZOLINONE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Ecotoxicology, Cancer",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PEG-150 DISTEARATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Data gaps, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM COCOYL SARCOSINATE",
+        "Concerns": "Enhanced skin absorption, Use restrictions, Ecotoxicology, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "MENTHA AQUATICA (WATER MINT) LEAF EXTRACT\nMENTHA AQUATICA EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "RUBUS IDAEUS (RASPBERRY) LEAF EXTRACT\nRUBUS IDAEUS LEAF EXTRACT (RASPBERRY)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Not Your Mother's Plump For Joy Thickening Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/684996/Not_Your_Mother%27s_Plump_For_Joy_Thickening_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 77.99999999999999
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 80.66684210526316
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLISOTHIAZOLINONE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Irritation (skin, eyes, or lungs), Neurotoxicity, Ecotoxicology",
+        "Score": 7,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLCHLOROISOTHIAZOLINONE\nMETHYLCHLOROTHIAZOLINONE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Ecotoxicology, Cancer",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "CETRIMONIUM CHLORIDE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Ecotoxicology",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "COCAMIDE DIPA",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PROPOXYTETRAMETHYL PIPERIDINYL DIMETHICONE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "DISODIUM EDTA",
+        "Concerns": "Enhanced skin absorption",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "TRIDECETH-6",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "C11-15 PARETH-7",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nothing But Clarifying Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep_images/4770/477005.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/477005/Nothing_But_Clarifying_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 56
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 80
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 50.66668421052631
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "COCAMIDE DEA",
+        "Concerns": "Use restrictions, Cancer, Allergies/immunotoxicity, Organ system toxicity (non-reproductive), Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 7,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "IODOPROPYNYL BUTYLCARBAMATE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "DIAZOLIDINYL UREA (FORMALDEHYDE RELEASER)",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Use restrictions, Contamination concerns (FORMALDEHYDE)",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PEG-150 PENTAERYTHRITYL TETRASTEARATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PEG-6 CAPRYLIC/CAPRIC GLYCERIDES",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "POLYSORBATE-20",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM LAUROAMPHOACETATE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "Nuance Salma Hayek Flax Seed Age Therapy Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep_images/5356/535699.jpg",
+    "Product Link": "https://www.ewg.org/skindeep/product/535699/Nuance_Salma_Hayek_Flax_Seed_Age_Therapy_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 5
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 74
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 77.99999999999999
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLISOTHIAZOLINONE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Irritation (skin, eyes, or lungs), Neurotoxicity, Ecotoxicology",
+        "Score": 7,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "METHYLCHLOROISOTHIAZOLINONE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Irritation (skin, eyes, or lungs), Ecotoxicology, Cancer",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDE MEA",
+        "Concerns": "Use restrictions, Contamination concerns (NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM HYDROXIDE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Irritation (skin, eyes, or lungs)",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "STEARETH-4",
+        "Concerns": "Organ system toxicity (non-reproductive), Ecotoxicology, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "PEG-150 DISTEARATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Data gaps, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "CETRIMONIUM CHLORIDE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Ecotoxicology",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "GLYCERIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "VICIA FABA SEED EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "HYDROLYZED LINSEED EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "PISUM SATIVUM (PEA) EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "HYDROLYZED VEGETABLE PROTEIN PG-PROPYL SILANETRIOL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "MIMOSA TENUIFLORA (MIMOSA) BARK EXTRACT\nMIMOSA TENUIFLORA BARK EXTRACT",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TRIMETHYLSILOXYAMODIMETHICONE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "GLYCOL DISTEARATE",
+        "Concerns": "Multiple, additive exposure sources",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "C12-16 PARETH-9",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "C11-15 PARETH-7",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "TRIDECETH-12",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  },
+  {
+    "Product Name": "OGX Anti-Breakage Keratin Oil Shampoo",
+    "Product Image": "https://static.ewg.org/skindeep/img/missing_images/sd_logo.png",
+    "Product Link": "https://www.ewg.org/skindeep/product/641472/OGX_Anti-Breakage_Keratin_Oil_Shampoo/",
+    "Overall Score": 4,
+    "Overall Concerns": [
+      {
+        "Concern Criteria": "Overall Hazard",
+        "Concern Score": 40
+      },
+      {
+        "Concern Criteria": "Cancer",
+        "Concern Score": 15
+      },
+      {
+        "Concern Criteria": "Developmental & \nreproductive toxicity",
+        "Concern Score": 0
+      },
+      {
+        "Concern Criteria": "Allergies & immunotoxicity",
+        "Concern Score": 72.66684210526316
+      },
+      {
+        "Concern Criteria": "Use restrictions",
+        "Concern Score": 49.33331578947369
+      }
+    ],
+    "Ingredient Scores": [
+      {
+        "Ingredient": "FRAGRANCE",
+        "Concerns": "Allergies/immunotoxicity, Miscellaneous, Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 8,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "IODOPROPYNYL BUTYLCARBAMATE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 4,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "DIAZOLIDINYL UREA (FORMALDEHYDE RELEASER)",
+        "Concerns": "Allergies/immunotoxicity, Cancer, Use restrictions, Contamination concerns (FORMALDEHYDE)",
+        "Score": 6,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL BETAINE",
+        "Concerns": "Use restrictions, Allergies/immunotoxicity, Ecotoxicology, Contamination concerns (COCAMIDOPROPYL DIMETHYLAMINE, 3-DIMETHYLAMINOPROPYLAMINE, NITROSAMINES-in the presence of nitrosating agents)",
+        "Score": 4,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "PEG-120 METHYL GLUCOSE DIOLEATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE, ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "None"
+      },
+      {
+        "Ingredient": "LAURETH-4",
+        "Concerns": "Irritation (skin, eyes, or lungs), Data gaps, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "FD&C YELLOW 5\nCI 19140 (YELLOW 5)",
+        "Concerns": "Persistence and bioaccumulation, Use restrictions, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "DIMETHICONE",
+        "Concerns": "Use restrictions, Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 3,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "LAURETH-23",
+        "Concerns": "Irritation (skin, eyes, or lungs), Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology, Contamination concerns (ETHYLENE OXIDE, 1,4-DIOXANE)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "FD&C YELLOW 6\nCI 15985 (YELLOW 6)",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "CETRIMONIUM CHLORIDE",
+        "Concerns": "Allergies/immunotoxicity, Use restrictions, Ecotoxicology",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "FD&C BLUE 1\nCI 42090 (BLUE 1)",
+        "Concerns": "Persistence and bioaccumulation, Use restrictions, Organ system toxicity (non-reproductive)",
+        "Score": 3,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-6",
+        "Concerns": "Persistence and bioaccumulation, Organ system toxicity (non-reproductive), Ecotoxicology",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TETRASODIUM EDTA",
+        "Concerns": "Enhanced skin absorption, Occupational hazards, Organ system toxicity (non-reproductive)",
+        "Score": 2,
+        "Data": "Fair"
+      },
+      {
+        "Ingredient": "HYDROLYZED KERATIN",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM C14-16 OLEFIN SULFONATE",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Contamination concerns (GAMMA SULTONE)",
+        "Score": 2,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "CITRIC ACID",
+        "Concerns": "Use restrictions",
+        "Score": 2,
+        "Data": "Good"
+      },
+      {
+        "Ingredient": "ARGANIA SPINOSA (ARGAN) KERNEL OIL",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "AMODIMETHICONE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "COCAMIDOPROPYL HYDROXYSULTAINE",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GLYCOL STEARATE",
+        "Concerns": "Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "POLYQUATERNIUM-10",
+        "Concerns": "None Identified",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+        "Concerns": "Organ system toxicity (non-reproductive)",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "TRIDECETH-12",
+        "Concerns": "Organ system toxicity (non-reproductive), Use restrictions, Ecotoxicology",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "SODIUM COCOYL ISETHIONATE",
+        "Concerns": "Use restrictions",
+        "Score": 1,
+        "Data": "Limited"
+      },
+      {
+        "Ingredient": "WATER",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      },
+      {
+        "Ingredient": "SODIUM CHLORIDE",
+        "Concerns": "Innocuous",
+        "Score": 1,
+        "Data": "Robust"
+      }
+    ]
+  }
+]
