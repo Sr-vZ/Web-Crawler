@@ -49,9 +49,9 @@ url = shampooLinks[0];
 
     //     return data
     // })
-    start = 3250 //250
+    start = 0 //250
     // end = 3567
-    end = 3567 //
+    end = 500 //
     // for (i = 0; i < shampooLinks.length; i++) {
         // for (i = 0; i < 20; i++) {
         for(i=start;i<end;i++){
