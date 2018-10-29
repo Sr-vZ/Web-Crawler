@@ -1,0 +1,144 @@
+[
+  {
+    "street": "1104 E 200 S",
+    "city": "SALT LAKE CITY",
+    "state": "UT",
+    "zip": "84102",
+    "latitude": "40.764715",
+    "longitude": "-111.859274",
+    "valuation_range": "$ 437029 - 516066",
+    "current_valuation": "$ 464924"
+  }
+,
+  {
+    "street": "584 W 760 N",
+    "city": "OREM",
+    "state": "UT",
+    "zip": "84057",
+    "latitude": "40.311354",
+    "longitude": "-111.709853",
+    "valuation_range": "$ 300866 - 332536",
+    "current_valuation": "$ 316701"
+  }
+,
+  {
+    "street": "7336 S Shelby View Dr",
+    "city": "MIDVALE",
+    "state": "UT",
+    "zip": "84047",
+    "latitude": "40.617423",
+    "longitude": "-111.864964",
+    "valuation_range": "$ 278828 - 314806",
+    "current_valuation": "$ 299815"
+  }
+,
+  {
+    "street": "13575 S Luscerno Dr",
+    "city": "DRAPER",
+    "state": "UT",
+    "zip": "84020",
+    "latitude": "40.504837",
+    "longitude": "-111.886963",
+    "valuation_range": "$ 261424 - 301205",
+    "current_valuation": "$ 284156"
+  }
+,
+  {
+    "street": "3015 S 1640 E",
+    "city": "SALT LAKE CITY",
+    "state": "UT",
+    "zip": "84106",
+    "latitude": "40.705409",
+    "longitude": "-111.843885",
+    "valuation_range": "$ 430797 - 476145",
+    "current_valuation": "$ 453471"
+  }
+,
+  {
+    "street": "10251 S Phlox St",
+    "city": "SANDY",
+    "state": "UT",
+    "zip": "84094",
+    "latitude": "40.564827",
+    "longitude": "-111.86749",
+    "valuation_range": "$ 267545 - 304944",
+    "current_valuation": "$ 287683"
+  }
+,
+  {
+    "street": "737 E Jepson Ave # B",
+    "city": "Millcreek",
+    "state": "UT",
+    "zip": "84106",
+    "latitude": "40.700919",
+    "longitude": "-111.869969",
+    "valuation_range": "$ 326095 - 418736",
+    "current_valuation": "$ 370563"
+  }
+,
+  {
+    "street": "4854 Aerie Hill Dr",
+    "city": "West Jordan",
+    "state": "UT",
+    "zip": "84081",
+    "latitude": "40.617411",
+    "longitude": "-112.006401",
+    "valuation_range": "$ 309099 - 361157",
+    "current_valuation": "$ 325367"
+  }
+,
+  {
+    "street": "5883 S 150 W",
+    "city": "Murray",
+    "state": "UT",
+    "zip": "84107",
+    "latitude": "40.643782",
+    "longitude": "-111.895371",
+    "valuation_range": "$ 356986 - 398761",
+    "current_valuation": "$ 379772"
+  }
+,
+  {
+    "street": "958 E Chapada Cir",
+    "city": "SANDY",
+    "state": "UT",
+    "zip": "84094",
+    "latitude": "40.551745",
+    "longitude": "-111.864052",
+    "valuation_range": "$ 451672 - 509332",
+    "current_valuation": "$ 480502"
+  }
+,
+  {
+    "street": "8223 S 1520 W",
+    "city": "WEST JORDAN",
+    "state": "UT",
+    "zip": "84088",
+    "latitude": "40.601759",
+    "longitude": "-111.934136",
+    "valuation_range": "$ 316058 - 349328",
+    "current_valuation": "$ 332693"
+  }
+,
+  {
+    "street": "8775 S 40 E # A",
+    "city": "Sandy",
+    "state": "UT",
+    "zip": "84070",
+    "latitude": "40.592188",
+    "longitude": "-111.889281",
+    "valuation_range": "$  - ",
+    "current_valuation": "$ "
+  }
+,
+  {
+    "street": "1349 E Mariposa Ave",
+    "city": "SALT LAKE CITY",
+    "state": "UT",
+    "zip": "84106",
+    "latitude": "40.689718",
+    "longitude": "-111.852708",
+    "valuation_range": "$ 467296 - 516484",
+    "current_valuation": "$ 491890"
+  }
+]
