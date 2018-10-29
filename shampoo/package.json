@@ -1,0 +1,19 @@
+{
+    "name": "Shampoo-crawler",
+    "version": "1.0.0",
+    "description": "A crawling project for upwork client",
+    "main": "fetchShampooList.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+    },
+    "author": "SrvZ",
+    "license": "ISC",
+    "bugs": {
+        
+    },
+    "dependencies": {
+        "puppeteer": "^1.4.0"
+    }
+}
