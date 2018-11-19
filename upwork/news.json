@@ -1,0 +1,36 @@
+[
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/Sierra_Vista_Herald",
+    "NewsPaper_Link": "https://www.worldcat.org/search?fq=x0:jrnl&q=n2:8750-3891"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/Sierra_Vista_Herald",
+    "NewsPaper_Link": "http://myheraldreview.com/"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/Ahwatukee_Foothills_News",
+    "NewsPaper_Link": "http://ahwatukee.com/"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/Visalia_Times-Delta",
+    "NewsPaper_Link": "Does not exist"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/The_Augusta_Chronicle",
+    "NewsPaper_Link": "http://chronicle.augusta.com/"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/The_Courier-Journal",
+    "NewsPaper_Link": "https://courier-journal.com/"
+  }
+,
+  {
+    "Wikipedia_Page": "https://en.wikipedia.org/wiki/Wyoming_Tribune_Eagle",
+    "NewsPaper_Link": "https://en.wikipedia.org/wiki/Cheyenne,_Wyoming"
+  }
+]
