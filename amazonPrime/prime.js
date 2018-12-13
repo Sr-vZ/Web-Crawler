@@ -18,9 +18,27 @@ function primeVideoTVShow(tvURL) {
 
         var tvDetails = await page.evaluate(() => {
             jsonData = []
-            season = document.querySelector('#atf > div > span > span').innerText
+            // season = document.querySelector('#atf > div > span > span').innerText
+            if(document.querySelector('.av-season-single.av-badge-text')){
+                season = document.querySelector('.av-season-single.av-badge-text').innerText
+            }else if(document.querySelector('.DigitalVideoUI_Badge__text.DigitalVideoWebNodeDetail_seasons__single')){
+                if(document.querySelector('.DigitalVideoUI_Badge__text.DigitalVideoWebNodeDetail_seasons__single').querySelector('span')){
+                    season = document.querySelector('.DigitalVideoUI_Badge__text.DigitalVideoWebNodeDetail_seasons__single').querySelector('span').innerText
+                }else{
+                    season = ""
+                }
+
+            }
+            
             year = document.querySelector('[data-automation-id="release-year-badge"]').innerText
-            series = document.querySelector('[data-automation-id="title"]').innerText
+            if(document.querySelector('.DigitalVideoUI_spacing__base.dv-node-dp-title.avu-full-width')){
+                series= document.querySelector('.DigitalVideoUI_spacing__base.dv-node-dp-title.avu-full-width').innerText    
+            }else if(document.querySelector('[data-automation-id="title"]')){
+                series = document.querySelector('[data-automation-id="title"]').innerText
+            }else{
+                series = ''
+            }
+            
             director = document.querySelector('.av-additional-details-section.avu-page-section').querySelector('[data-automation-id="info-meta-elem-link"]').innerText
 
             data = document.querySelectorAll('.avu-context-card')
