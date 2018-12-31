@@ -57,7 +57,7 @@ totalMovies = 0;
         });
     });
     */
-    for(i=0;i<50;i++){
+    for(i=0;i<30;i++){
         await page.evaluate('window.scrollBy(0, document.body.scrollHeight)')
         await page.waitFor(1000)
         await page.evaluate('window.scrollTo(0, 0)')
