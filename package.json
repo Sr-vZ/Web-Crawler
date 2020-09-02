@@ -30,7 +30,7 @@
     "lodash": "^4.17.10",
     "modern-random-ua": "^1.0.3",
     "nightmare": "^3.0.1",
-    "npm": "^6.1.0",
+    "npm": "^6.14.6",
     "phantom": "^6.0.0",
     "puppeteer": "^1.4.0",
     "request": "^2.85.0",
