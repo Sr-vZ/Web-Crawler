@@ -13,8 +13,8 @@ const Path = require('path')
 
 
 
-ffmpeg.setFfmpegPath('C:\\Users\\608619925\\desktop\\Misc Projects\\NodeJs\\web-crawler\\Web-Crawler\\seasomestreet\\ffmpeg.exe')
-ffmpeg.setFfprobePath('C:\\Users\\608619925\\desktop\\Misc Projects\\NodeJs\\web-crawler\\Web-Crawler\\seasomestreet\\ffprobe.exe') 
+ffmpeg.setFfmpegPath('C:\\Users\\EIN\\desktop\\Misc Projects\\NodeJs\\web-crawler\\Web-Crawler\\seasomestreet\\ffmpeg.exe')
+ffmpeg.setFfprobePath('C:\\Users\\EIN\\desktop\\Misc Projects\\NodeJs\\web-crawler\\Web-Crawler\\seasomestreet\\ffprobe.exe') 
 
 temp = JSON.parse(fs.readFileSync('ss_videos.json'))
 
