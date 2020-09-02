@@ -27,7 +27,7 @@
     "ffprobe": "^1.1.0",
     "ffprobe-static": "^2.0.0",
     "fluent-ffmpeg": "^2.1.2",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "modern-random-ua": "^1.0.3",
     "nightmare": "^3.0.1",
     "npm": "^6.1.0",
