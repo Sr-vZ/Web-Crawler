@@ -7,7 +7,7 @@ const firefoxPath =
   "./geckodriver.exe";
 
 // const binary = new firefox.Binary(
-//   "C://Users//608619925//Downloads//FirefoxPortable64-59.0.3//FirefoxPortable64//FirefoxPortable.exe"
+//   "C://Users//ein//Downloads//FirefoxPortable64-59.0.3//FirefoxPortable64//FirefoxPortable.exe"
 // );
 //   binary.addArguments("--headless");
 
